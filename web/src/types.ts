@@ -17,6 +17,7 @@ export type Project = {
   name: string;
   url: string;
   description: string | null;
+  description_ko: string | null;
   stars: number;
   stars_delta_7d: number | null;
   forks: number;

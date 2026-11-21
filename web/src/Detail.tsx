@@ -36,7 +36,7 @@ export default function Detail({project: p, onClose}: {project: Project; onClose
 
       <p className="kicker">{KIND_LABEL[p.kind]}</p>
       <h2>{p.full_name}</h2>
-      <p className="detail-lede">{s?.one_liner || p.description}</p>
+      <p className="detail-lede">{s?.one_liner || p.description_ko || p.description}</p>
 
       <dl className="facts">
         <div>

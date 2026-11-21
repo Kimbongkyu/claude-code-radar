@@ -148,6 +148,7 @@ def main() -> int:
 
     history = load_json(DATA / "history.json", {})
     summaries = load_json(DATA / "summaries.json", {})
+    translations = load_json(DATA / "translations.json", {})
     previous = {p["full_name"]: p for p in load_json(DATA / "projects.json", {}).get("projects", [])}
 
     try:
@@ -167,6 +168,20 @@ def main() -> int:
         sys.path.insert(0, str(Path(__file__).parent))
         import summarize as summary_mod  # noqa: E402
     new_summaries = 0
+
+    # 설명 번역: 원문이 바뀌었거나 아직 번역이 없는 것만 한 번에 모아서 처리한다
+    if summary_mod:
+        todo = {}
+        for it in top:
+            desc = (it.get("description") or "").strip()
+            cached = translations.get(it["full_name"])
+            if not desc or summary_mod._has_hangul(desc):
+                continue
+            if args.resummarize or not cached or cached.get("src") != desc:
+                todo[it["full_name"]] = desc
+        for n, ko in summary_mod.translate_descriptions(todo, cfg["summary"]).items():
+            translations[n] = {"src": todo[n], "ko": ko}
+        print(f"설명 번역: 대상 {len(todo)}개")
     max_new = cfg.get("summary", {}).get("max_per_run", 40)
 
     projects = []
@@ -211,6 +226,7 @@ def main() -> int:
             "name": item["name"],
             "url": item["html_url"],
             "description": item.get("description"),
+            "description_ko": (translations.get(name) or {}).get("ko"),
             "stars": item["stargazers_count"],
             "stars_delta_7d": stars_delta(history, name, item["stargazers_count"], today),
             "forks": item["forks_count"],
@@ -235,6 +251,7 @@ def main() -> int:
     history = {n: {d: s for d, s in h.items() if d >= cutoff} for n, h in history.items() if n in names}
 
     save_json(DATA / "history.json", history)
+    save_json(DATA / "translations.json", {n: t for n, t in translations.items() if n in names})
     save_json(DATA / "summaries.json", {n: s for n, s in summaries.items() if n in names})
     save_json(DATA / "projects.json", {
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),

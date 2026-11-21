@@ -59,7 +59,7 @@ export default function App() {
     return data.projects
       .filter((p) => kind === 'all' || p.kind === kind)
       .filter((p) => activity === 'all' || p.activity === activity)
-      .filter((p) => !q || `${p.full_name} ${p.description ?? ''} ${p.topics.join(' ')}`.toLowerCase().includes(q))
+      .filter((p) => !q || `${p.full_name} ${p.description ?? ''} ${p.description_ko ?? ''} ${p.topics.join(' ')}`.toLowerCase().includes(q))
       .sort((a, b) => sortValue(b, sort) - sortValue(a, sort)) as Row[];
   }, [data, query, kind, activity, sort]);
 
@@ -94,7 +94,7 @@ export default function App() {
             <span className="owner">{p.owner}/</span>
             {p.name}
           </button>
-          <span className="desc">{p.description}</span>
+          <span className="desc">{p.description_ko || p.description}</span>
         </div>
       ),
     },
@@ -181,7 +181,7 @@ export default function App() {
                           <span className="card-name">{p.name}</span>
                           <ActivityBadge value={p.activity} />
                         </span>
-                        <span className="desc">{p.description}</span>
+                        <span className="desc">{p.description_ko || p.description}</span>
                         <span className="card-meta">
                           <span className="num">★ {fmt(p.stars)}</span>
                           {p.stars_delta_7d ? <span className="num accent">+{fmt(p.stars_delta_7d)}</span> : null}
