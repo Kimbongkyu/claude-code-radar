@@ -1,27 +1,27 @@
 {
  "morluto/rea": {
-  "readme_hash": "1f6b07b2d8d9333d31422f5ae2617b610ab10659",
+  "readme_hash": "8f54de31c8d7eb0457bae53aa3e033b03445ea90",
   "summary": {
-   "one_liner": "모든 것을 역설계할 수 있는 도구입니다.",
+   "one_liner": "모든 것을 리버스 엔지니어링하는 도구입니다.",
    "features": [
-    "애플리케이션 및 바이너리 분석 기능 제공",
-    "소스 코드 없이 앱 기능 조사 가능",
-    "자세한 정보와 증거를 제공",
-    "CLI를 통해 간편하게 사용 가능",
-    "AI 기반의 조사 역량 제공"
+    "앱, 바이너리 및 실행 동작을 역분석할 수 있습니다.",
+    "소스 코드 없이 앱의 기능을 검사하고 설명합니다.",
+    "터미널에서 직접 여러 도구를 사용할 수 있습니다.",
+    "모델 제공자를 통해 결과 분석을 수행합니다.",
+    "로컬 환경에서 분석을 통해 코드 재구성을 지원합니다."
    ],
-   "audience": "소프트웨어 역설계에 관심 있는 개발자에게 유용합니다.",
+   "audience": "리버스 엔지니어링과 분석에 관심 있는 개발자들에게 유용합니다.",
    "install": [
     {
-     "label": "설치 명령",
+     "label": "npx를 사용한 설치",
      "command": "npx rea-agents setup"
     }
    ],
-   "example": "npx rea-agents analyze-javascript-application /absolute/path/to/app --json",
+   "example": "앱의 기능을 이해하고 유사한 기능을 구축합니다.",
    "cautions": [
-    "MIT 라이선스 하에 배포됨",
-    "상당한 설치 권한 필요",
-    "Hopper, Ghidra 등 외부 도구 의존"
+    "Hopper, Ghidra, IDA 또는 Kuna 같은 네이티브 분석 엔진 필요",
+    "정확한 라이선스 및 권한을 확인해야 함",
+    "미리보기 또는 데모 모드로 실행할 수 있음"
    ]
   },
   "provider": "openai",
@@ -1829,22 +1829,27 @@
   "generated_at": "2026-11-21"
  },
  "davila7/claude-code-templates": {
-  "readme_hash": "c79c2f78e80b5b9d80e641696520e0dbb6a858e6",
+  "readme_hash": "9b099b1162922831b6a4e5664fc10faeb39ade6e",
   "summary": {
-   "one_liner": "Claude Code 구성 요소의 오픈 카탈로그 및 CLI 도구",
+   "one_liner": "Claude Code 구성 요소를 위한 오픈 소스 카탈로그 및 CLI",
    "features": [
-    "1,980개 이상의 구성 요소를 쉽게 설치 가능",
-    "복수의 구성 요소를 조합하여 한 번의 명령으로 설치",
-    "CLI가 구성 파일을 적절한 위치에 작성 및 병합 처리",
-    "각 구성 요소의 설치 명령을 웹에서 검색할 수 있음",
-    "실시간 세션 모니터링 및 대화 기록 탐색 기능 제공"
+    "클라이언트에서 한 명령어로 설치 가능한 구성 요소",
+    "918개의 재사용 가능한 기능을 포함한 스킬",
+    "422개의 도메인 특화된 서브 에이전트",
+    "288개의 사용자 정의 슬래시 명령 지원",
+    "각 구성 요소의 정확한 설치 명령 제공"
    ],
-   "audience": "Claude Code 사용자가 필요로 하는 구성 요소를 찾고 설치하고자 하는 모든 개발자에게 유용함.",
-   "install": [],
-   "example": "구성 요소를 쉽게 설치하고 관리하기 위해 CLI를 사용할 수 있음.",
+   "audience": "개발자, AI 에이전트를 활용하고자 하는 사용자에게 유용함",
+   "install": [
+    {
+     "label": "npx를 이용한 설치",
+     "command": "npx claude-code-templates@latest"
+    }
+   ],
+   "example": "npx claude-code-templates@latest --skill creative-design/frontend-design",
    "cautions": [
-    "NVIDIA의 SkillSpector를 통한 검증 및 스캔이 필요",
-    "명령어의 `--yes` 플래그를 통해 확인 프롬프트를 생략할 수 있음"
+    "npx를 사용하기 때문에 전역 설치가 필요 없음",
+    "각 구성 요소 페이지에는 정확한 설치 명령이 표기됨"
    ]
   },
   "provider": "openai",
@@ -2271,6 +2276,1147 @@
    "cautions": [
     "MIT 라이선스 하에 배포됩니다.",
     "세션 복구를 위해 필요한 파일 형식을 지켜야 합니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "JimLiu/baoyu-skills": {
+  "readme_hash": "543af217ef7886b7a5f5109c065878365ee6c025",
+  "summary": {
+   "one_liner": "AI 에이전트의 작업 효율을 높이는 기술 도구 모음입니다.",
+   "features": [
+    "다양한 AI 기술을 활용한 작업 자동화 기능",
+    "Markdown 처리와 WeChat 연동 등 지원",
+    "시각적 자료 생성 및 인포그래픽 작성 가능",
+    "프로젝트나 사용자별로 맞춤 설치 가능"
+   ],
+   "audience": "AI 도구를 통해 작업 효율성을 극대화하고자 하는 모든 사람에게 유용합니다.",
+   "install": [
+    {
+     "label": "빠른 설치 (추천)",
+     "command": "npx skills add jimliu/baoyu-skills"
+    }
+   ],
+   "example": "업로드된 문서에서 자동으로 인포그래픽을 생성할 수 있습니다.",
+   "cautions": [
+    "Node.js 환경이 필요합니다.",
+    "에이전트 내에서 설치 시 권한 부여가 필요할 수 있습니다.",
+    "모든 기술이 초기 상태에서 활성화되지 않으므로 필요한 기술만 설치하는 것이 좋습니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "onlook-dev/onlook": {
+  "readme_hash": "8bda45bf30f7c113f859d654db0f262b049c7072",
+  "summary": {
+   "one_liner": "디자이너를 위한 오픈소스 개발 도구, Onlook입니다.",
+   "features": [
+    "디자인과 코드의 실시간 통합 작업 환경을 제공합니다.",
+    "자신만의 AI 에이전트와 함께 작업 효율을 높일 수 있습니다.",
+    "실제 Git 저장소에서 직접 디자인 작업을 수행합니다.",
+    "로컬 컴퓨터에서 실행되며 클라우드 계정이 필요없습니다.",
+    "작업한 결과물을 다양한 포맷으로 내보낼 수 있습니다."
+   ],
+   "audience": "디자인과 개발을 동시에 원하는 디자이너와 시각 엔지니어에게 유용합니다.",
+   "install": [
+    {
+     "label": "macOS",
+     "command": "Download"
+    }
+   ],
+   "example": "Onlook를 사용해 디자인한 후, HTML으로 내보내는 작업을 할 수 있습니다.",
+   "cautions": [
+    "Apache 2.0 라이선스로 배포됩니다.",
+    "윈도우와 리눅스 버전은 아직 준비 중입니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "NVIDIA/SkillSpector": {
+  "readme_hash": "41bb07a04c5f377a4d95a95e7c89fe5142cc8ae8",
+  "summary": {
+   "one_liner": "AI 에이전트 기술을 위한 보안 스캐너입니다.",
+   "features": [
+    "다양한 형식의 입력을 지원하여 안전성을 검사합니다.",
+    "71가지 취약점 패턴으로 보안 위험을 자동으로 검출합니다.",
+    "빠른 정적 분석과 선택적 LLM 의미 분석을 제공합니다.",
+    "실시간 취약점 조회로 최신 CVE 데이터를 활용합니다.",
+    "직관적인 리포트 형식으로 결과를 제공합니다."
+   ],
+   "audience": "AI 기술 안전성을 중시하는 개발자와 연구자에게 유용합니다.",
+   "install": [
+    {
+     "label": "CLI 방식 설치",
+     "command": "uv tool install --python 3.13 git+https://github.com/NVIDIA/skillspector.git"
+    }
+   ],
+   "example": "로컬 기술 디렉토리를 스캔하여 보안 정보를 확인할 수 있습니다.",
+   "cautions": [
+    "Python 3.12 또는 3.13이 필요합니다.",
+    "추가적인 오픈 소스 소프트웨어가 자동으로 다운로드됩니다.",
+    "취약점 패턴에 따라 결과가 다를 수 있습니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "titanwings/distilly": {
+  "readme_hash": "0b8fe4e41b68c55c51eddeb5d503ecc4d6dd6bca",
+  "summary": {
+   "one_liner": "사람의 경험을 AI 에이전트를 위한 재사용 가능한 프로필로 증류합니다.",
+   "features": [
+    "사람의 경험, 판단, 목소리, 작업 방식을 프로필로 생성합니다.",
+    "여러 소스 재료를 기반으로 한 에이전트 기술을 패키징합니다.",
+    "관계, 동료, 유명인의 프로필 생성을 지원합니다.",
+    "다양한 AI 에이전트에서 사용할 수 있는 기술로 설치할 수 있습니다.",
+    "사람 프로필의 품질은 출처의 품질에 따라 달라집니다."
+   ],
+   "audience": "AI 에이전트를 활용하고자 하는 모든 사람에게 유용합니다.",
+   "install": [
+    {
+     "label": "우선 에이전트에서 설치",
+     "command": "Install Distilly from https://github.com/titanwings/distilly, then verify that this host can discover it."
+    },
+    {
+     "label": "인간용 설치",
+     "command": "git clone https://github.com/titanwings/distilly <DISTILLY_SKILL_DIR>"
+    }
+   ],
+   "example": "사용자가 'Distilly를 사용하여 내 프로필을 설정하세요.'라고 말하면 인터뷰가 시작됩니다.",
+   "cautions": [
+    "사용 전, 출처의 품질이 전체 프로필의 품질에 영향을 미침을 유의하세요.",
+    "특정 호스트에서 기술이 올바르게 설치되었는지 확인해야 합니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "milind-soni/OpenMausBot": {
+  "readme_hash": "de7af75be477c6ce8567c572cf508a149ad04889",
+  "summary": {
+   "one_liner": "AI 에이전트를 위한 오픈 소스 챗 애플리케이션",
+   "features": [
+    "자신만의 에이전트 모델 선택 가능",
+    "각 봇에 자체 클라우드 컴퓨터 제공",
+    "봇의 행동에 대한 승인을 요청",
+    "다양한 연결 앱 사용 가능",
+    "채널 별로 봇 관리"
+   ],
+   "audience": "AI 에이전트를 효율적으로 운영하고자 하는 사용자에게 유용함.",
+   "install": [
+    {
+     "label": "macOS (Apple silicon)",
+     "command": "Drag it to Applications, open it. Signed & notarized."
+    },
+    {
+     "label": "macOS (Intel)",
+     "command": "Same app, built for Intel Macs. Signed & notarized."
+    }
+   ],
+   "example": "",
+   "cautions": [
+    "사용자는 관련 에이전트를 자신의 컴퓨터에 설치해야 함.",
+    "클라우드 데이터 저장 없이 로컬에서 운영됨.",
+    "macOS 및 Ubuntu에서만 호스트 제어 가능"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "nocobase/nocobase": {
+  "readme_hash": "8c8f5253b9e77fda20a693572b24d53885939862",
+  "summary": {
+   "one_liner": "NocoBase는 AI 기반 비즈니스 시스템을 구축하고 운영하는 오픈 소스 플랫폼입니다.",
+   "features": [
+    "AI 코딩 에이전트와 함께 비즈니스 로직 집중",
+    "NocoBase Studio를 통한 팀 협업 및 거버넌스",
+    "즉시 사용할 수 있는 AI 기반 비즈니스 앱 제공"
+   ],
+   "audience": "AI와 로우코드 개발을 활용하여 비즈니스 시스템을 구축하려는 사람에게 유용합니다.",
+   "install": [
+    {
+     "label": "터미널에서 설치",
+     "command": "PNPM_CONFIG_MINIMUM_RELEASE_AGE=0 pnpm create @nocobase/app@beta my-app --template-tag=beta"
+    }
+   ],
+   "example": "NocoBase 3 애플리케이션을 현재의 빈 디렉토리에서 생성하고 시작할 수 있습니다.",
+   "cautions": [
+    "Node.js 24+와 pnpm 11 필요",
+    "Windows 사용자는 WSL 사용 권장",
+    "베타 버전 사용"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "slopus/happy": {
+  "readme_hash": "7ef896666059841b5afb3dc40c9c7ac09105663c",
+  "summary": {
+   "one_liner": "Claude, Codex, Grok를 하나의 앱에서 조정하는 즐거운 방법",
+   "features": [
+    "여러 모델 사용: Claude, Codex, Grok 등과 함께 여러 작업을 효율적으로 처리.",
+    "구독 재사용: 기존의 구독을 이용해 추가 비용 없이 사용.",
+    "MIT 오픈소스: 사용자 하드웨어에서 실행되며, 프로젝트는 일반 폴더로 관리.",
+    "모바일 암호화: 기기 간에 암호화된 세션 이동.",
+    "다인 플레이어 지원: 친구와 세션을 공유하며 동시에 작업 가능."
+   ],
+   "audience": "AI 모델을 동시에 활용하고자 하는 개발자들에게 유용함.",
+   "install": [
+    {
+     "label": "npm을 통한 설치",
+     "command": "npm install -g happy"
+    }
+   ],
+   "example": "터미널에서 'happy claude'를 실행하여 Claude Code를 시작하거나 'happy codex'를 실행하여 Codex를 시작할 수 있음.",
+   "cautions": [
+    "데스크톱 앱과의 호환성 확인 필요",
+    "모바일 앱 세션과의 연결성 유지"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "getpaseo/paseo": {
+  "readme_hash": "2c773f1e7b8017fd8ad5ea935cb750b2bceb7055",
+  "summary": {
+   "one_liner": "데스크탑과 모바일에서 멀티 코딩 에이전트를 조정하는 오픈 소스 도구입니다.",
+   "features": [
+    "여러 에이전트를 동시에 실행하여 작업을 병렬 처리합니다.",
+    "에이전트 간의 오케스트레이션을 지원하여 작업 흐름을 최적화합니다.",
+    "파일 편집, 변경 사항 검토, 풀 리퀘스트 열기 등 완벽한 개발 환경을 제공합니다.",
+    "개인 환경에서 직접 실행되며, 사용자의 툴과 설정을 지원합니다.",
+    "iOS와 Android에서 네이티브 앱으로 사용 가능합니다."
+   ],
+   "audience": "개발자와 소프트웨어 엔지니어에게 유용합니다.",
+   "install": [
+    {
+     "label": "CLI 설치",
+     "command": "npm install -g @getpaseo/cli"
+    }
+   ],
+   "example": "에이전트를 다양한 작업에 맞춰 설정하고 실행할 수 있습니다.",
+   "cautions": [
+    "적절한 에이전트 CLI가 미리 설치되고 구성되어 있어야 합니다.",
+    "Docker를 사용할 경우, 권한 설정 및 환경 변수 관리에 주의해야 합니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "citrolabs/ego-lite": {
+  "readme_hash": "84c5aafd434518dc134e61a239338eb2311a2e82",
+  "summary": {
+   "one_liner": "AI 에이전트를 위한 가장 빠른 웹 자동화 브라우저",
+   "features": [
+    "코드 기반으로 복잡한 작업을 더 빠르게 실행합니다.",
+    "각 에이전트에 전용 공간 제공으로 작업 간섭 방지.",
+    "모든 에이전트가 동시에 작업할 수 있는 멀티태스킹 지원.",
+    "고품질 페이지 스냅샷으로 웹 페이지를 정확히 분석합니다.",
+    "에이전트 클라이언트를 통해 브라우저를 쉽게 제어합니다."
+   ],
+   "audience": "AI 에이전트와 함께 작업하는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "npx를 통한 설치",
+     "command": "npx skills add citrolabs/ego-lite"
+    }
+   ],
+   "example": "에이전트 CLI에서 '/ego-browser' 뒤에 설명을 입력하여 작업을 수행합니다.",
+   "cautions": [
+    "웹 브라우저 데이터 보존을 위해 Chrome 데이터 마이그레이션 옵션 제공.",
+    "MIT 라이선스에 따라 사용 가능."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "czlonkowski/n8n-mcp": {
+  "readme_hash": "8459973a7624fa7a0955fa3babd0ccab4941d3a7",
+  "summary": {
+   "one_liner": "AI 도우미가 n8n에서 워크플로를 운영하도록 하는 MCP 서버",
+   "features": [
+    "오류 발생 워크플로 디버깅 기능 제공",
+    "실시간 워크플로 수정 및 적용 기능",
+    "워크플로 유효성 검사 및 자동 수정 기능",
+    "워크플로 테스트 및 실행 기능",
+    "여러 n8n 인스턴스에서 작업 가능"
+   ],
+   "audience": "n8n을 사용하는 개발자 및 워크플로 자동화에 관심 있는 사용자에게 유용합니다.",
+   "install": [],
+   "example": "",
+   "cautions": [
+    "n8n Public API 활성화 필요",
+    "저장소 라이센스: MIT"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "steipete/CodexBar": {
+  "readme_hash": "49417579751978e06939310f6587d0330b71a9a2",
+  "summary": {
+   "one_liner": "OpenAI Codex와 Claude Code의 사용 통계를 보여주는 메뉴 바 앱",
+   "features": [
+    "다중 제공업체 사용량 미터와 리셋 카운트다운 지원",
+    "Codex 웹 대시보드 향상 기능 제공",
+    "API 기반 제공업체의 인라인 지출 및 사용 차트",
+    "상태 폴링 및 사고 배지 표시 기능",
+    "제공업체별 설정 및 리셋 시간 스타일 제어"
+   ],
+   "audience": "AI 프로그래밍 사용량을 파악하려는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "macOS 앱 설치",
+     "command": "brew install --cask codexbar"
+    }
+   ],
+   "example": "macOS 14+ 환경에서 CodexBar를 설치하고 사용하여 각 제공업체의 사용량을 쉽게 확인할 수 있습니다.",
+   "cautions": [
+    "macOS 14+ 필요",
+    "Linux의 경우 추가 의존성이 있음",
+    "MIT 라이선스"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "winfunc/opcode": {
+  "readme_hash": "8e9a4684b4119417cf3ce9a66ae975b03afcaa9f",
+  "summary": {
+   "one_liner": "클로드 코드 관리를 위한 강력한 GUI 앱과 툴킷입니다.",
+   "features": [
+    "프로젝트 및 세션 관리: 시각적 프로젝트 브라우저와 이력 관리 제공.",
+    "CC 에이전트: 개인화된 AI 에이전트 생성 및 관리 기능.",
+    "사용 분석 대시보드: 실시간 API 비용 추적 및 시각적 차트 제공.",
+    "MCP 서버 관리: 중앙 UI에서 모델 컨텍스트 프로토콜 서버 관리.",
+    "CLAUDE.md 관리: 실시간 미리보기를 제공하는 내장 마크다운 편집기."
+   ],
+   "audience": "AI-assisted development에 관심이 있는 개발자에게 유용합니다.",
+   "install": [],
+   "example": "",
+   "cautions": [
+    "Claude Code CLI가 설치되어 있어야 합니다.",
+    "Windows 10/11, macOS 11+, 또는 Linux(우분투 20.04+)에서 작동합니다.",
+    "AGPL 라이센스 하에 제공됩니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "KKKKhazix/khazix-skills": {
+  "readme_hash": "c08576583a93f65ef260ac9836a90db9a43b5da9",
+  "summary": {
+   "one_liner": "AI Skill 모음으로 효율적인 작업 환경 제공",
+   "features": [
+    "명확한 목표 설정을 도와주는 'leader' 기능",
+    "디스크 정리 및 분석을 위한 'storage-analyzer' 기능",
+    "매일 AI 관련 소식을 검색하는 'aihot' 기능",
+    "문서 및 기억 관리를 자동화하는 'neat-freak' 기능",
+    "제품 및 개념에 대한 깊이 있는 분석을 제공하는 'hv-analysis' 기능",
+    "개인 스타일로 글을 작성하는 'khazix-writer' 기능"
+   ],
+   "audience": "AI 도구와 협업하여 작업 효율성을 높이고 싶은 모든 사람에게 유용합니다.",
+   "install": [
+    {
+     "label": "Claude Code, Codex 등에서 설치",
+     "command": "帮我安装这个 skill：https://github.com/KKKKhazix/khazix-skills/tree/main/<skill-name>"
+    }
+   ],
+   "example": "예를 들어, 'storage-analyzer' 기능을 사용하여 디스크 공간을 분석하고 정리할 수 있습니다.",
+   "cautions": [
+    "각 스킬의 사용에 따른 필요한 권한 및 요구 사항 확인",
+    "적절한 모델 선택을 통해 최적의 결과 도출",
+    "예전 버전의 스킬 관리 방법을 사용하지 않도록 주의"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "liyupi/ai-guide": {
+  "readme_hash": "7001d2b7a2b62c6c1224fe6e3d5a9bfa06f1d357",
+  "summary": {
+   "one_liner": "AI 지식 공유 플랫폼으로, Vibe Coding 무료 튜토리얼 제공",
+   "features": [
+    "Vibe Coding 무료 입문 튜토리얼 제공",
+    "AI 프로그램 개발 가이드 및 팁 공유",
+    "AI 도구 및 프레임워크에 대한 심층 리뷰",
+    "AI 개발 관련 최신 뉴스 및 리소스 제공"
+   ],
+   "audience": "AI 기술을 배우고 싶은 모든 사람에게 유용함.",
+   "install": [],
+   "example": "10분 만에 첫 작품을 만들 수 있는 튜토리얼 제공.",
+   "cautions": [
+    "튜토리얼 내용은 CC BY-NC-SA 4.0 라이센스 적용",
+    "상업적 사용 금지 및 출처 표시 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "jnMetaCode/agency-agents-zh": {
+  "readme_hash": "f37ab8beaea983bbc0c0a4a4f25bc649913bc418",
+  "summary": {
+   "one_liner": "277개의 즉시 사용할 수 있는 AI 전문가 역할",
+   "features": [
+    "22개 부서에 걸쳐 328개의 전문가 역할 제공",
+    "20종의 AI 프로그래밍 도구 지원",
+    "클라우드 기반의 자동 협업 기능",
+    "정확한 전문가 정의와 워크플로우 제공",
+    "실시간 협업 및 템플릿 제공"
+   ],
+   "audience": "AI 전문가 역할을 필요로 하는 개발자 및 팀에 유용함",
+   "install": [
+    {
+     "label": "npm을 통한 설치",
+     "command": "npm install agency-agents-zh"
+    }
+   ],
+   "example": "간단한 명령으로 원하는 전문가 역할을 활성화할 수 있음.",
+   "cautions": [
+    "MIT 라이선스 하에 배포됨",
+    "스마트 계약 등 일부 기능은 특정 도구에 의존함"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "latent-spaces/brag": {
+  "readme_hash": "82595188c51c948777ff671a2ad60f0c74a8578f",
+  "summary": {
+   "one_liner": "프로젝트를 짧고 공유 가능한 비디오로 변환하는 도구",
+   "features": [
+    "한줄 명령으로 프로젝트 비디오 생성",
+    "음악, 모션, 공유 문구 포함",
+    "다양한 에이전트에서 사용 가능",
+    "Opus, Sonnet, Fable에 최적화된 버전 제공"
+   ],
+   "audience": "프로젝트 발표를 간편하게 원하는 개발자와 팀에게 유용함.",
+   "install": [
+    {
+     "label": "Codex",
+     "command": "codex plugin marketplace add latent-spaces/brag\ncodex plugin add brag@brag"
+    },
+    {
+     "label": "Claude Code",
+     "command": "/plugin marketplace add latent-spaces/brag\n/plugin install brag@brag"
+    },
+    {
+     "label": "기타 에이전트",
+     "command": "npx skills add https://github.com/latent-spaces/brag --skill brag"
+    }
+   ],
+   "example": "프로젝트 디렉토리에서 '/brag' 명령 실행으로 비디오 생성.",
+   "cautions": [
+    "Node.js 22+ 필요",
+    "FFmpeg가 PATH에 있어야 함",
+    "Hyperframes CLI 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "Vincentwei1021/video-shotcraft": {
+  "readme_hash": "e8b40be0f22e5d7e2eb6760e257e4d0d67a50ae1",
+  "summary": {
+   "one_liner": "AI 비디오 스킬로 프로모션 영상을 제작하는 도구입니다.",
+   "features": [
+    "제품 프로모션 영상을 자동으로 생성합니다.",
+    "다양한 모션 레시피 카드로 영상을 꾸밀 수 있습니다.",
+    "Remotion을 사용하여 매끄럽게 애니메이션을 제작합니다.",
+    "완성된 MP4 파일을 쉽고 빠르게 편집할 수 있습니다.",
+    "CapCut 스타일의 Motion Workbench를 제공합니다."
+   ],
+   "audience": "제품 영상을 만들고자 하는 마케팅 및 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "CLI 설치",
+     "command": "npx skills add Vincentwei1021/video-shotcraft"
+    }
+   ],
+   "example": "제품 프로모션을 위해 'video-shotcraft'를 사용하여 영상을 만들어 보세요.",
+   "cautions": [
+    "Node.js와 npm이 필요합니다.",
+    "ffmpeg / ffprobe가 필수입니다.",
+    "최근 Chrome/Chromium의 헤드리스 모드 문제에 유의해야 합니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "google/elephant-goldfish-model": {
+  "readme_hash": "b69ad0ba7b024c865479be34a230ec76caf8d591",
+  "summary": {
+   "one_liner": "AI와 함께 소프트웨어 설계 및 검토를 위한 오픈 소스 플러그인",
+   "features": [
+    "프로젝트 맥락을 유지하고 사양 초안을 작성함",
+    "새로운 시각으로 초안을 검토하고 가정과 위험 파악",
+    "소프트웨어 사양을 위한 통합 된 프로세스 제안",
+    "기존 문서와 소스 코드 비교 및 드리프트 보고"
+   ],
+   "audience": "소프트웨어 개발 및 설계를 하는 개발자에게 유용함.",
+   "install": [
+    {
+     "label": "Antigravity CLI",
+     "command": "agy plugin install https://github.com/google/elephant-goldfish-model"
+    },
+    {
+     "label": "Claude Code",
+     "command": "claude plugin marketplace add google/elephant-goldfish-model\nclaude plugin install egm@egm"
+    },
+    {
+     "label": "Codex CLI",
+     "command": "codex plugin marketplace add google/elephant-goldfish-model\ncodex plugin add egm@egm"
+    }
+   ],
+   "example": "기존 설계 문서를 검토하거나 새로운 설계와 기능을 토론하는 데 사용됨.",
+   "cautions": [
+    "설치 후 새로운 세션 시작 필요",
+    "Goldfish 리뷰에는 새로운 서브 에이전트 맥락이 필요함",
+    "라이센스: Apache 2.0"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "img2threejs/img2threejs": {
+  "readme_hash": "efb5954cc9b7aa0d3166340ddecda1b9ea6b9b74",
+  "summary": {
+   "one_liner": "이미지를 기반으로 Three.js 모델을 코드로 생성하는 도구입니다.",
+   "features": [
+    "이미지에서 3D 모델 생성, 절차적 생성 방식 사용.",
+    "애니메이션 준비 완료 모델 생성, 고품질 검사 포함.",
+    "Python 및 Node.js와 호환, 다양한 에이전트에서 사용 가능.",
+    "다양한 플러그인 지원, 사용자 맞춤형 기능 확장 가능."
+   ],
+   "audience": "3D 모델링과 프로시저 생성에 관심이 있는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "기본 스킬 설치",
+     "command": "npx --yes img2threejs@latest install"
+    },
+    {
+     "label": "의존성 검사",
+     "command": "npx --yes img2threejs@latest doctor"
+    },
+    {
+     "label": "플러그인 설치",
+     "command": "npx --yes @img2threejs/img2@latest install --yes"
+    }
+   ],
+   "example": "이미지를 업로드하거나 경로를 제공하여 모델을 생성할 수 있습니다.",
+   "cautions": [
+    "Node.js 18 이상 및 Python 3.10 이상 필요.",
+    "에이전트에 따라 설치 방법이 다를 수 있음.",
+    "특정 플러그인 사용 시 GitHub 액세스가 필요할 수 있음."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "teng-lin/notebooklm-py": {
+  "readme_hash": "3a03d7a39e6b32460257a7e055ebf1d7afa5c802",
+  "summary": {
+   "one_liner": "Google Gemini Notebook의 비공식 Python API 및 에이전트 기술",
+   "features": [
+    "NotebookLM 기능에 대한 완전한 프로그램 접근 제공",
+    "AI 에이전트와 통합 및 자동화 지원",
+    "각종 콘텐츠 생성 및 다운로드 지원",
+    "소스 기반의 지식 검색 및 인사이트 추출 가능"
+   ],
+   "audience": "AI 연구자, 개발자 및 개인 프로젝트를 진행하는 사람들에게 유용함",
+   "install": [
+    {
+     "label": "CLI 설치",
+     "command": "uv tool install \"notebooklm-py[browser]\""
+    },
+    {
+     "label": "Pip 설치",
+     "command": "pip install \"notebooklm-py[browser]\""
+    }
+   ],
+   "example": "notebooklm create \"My Research\" 후에 자료 추가 및 질문 가능",
+   "cautions": [
+    "비공식 라이브러리이므로 Google API 변경 가능성 있음",
+    "높은 사용량 시 속도 제한이 적용될 수 있음",
+    "사용하기 전에 권한 설정 및 인증 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "wanshuiyin/Auto-claude-code-research-in-sleep": {
+  "readme_hash": "7586c8d3e02bfc1d5dcbdd98d06b3731c89ba6cc",
+  "summary": {
+   "one_liner": "경량 Markdown 기반의 자율 ML 연구 도구로, 실험 자동화 제공",
+   "features": [
+    "자율 연구를 위한 워크플로우 제공",
+    "다양한 LLM 모델과 호환",
+    "아이디어 발견 및 문서 리뷰 자동화",
+    "CLI 및 플러그인 형태로 배포"
+   ],
+   "audience": "자율 ML 연구를 수행하고자 하는 개발자 및 연구자에게 유용함",
+   "install": [],
+   "example": "",
+   "cautions": [
+    "Codex MCP를 사용하는 경우 권한 및 설정 주의",
+    "플러그인 사용 시 호환성 확인 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "readme_hash": "412507633687faec8bf431156b6b75c25f8bd55d",
+  "summary": {
+   "one_liner": "코드로 완성하는 99종의 영화 스타일 툴박스",
+   "features": [
+    "다양한 스타일 중 선택하여 자신만의 이야기를 코드로 제작",
+    "99개의 즉시 사용 가능한 스타일과 사용자 정의 가능",
+    "전문적인 영화 제작 기법으로 코드 기반의 애니메이션 생성",
+    "어떤 스토리도 창의적으로 표현할 수 있는 다양한 기능 제공",
+    "빠른 설치와 사용을 위한 쉬운 설정 과정"
+   ],
+   "audience": "코드를 사용하여 영화를 제작하려는 모든 사람에게 유용함",
+   "install": [
+    {
+     "label": "설치 방식 1",
+     "command": "claude plugin marketplace add lemomo-ai/lemo-opuscar"
+    },
+    {
+     "label": "설치 방식 2",
+     "command": "claude plugin install lemo-opuscar@lemolab"
+    }
+   ],
+   "example": "Neon Tubes 스타일로 커피 농장에 대한 영화를 만들어 주세요.",
+   "cautions": [
+    "Node 20+, ffmpeg 7+, Python 3.11+ 필요",
+    "특정 스타일은 이미지 생성기 필요",
+    "우분투 24.04는 ffmpeg 6.1로 제공되며, 구 버전 주의"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "xerj-org/xerj": {
+  "readme_hash": "c8bdb678e786005a6943079bef1f76a09ae41655",
+  "summary": {
+   "one_liner": "AI 검색 엔진과 MCP 서버가 통합된 Rust 기반 솔루션",
+   "features": [
+    "한 개의 Rust 바이너리로 코드, 문서, 로그 등을 인덱싱합니다.",
+    "BM25, 벡터, 하이브리드 서치가 지원됩니다.",
+    "에이전트 메모리와 MCP 프로토콜을 통해 효율적입니다.",
+    "일관된 Elasticsearch 호환 API를 제공합니다.",
+    "자동 인덱싱 기능으로 수동 설정이 필요 없습니다."
+   ],
+   "audience": "AI 에이전트와 개발자를 위한 효율적인 검색 도구입니다.",
+   "install": [
+    {
+     "label": "기본 설치",
+     "command": "curl -fsSL https://xerj.org/get | sh"
+    }
+   ],
+   "example": "이 프로젝트의 소스를 인덱싱하고 참고 코딩을 설정하세요.",
+   "cautions": [
+    "설치를 위해 '--insecure' 플래그 사용은 주의가 필요합니다.",
+    "운영 환경에서는 TLS 및 API 키 인증을 활성화해야 합니다.",
+    "에이전트 메모리 기능은 사용 시 주의가 필요합니다.",
+    "라이센스는 Apache-2.0입니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "browser-use/browser-harness": {
+  "readme_hash": "ab0f9bfe895ee45350ed6b7b357e8507be5da092",
+  "summary": {
+   "one_liner": "실제 Chrome 브라우저를 자동화하는 오픈 소스 도구입니다.",
+   "features": [
+    "브라우저와 상호작용: 페이지 열기, 클릭, 입력, 다운로드 가능.",
+    "실시간으로 개선되는 헬퍼를 사용하여 더 나은 경험 제공.",
+    "모든 MCP 클라이언트와 호환되어 다양한 용도로 활용 가능.",
+    "클라우드에서 여러 브라우저를 병렬로 구동할 수 있는 기능.",
+    "MIT 라이센스 하에 오픈 소스 프로젝트."
+   ],
+   "audience": "실제 Chrome 브라우저를 사용해 자동화를 원하는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "설치 명령",
+     "command": "uv tool install browser-use"
+    }
+   ],
+   "example": "브라우저를 연결하고 페이지를 여는 간단한 프롬프트를 사용할 수 있습니다.",
+   "cautions": [
+    "원격 디버깅을 허용해야 하며, Chrome 144 이상에서 사용 가능.",
+    "설치 후 문제가 발생하면 `browser-use --doctor` 명령을 실행."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "lidge-jun/opencodex": {
+  "readme_hash": "0c1bd0f45795768a7710f5e64368e55479961fb7",
+  "summary": {
+   "one_liner": "자신의 AI 코딩 도구 및 모델을 위한 로컬 게이트웨이.",
+   "features": [
+    "40개 이상의 모델 프로바이더를 지원하여 유연한 통합 가능.",
+    "Codex, Claude Code, Claude Desktop 및 Grok Build와의 호환성 제공.",
+    "대시보드를 통해 모델 선택 및 상태 확인 가능.",
+    "동적 환경 설정과 통합 지원으로 다양한 툴과의 연동 용이.",
+    "기본 프록시와 대시보드로 손쉬운 설치 및 관리 지원."
+   ],
+   "audience": "AI 코딩 도구와 다양한 모델의 통합을 원하는 개발자에게 유용함.",
+   "install": [
+    {
+     "label": "Node.js CLI 설치",
+     "command": "npm install -g --allow-scripts=bun @bitkyc08/opencodex"
+    },
+    {
+     "label": "프록시 시작",
+     "command": "ocx start"
+    }
+   ],
+   "example": "프록시와 대시보드를 통해 AI 도구와 모델을 손쉽게 연결합니다.",
+   "cautions": [
+    "Node.js 18 버전 이상 필요.",
+    "Bun 런타임이 자동으로 번들되어 설치됨.",
+    "적절한 권한 및 환경 설정 필요."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "rowboatlabs/rowboat": {
+  "readme_hash": "e6a85244ba2bd6f8b04113ea167dcfb7454acd16",
+  "summary": {
+   "one_liner": "귀하의 에이전트 팀을 위한 그룹 채팅 도구입니다.",
+   "features": [
+    "에이전트를 쉽게 생성하고 기존 채팅에 추가하여 협업할 수 있습니다.",
+    "에이전트가 서로 언급하고 작업을 넘겨주며 공동 작업을 진행합니다.",
+    "작업이 성장함에 따라 에이전트가 필요한 에이전트를 생성합니다.",
+    "사용자와 에이전트가 함께 작업할 수 있는 공간을 만듭니다.",
+    "로컬에 설치하여 모든 개인 데이터를 관리할 수 있습니다."
+   ],
+   "audience": "AI 에이전트 기반의 팀 협업을 원하는 사용자에게 유용합니다.",
+   "install": [
+    {
+     "label": "최신 버전 다운로드",
+     "command": "Download"
+    }
+   ],
+   "example": "여러 에이전트를 한 곳에서 관리하고 협업할 수 있습니다.",
+   "cautions": [
+    "Google 서비스 연결 시 설정 필요",
+    "Deepgram 및 ElevenLabs API 키 필요 시 추가",
+    "모든 개인 데이터가 로컬에 저장됨"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "MemoriLabs/Memori": {
+  "readme_hash": "c385b3f8f7bb8fa9625933507549005259dd7441",
+  "summary": {
+   "one_liner": "Memori는 에이전트 중심의 메모리 인프라입니다.",
+   "features": [
+    "LLM, 데이터 저장소와 프레임워크에 구애받지 않음.",
+    "대화 및 에이전트 실행을 기억하여 지속 가능한 상태로 전환.",
+    "빠른 설정으로 API 키를 생성하고 즉시 구축 가능.",
+    "여러 플랫폼 및 SDK와 통합이 용이함.",
+    "세션 관리 및 메모리 재호출 기능 제공."
+   ],
+   "audience": "생산 환경에서 에이전트 메모리를 관리하고자 하는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "TypeScript SDK",
+     "command": "npm install @memorilabs/memori"
+    },
+    {
+     "label": "Python SDK",
+     "command": "pip install memori"
+    }
+   ],
+   "example": "에이전트 대화 데이터를 자동으로 저장하고 호출합니다.",
+   "cautions": [
+    "MEMORI_API_KEY와 LLM API 키가 필요함.",
+    "라이선스는 Apache 2.0입니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "xbtlin/ai-berkshire": {
+  "readme_hash": "33b34248e84deb8949ba5e22dfa63f03e011eb9d",
+  "summary": {
+   "one_liner": "AI 시대의 가치 투자 연구 프레임워크.",
+   "features": [
+    "주요 네 투자 마스터의 구조화된 방법론 활용.",
+    "AI 에이전트를 통한 전문적인 투자 리서치 제공.",
+    "다중 에이전트 병행으로 깊이 있는 분석 가능.",
+    "구조화된 연구 프로세스로 품질 보장."
+   ],
+   "audience": "가치 투자에 관심 있는 투자자들에게 유용함.",
+   "install": [
+    {
+     "label": "Claude Code 사용자",
+     "command": "npm install -g @anthropic-ai/claude-code"
+    },
+    {
+     "label": "Codex 사용자 (macOS / Linux)",
+     "command": "curl -fsSL https://chatgpt.com/codex/install.sh | sh"
+    },
+    {
+     "label": "Codex 사용자 (Windows)",
+     "command": "powershell -ExecutionPolicy ByPass -c \"irm https://chatgpt.com/codex/install.ps1 | iex\""
+    }
+   ],
+   "example": "AI Berkshire를 사용하여 특정 회사의 투자 리서치 수행.",
+   "cautions": [
+    "모델 선택에 따라 분석 품질이 달라질 수 있음.",
+    "클라이언트 환경에 따라 권한 설정이 필요할 수 있음.",
+    "AI의 투자 조언은 참고용으로만 사용해야 함."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "AgriciDaniel/claude-obsidian": {
+  "readme_hash": "cda093133c8024381af53458be464920502d5281",
+  "summary": {
+   "one_liner": "Obsidian용 AI 2차 뇌로 개인 지식 관리 및 노트 작성 지원",
+   "features": [
+    "소스 파일을 연결된 노트로 변환하여 지식 그래프 생성",
+    "기존 메모와의 연결을 통해 알아낸 아이디어를 시각적으로 표현",
+    "질문에 대한 답변을 메모에서 인용하여 제공",
+    "건강 점검 기능으로 링크와 페이지의 상태 확인",
+    "사용자가 선호하는 방식으로 새 노트를 저장"
+   ],
+   "audience": "연구자, 학생 및 창작자에게 유용한 도구입니다.",
+   "install": [],
+   "example": "소스 파일을 inbox/ 폴더에 넣고, /claude-obsidian:wiki-ingest 명령으로 연결된 노트를 생성합니다.",
+   "cautions": [
+    "Python 3.11 이상 필요",
+    "Obsidian 설치 필요",
+    "MIT 라이센스",
+    "기존 메모는 이동하지 않으며, 수정 시 충돌이 발생할 수 있음"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "ParadevAI/Paradev": {
+  "readme_hash": "dbad1d9f6d628f977711be21ea02a0ff35a18e9b",
+  "summary": {
+   "one_liner": "Paradev는 CLI 코딩 에이전트를 병렬로 실행하는 오픈 소스 앱입니다.",
+   "features": [
+    "각 작업에 대해 독립적인 Git 작업 트리를 생성합니다.",
+    "앱 내에서 변경 사항을 검토하고 PR을 관리할 수 있습니다.",
+    "다양한 에이전트 상태를 사이드바에서 확인할 수 있습니다.",
+    "기본 제공 브라우저로 각 작업 공간의 개발 서버를 미리 볼 수 있습니다.",
+    "원격 호스트와 연결하여 작업 공간에 접근할 수 있습니다."
+   ],
+   "audience": "여러 작업을 동시에 진행하고자 하는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "macOS",
+     "command": "brew install paradevai/tap/superset"
+    },
+    {
+     "label": "CLI standalone",
+     "command": "curl -fsSL https://paradev.com/cli/install.sh | sh"
+    }
+   ],
+   "example": "주문형 에이전트를 사용하여 코드를 병렬로 개발하고 실시간으로 변경 사항을 확인할 수 있습니다.",
+   "cautions": [
+    "MIT 라이선스 하에 배포됩니다.",
+    "macOS와 Linux에서 사용할 수 있으며 Windows는 아직 지원되지 않습니다.",
+    "Git이 필요하며, gh는 선택 사항입니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "nidhinjs/prompt-master": {
+  "readme_hash": "aca11e3344d672a38b3e34c2fd2aa779ae15fe5f",
+  "summary": {
+   "one_liner": "어떤 AI 도구에 대해서도 정확한 프롬프트를 작성하는 Claude 기술",
+   "features": [
+    "모든 AI 도구와 호환되는 포괄적 프롬프트 생성",
+    "불필요한 API 호출 없이 효율적인 토큰 사용",
+    "명확한 목표와 의도를 위한 9가지 차원 추출",
+    "안전한 기술만을 적용하여 신뢰성 높은 결과 제공",
+    "30개 이상의 도구 프로필 내장으로 개별화된 대응"
+   ],
+   "audience": "AI 도구를 이용해 작업하는 개발자와 사용자에게 유용함",
+   "install": [
+    {
+     "label": "클론 방식",
+     "command": "git clone https://github.com/nidhinjs/prompt-master.git ~/.claude/skills/prompt-master"
+    }
+   ],
+   "example": "Claude를 사용해 'todo 앱을 React와 Supabase로 만들게 도와줘'라고 요청하면 프롬프트가 생성됩니다.",
+   "cautions": [
+    "사용 시 필요한 클로드.ai의 권한",
+    "프롬프트 생성에 필요한 AI 도구에 대한 사전 이해",
+    "저작권 및 라이선스 준수"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "YishenTu/claudian": {
+  "readme_hash": "c28c446fc64a4f436cf2386cbc0b795fb6010529",
+  "summary": {
+   "one_liner": "Obsidian에서 AI 코딩 에이전트를 임베드하는 플러그인",
+   "features": [
+    "인라인 편집: 텍스트를 선택하거나 커서 위치에서 직접 편집하기.",
+    "프로젝트: 공동 목표를 위한 세션 그룹화 기능.",
+    "젠 모드: 사이드바를 축소하여 간결한 대화 창 제공.",
+    "슬래시 명령: 재사용 가능한 프롬프트 템플릿 및 스킬 제공.",
+    "크로스 세션 메시징: 다른 세션과 상호작용할 수 있는 기능."
+   ],
+   "audience": "AI 코딩 에이전트와 협업하고 싶은 개발자에게 유용함.",
+   "install": [
+    {
+     "label": "Obsidian 커뮤니티 플러그인에서 설치",
+     "command": "Open Obsidian → Settings → Community plugins → Browse 검색 후 Install"
+    }
+   ],
+   "example": "플러그인을 설치한 후 Obsidian 내에서 AI 에이전트와 대화하며 코딩 작업을 수행할 수 있습니다.",
+   "cautions": [
+    "Obsidian v1.13.0 이상 필요",
+    "최소 하나의 호환 가능한 하네스 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "travisvn/awesome-claude-skills": {
+  "readme_hash": "9dc60e2d1ebad0e2fa322dd9b62aac96a010ea5f",
+  "summary": {
+   "one_liner": "Claude AI의 작업 흐름을 위한 맞춤형 스킬 모음",
+   "features": [
+    "진행적인 정보 부하 아키텍처로 효율적인 작업 수행",
+    "스킬 마켓플레이스에서 스킬 설치 지원",
+    "Claude API를 통한 스킬 접근 및 통합 예제 제공",
+    "다양한 문서 포맷 작업을 위한 전문 스킬 제공",
+    "인터랙티브한 스킬 생성 도구인 skill-creator 포함"
+   ],
+   "audience": "AI 작업 흐름과 자동화를 원하는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "마켓플레이스에서 스킬 설치",
+     "command": "/plugin marketplace add anthropics/skills"
+    },
+    {
+     "label": "로컬 디렉토리에서 스킬 설치",
+     "command": "/plugin add /path/to/skill-directory"
+    }
+   ],
+   "example": "예를 들어, '/plugin marketplace add obra/superpowers-marketplace' 명령어로 공용 마켓플레이스에서 스킬을 추가할 수 있습니다.",
+   "cautions": [
+    "임의의 코드를 실행할 수 있는 스킬이므로 신뢰할 수 있는 소스에서만 설치 필요",
+    "특정 권한 요구 및 실행 환경 설정 유의",
+    "스킬 생성 및 사용 시 문서화된 의존성 및 라이선스 관리 필요"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "NanmiCoder/cc-haha": {
+  "readme_hash": "3e7e0510e15041435afe9741651ac0062b4da6e2",
+  "summary": {
+   "one_liner": "다중 에이전트 협업 및 코드 Diff를 지원하는 AI 작업 공간",
+   "features": [
+    "다양한 모델을 지원하고 설정하여 사용 가능",
+    "컴퓨터 사용 기능으로 원격 제어와 작업 처리",
+    "모바일 앱으로 원격 접근과 작업 관리",
+    "직관적인 작업 공간과 전역 검색 기능",
+    "실시간 권한 승인 및 다중 사용자 협업 기능"
+   ],
+   "audience": "AI 및 코딩 도구를 활용하는 개발자와 팀.",
+   "install": [
+    {
+     "label": "설치 방법",
+     "command": "1. 전제 [Releases](https://github.com/NanmiCoder/cc-haha/releases) 다운로드\n2. 첫 번째 실행 후 모델 공급자, API 키 및 기본 모델 구성"
+    }
+   ],
+   "example": "모바일 앱을 통해 작업을 관리하고, PC를 원격으로 제어할 수 있음.",
+   "cautions": [
+    "macOS에서는 앱이 서명 및 공증을 거쳐야 함.",
+    "Windows에서는 설치 시 SmartScreen 경고가 있을 수 있음.",
+    "정상적인 사용을 위해 데스크탑 앱과 모바일 앱 버전이 호환되어야 함."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "yusufkaraaslan/Skill_Seekers": {
+  "readme_hash": "c0f3812a19d8e9de853216f7fa30e39966f4aeeb",
+  "summary": {
+   "one_liner": "AI 시스템을 위한 데이터 레이어로 문서화를 자동으로 변환합니다.",
+   "features": [
+    "18가지 소스 유형을 지원하여 다양한 자료를 지식 자산으로 변환합니다.",
+    "Claude, Gemini, OpenAI 등의 AI 플랫폼으로 패키징할 수 있습니다.",
+    "AI 기사를 활용하여 문서의 품질을 향상시킵니다.",
+    "다양한 포맷으로의 내보내기를 지원하여 유연성을 제공합니다."
+   ],
+   "audience": "AI 개발자 및 기술 문서화 담당자에게 유용합니다.",
+   "install": [
+    {
+     "label": "기본 설치",
+     "command": "pip install skill-seekers"
+    }
+   ],
+   "example": "skill-seekers create https://docs.djangoproject.com/",
+   "cautions": [
+    "Python 3.10 이상이 필요합니다.",
+    "Git이 필요합니다.",
+    "MIT 라이센스를 따릅니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "elementalsouls/Claude-BugHunter": {
+  "readme_hash": "76443f0c89d5add847b14d79718b3a09f02278e7",
+  "summary": {
+   "one_liner": "버그 헌팅과 외부 레드팀 작업을 위한 Claude 코드 스킬 번들",
+   "features": [
+    "83개의 스킬과 15개의 슬래시 명령을 포함",
+    "681개의 공개 보고 패턴을 통해 24개의 취약점 클래스 커버",
+    "웹 앱, API, SaaS, GraphQL 및 레드팀 작업에 대한 교차 기능 제공",
+    "모든 스킬이 자동으로 로드되어 별도의 호출 없이 사용 가능",
+    "HackerOne API와의 통합을 통해 사적인 프로그램 및 보고서 액세스"
+   ],
+   "audience": "버그 헌팅 및 사이버 보안 작업을 수행하는 전문가에게 유용함",
+   "install": [
+    {
+     "label": "플러그인 방식 설치",
+     "command": "/plugin marketplace add elementalsouls/Claude-BugHunter\n/plugin install claude-bughunter@elementalsouls"
+    }
+   ],
+   "example": "> Testing acme.com — an in-scope HackerOne target. Run recon and rank the surface.",
+   "cautions": [
+    "HackerOne 계정은 선택 사항이며, API 사용자 이름 및 토큰은 비워둘 수 있음",
+    "이 스킬은 사용자가 소유한 자산 또는 평가 권한이 있는 자산에 대해서만 사용해야 함",
+    "외부 공격 표면을 다루며 내부 Active Directory 공격은 지원하지 않음"
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "OrchestratorInc/agent-orchestrator": {
+  "readme_hash": "9767dfdb16a22536457c43c79dfdc2ffffe9bb45",
+  "summary": {
+   "one_liner": "코딩 에이전트를 관리하여 작업을 효율적으로 진행하세요.",
+   "features": [
+    "여러 작업을 동시에 처리할 수 있는 코딩 에이전트 제공",
+    "각 작업마다 에이전트와 브랜치 분리하여 충돌 예방",
+    "CI 실패 시 자동으로 에이전트가 문제 해결",
+    "모바일 앱으로 데스크톱 에이전트 원격 제어 가능",
+    "클라우드에서 작업을 실행하여 로컬 리소스 절약"
+   ],
+   "audience": "코딩 및 소프트웨어 개발을 하는 모든 사람에게 유용합니다.",
+   "install": [
+    {
+     "label": "macOS (Apple silicon)",
+     "command": "[`Orchestrator-darwin-arm64.dmg`](https://github.com/OrchestratorInc/agent-orchestrator/releases/latest/download/Orchestrator-darwin-arm64.dmg)"
+    },
+    {
+     "label": "macOS (Intel)",
+     "command": "[`Orchestrator-darwin-x64.dmg`](https://github.com/OrchestratorInc/agent-orchestrator/releases/latest/download/Orchestrator-darwin-x64.dmg)"
+    },
+    {
+     "label": "Windows",
+     "command": "[`agent-orchestrator-win32-x64.exe`](https://github.com/OrchestratorInc/agent-orchestrator/releases/latest/download/agent-orchestrator-win32-x64.exe)"
+    },
+    {
+     "label": "Linux (AppImage)",
+     "command": "[`agent-orchestrator-linux-x64.AppImage`](https://github.com/OrchestratorInc/agent-orchestrator/releases/latest/download/agent-orchestrator-linux-x64.AppImage)"
+    },
+    {
+     "label": "Linux (Debian/Ubuntu)",
+     "command": "[`agent-orchestrator-linux-x64.deb`](https://github.com/OrchestratorInc/agent-orchestrator/releases/latest/download/agent-orchestrator-linux-x64.deb)"
+    }
+   ],
+   "example": "각 작업에 대해 에이전트를 할당하고, 병렬로 진행하여 효율성을 높입니다.",
+   "cautions": [
+    "네트워크 설정 및 모바일 앱 연결 필요",
+    "CI 및 PR 승인을 위한 적절한 권한 필요",
+    "Apache-2.0 라이센스에 따릅니다."
+   ]
+  },
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "generated_at": "2026-11-21"
+ },
+ "kyegomez/OpenMythos": {
+  "readme_hash": "f4db5eb559da9c978310ae91faaf07f49cafc925",
+  "summary": {
+   "one_liner": "OpenMythos는 Claude Mythos 아키텍처의 이론적 재구성입니다.",
+   "features": [
+    "Recurrent-Depth Transformer 구현으로 깊이 있는 사고를 가능하게 함.",
+    "Switchable Attention으로 MLA와 GQA 간의 전환 지원.",
+    "모델의 효율성을 높이기 위해 Mixture of Experts 사용.",
+    "입력 주입을 통한 반복 블록 업데이트를 실현.",
+    "각 루프에서의 파라미터 재사용으로 메모리 효율성 극대화."
+   ],
+   "audience": "이론적 모델링과 AI 아키텍처에 관심 있는 개발자에게 유용합니다.",
+   "install": [
+    {
+     "label": "기본 설치",
+     "command": "pip install open-mythos"
+    },
+    {
+     "label": "Flash Attention 2 설치 (CUDA 필요)",
+     "command": "pip install open-mythos[flash]"
+    }
+   ],
+   "example": "모델을 구축하고 추론하는 코드 샘플을 제공.",
+   "cautions": [
+    "CUDA 및 빌드 도구 요구.",
+    "오픈 소스 라이센스에 따라 사용.",
+    "테스트 및 생산 환경에서의 안정성 확인 필요."
    ]
   },
   "provider": "openai",
