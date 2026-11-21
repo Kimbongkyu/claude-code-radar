@@ -1,11 +1,12 @@
 import {useState} from 'react';
 import {Button} from '@astryxdesign/core/Button';
-import {ActivityBadge, ago, fmt} from './ui';
+import {ActivityBadge, MOBILE_QUERY, ago, fmt, useMedia} from './ui';
 import type {Project} from './types';
 
 const KIND_LABEL = {skill: '스킬', plugin: '플러그인', mcp: 'MCP 서버', tool: '기타'} as const;
 
 function CopyCommand({command}: {command: string}) {
+  const mobile = useMedia(MOBILE_QUERY);
   const [done, setDone] = useState(false);
   const copy = async () => {
     try {
@@ -21,17 +22,19 @@ function CopyCommand({command}: {command: string}) {
       <pre>
         <code>{command}</code>
       </pre>
-      <Button variant="secondary" size="sm" onClick={copy} label={done ? '복사됨' : '복사'} />
+      <Button variant="secondary" size={mobile ? 'lg' : 'sm'} onClick={copy} label={done ? '복사됨' : '복사'} />
     </div>
   );
 }
 
 export default function Detail({project: p, onClose}: {project: Project; onClose: () => void}) {
+  const mobile = useMedia(MOBILE_QUERY);
+  const size = mobile ? 'lg' : 'md';
   const s = p.summary?.summary;
   return (
     <article className="detail-body">
       <div className="detail-bar">
-        <Button variant="ghost" size="sm" onClick={onClose} label="← 목록" />
+        <Button variant="ghost" size={mobile ? 'lg' : 'sm'} onClick={onClose} label="← 목록" />
       </div>
 
       <p className="kicker">{KIND_LABEL[p.kind]}</p>
@@ -115,8 +118,8 @@ export default function Detail({project: p, onClose}: {project: Project; onClose
       )}
 
       <div className="detail-links">
-        <Button variant="primary" href={p.url} label="GitHub 저장소" />
-        <Button variant="ghost" href={`${p.url}#readme`} label="README 원문" />
+        <Button variant="primary" size={size} href={p.url} label="GitHub 저장소" />
+        <Button variant="ghost" size={size} href={`${p.url}#readme`} label="README 원문" />
       </div>
     </article>
   );

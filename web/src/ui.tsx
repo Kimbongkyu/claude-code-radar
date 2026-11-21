@@ -1,3 +1,4 @@
+import {useEffect, useState} from 'react';
 import {Badge} from '@astryxdesign/core/Badge';
 import type {Activity} from './types';
 
@@ -17,4 +18,17 @@ export function ago(iso: string | null): string {
 
 export function ActivityBadge({value}: {value: Activity}) {
   return <Badge variant={ACTIVITY_VARIANT[value]} label={ACTIVITY_LABEL[value]} />;
+}
+
+export const MOBILE_QUERY = '(max-width: 820px)';
+
+export function useMedia(query: string) {
+  const [match, setMatch] = useState(() => window.matchMedia(query).matches);
+  useEffect(() => {
+    const mq = window.matchMedia(query);
+    const on = () => setMatch(mq.matches);
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, [query]);
+  return match;
 }

@@ -5,21 +5,10 @@ import {Table, pixel, proportional} from '@astryxdesign/core/Table';
 import {TextInput} from '@astryxdesign/core/TextInput';
 import type {Activity, Dataset, Kind, Project, SortKey} from './types';
 import Detail from './Detail';
-import {ACTIVITY_LABEL, ActivityBadge, ago, fmt} from './ui';
+import {ACTIVITY_LABEL, ActivityBadge, MOBILE_QUERY, ago, fmt, useMedia} from './ui';
 
 const KIND_LABEL: Record<Kind | 'all', string> = {all: '전체', skill: '스킬', plugin: '플러그인', mcp: 'MCP', tool: '기타'};
 const SORT_LABEL: Record<SortKey, string> = {stars: '스타', delta: '7일 증가', commits: '30일 커밋', pushed: '최근 푸시'};
-
-function useMedia(query: string) {
-  const [match, setMatch] = useState(() => window.matchMedia(query).matches);
-  useEffect(() => {
-    const mq = window.matchMedia(query);
-    const on = () => setMatch(mq.matches);
-    mq.addEventListener('change', on);
-    return () => mq.removeEventListener('change', on);
-  }, [query]);
-  return match;
-}
 
 const sortValue = (p: Project, key: SortKey): number => {
   switch (key) {
@@ -44,7 +33,7 @@ export default function App() {
   const [activity, setActivity] = useState<Activity | 'all'>('all');
   const [sort, setSort] = useState<SortKey>('stars');
   const [selected, setSelected] = useState<string | null>(null);
-  const isMobile = useMedia('(max-width: 820px)');
+  const isMobile = useMedia(MOBILE_QUERY);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/projects.json`)
@@ -145,12 +134,12 @@ export default function App() {
           <div className="toolbar">
             <TextInput label="검색" isLabelHidden type="search" size={isMobile ? 'lg' : 'md'} placeholder="이름, 설명, 토픽 검색" value={query} onChange={(v) => setQuery(v)} />
             <div className="filters">
-              <SegmentedControl label="종류" value={kind} onChange={(v) => setKind(v as Kind | 'all')}>
+              <SegmentedControl size={isMobile ? 'lg' : 'md'} label="종류" value={kind} onChange={(v) => setKind(v as Kind | 'all')}>
                 {(Object.keys(KIND_LABEL) as (Kind | 'all')[]).map((k) => (
                   <SegmentedControlItem key={k} value={k} label={KIND_LABEL[k]} />
                 ))}
               </SegmentedControl>
-              <SegmentedControl label="활성도" value={activity} onChange={(v) => setActivity(v as Activity | 'all')}>
+              <SegmentedControl size={isMobile ? 'lg' : 'md'} label="활성도" value={activity} onChange={(v) => setActivity(v as Activity | 'all')}>
                 {(Object.keys(ACTIVITY_LABEL) as (Activity | 'all')[]).map((k) => (
                   <SegmentedControlItem key={k} value={k} label={ACTIVITY_LABEL[k]} />
                 ))}
