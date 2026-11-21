@@ -19,7 +19,8 @@ const sortValue = (p: Project, key: SortKey): number => {
     case 'commits':
       return p.commits_30d ?? -Infinity;
     case 'pushed':
-      return new Date(p.pushed_at).getTime();
+      // 화면에 표시되는 단위(일)로 묶어서, 같은 날 푸시한 항목끼리는 스타 순으로 정렬되게 한다
+      return -Math.floor((Date.now() - new Date(p.pushed_at).getTime()) / 86_400_000);
   }
 };
 
@@ -49,7 +50,11 @@ export default function App() {
       .filter((p) => kind === 'all' || p.kind === kind)
       .filter((p) => activity === 'all' || p.activity === activity)
       .filter((p) => !q || `${p.full_name} ${p.description ?? ''} ${p.description_ko ?? ''} ${p.topics.join(' ')}`.toLowerCase().includes(q))
-      .sort((a, b) => sortValue(b, sort) - sortValue(a, sort)) as Row[];
+      // 1순위: 선택한 기준, 2순위: 스타 수 (같은 값일 때)
+      .sort((a, b) => {
+        const primary = sortValue(b, sort) - sortValue(a, sort);
+        return primary || b.stars - a.stars;
+      }) as Row[];
   }, [data, query, kind, activity, sort]);
 
   const rising = useMemo(
