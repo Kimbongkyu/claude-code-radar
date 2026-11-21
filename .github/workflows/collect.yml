@@ -43,7 +43,14 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "data: 일일 갱신 $(date -u +%F)"
-            git push
+            # 수집하는 동안 다른 커밋이 올라왔을 수 있으므로, 최신 main 위로 다시 얹어서 최대 5번 시도한다
+            for i in 1 2 3 4 5; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then break; fi
+              if [ "$i" = 5 ]; then echo "push 실패"; exit 1; fi
+              sleep $((i * 3))
+            done
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Trigger deploy
