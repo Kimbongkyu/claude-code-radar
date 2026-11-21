@@ -21,9 +21,7 @@ function CopyCommand({command}: {command: string}) {
       <pre>
         <code>{command}</code>
       </pre>
-      <Button variant="secondary" size="sm" onClick={copy}>
-        {done ? '복사됨' : '복사'}
-      </Button>
+      <Button variant="secondary" size="sm" onClick={copy} label={done ? '복사됨' : '복사'} />
     </div>
   );
 }
@@ -33,9 +31,7 @@ export default function Detail({project: p, onClose}: {project: Project; onClose
   return (
     <article className="detail-body">
       <div className="detail-bar">
-        <Button variant="ghost" size="sm" onClick={onClose}>
-          ← 목록
-        </Button>
+        <Button variant="ghost" size="sm" onClick={onClose} label="← 목록" />
       </div>
 
       <p className="kicker">{KIND_LABEL[p.kind]}</p>
@@ -119,12 +115,8 @@ export default function Detail({project: p, onClose}: {project: Project; onClose
       )}
 
       <div className="detail-links">
-        <Button variant="primary" href={p.url}>
-          GitHub 저장소
-        </Button>
-        <Button variant="ghost" href={`${p.url}#readme`}>
-          README 원문
-        </Button>
+        <Button variant="primary" href={p.url} label="GitHub 저장소" />
+        <Button variant="ghost" href={`${p.url}#readme`} label="README 원문" />
       </div>
     </article>
   );

@@ -207,9 +207,7 @@ export default function App() {
 
       <footer className="foot">
         <p>스타 수는 인기도일 뿐 품질이나 안전성의 증거가 아닙니다. 비공식 프로젝트는 설치 전에 코드와 권한을 직접 확인하세요.</p>
-        <Button variant="ghost" size="sm" href="https://github.com/Kimbongkyu/claude-code-radar">
-          GitHub
-        </Button>
+        <Button variant="ghost" size="sm" href="https://github.com/Kimbongkyu/claude-code-radar" label="GitHub" />
       </footer>
     </div>
   );
