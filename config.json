@@ -1,0 +1,19 @@
+{
+  "limit": 200,
+  "search_pages": 3,
+  "queries": [
+    "topic:claude-code",
+    "topic:claude-code-plugin",
+    "topic:claude-code-plugins",
+    "topic:claude-code-skills",
+    "topic:claude-skills",
+    "topic:claude-code-mcp",
+    "topic:mcp-server claude in:name,description"
+  ],
+  "summary": {
+    "enabled": true,
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "max_per_run": 40
+  }
+}
