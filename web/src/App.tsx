@@ -143,7 +143,7 @@ export default function App() {
           )}
 
           <div className="toolbar">
-            <TextInput label="검색" isLabelHidden type="search" placeholder="이름, 설명, 토픽 검색" value={query} onChange={(v) => setQuery(v)} />
+            <TextInput label="검색" isLabelHidden type="search" size={isMobile ? 'lg' : 'md'} placeholder="이름, 설명, 토픽 검색" value={query} onChange={(v) => setQuery(v)} />
             <div className="filters">
               <SegmentedControl label="종류" value={kind} onChange={(v) => setKind(v as Kind | 'all')}>
                 {(Object.keys(KIND_LABEL) as (Kind | 'all')[]).map((k) => (

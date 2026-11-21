@@ -400,4 +400,59 @@ tr:has(.link[data-on='true']) > :first-child {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  /* 글자 크기: 휴대폰에서 읽기 편하게 한 단계씩 키운다 */
+  .lede {
+    font-size: 16px;
+  }
+  .stamp,
+  .foot,
+  .small,
+  .card-meta {
+    font-size: 14px;
+  }
+  .rising h2,
+  .detail-body h3,
+  .facts dt,
+  .kicker {
+    font-size: 14px;
+  }
+  .rising li,
+  .rising .link {
+    font-size: 15.5px;
+  }
+  .card {
+    gap: 8px;
+    padding: 18px 0;
+  }
+  .card-name {
+    font-size: 17.5px;
+  }
+  .desc {
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-line-clamp: 3;
+  }
+  .sort-select,
+  .sort-select select {
+    font-size: 16px; /* 16px 미만이면 iOS가 입력 시 화면을 확대한다 */
+  }
+  .detail-body h2 {
+    font-size: 24px;
+  }
+  .detail-lede,
+  .detail-body p,
+  .detail-body li {
+    font-size: 16.5px;
+    line-height: 1.7;
+  }
+  .facts dd {
+    font-size: 17px;
+  }
+  .cmd pre {
+    font-size: 14px;
+  }
+  .notice {
+    font-size: 15.5px;
+  }
 }
