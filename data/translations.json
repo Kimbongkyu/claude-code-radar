@@ -1,0 +1,130 @@
+{
+ "morluto/rea": {
+  "src": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "ko": "에이전트를 사용하여 앱 동작부터 네이티브 바이너리까지 무엇이든 다시 만들어보세요."
+ },
+ "ai-job-search-dev/ai-job-search": {
+  "src": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "ko": "당신의 컴퓨터에서 실행되는 구직 서비스입니다. AI 구직 지원 프레임워크로, 구인 게시물을 평가하고, 이력서를 맞춤 작성하며, 커버 레터를 작성하고, 인터뷰 준비를 도와줍니다. 포크하여 소유하세요."
+ },
+ "Wei-Shaw/sub2api": {
+  "src": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+  "ko": "Sub2API는 Claude, OpenAI, Gemini, Grok의 구독을 통합적으로 지원하는 오픈 소스 중개 서비스입니다."
+ },
+ "gastownhall/beads": {
+  "src": "Beads - A memory upgrade for your coding agent",
+  "ko": "Beads - 코딩 에이전트를 위한 메모리 업그레이드입니다."
+ },
+ "lidge-jun/opencodex": {
+  "src": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+  "ko": "OpenAI Codex와 Claude Code를 위한 범용 제공자 프록시로, 다양한 LLM(Claude, Gemini, Grok, DeepSeek, Ollama 등)을 Codex CLI, 앱, SDK, Claude Code와 함께 사용할 수 있습니다."
+ },
+ "max-sixty/worktrunk": {
+  "src": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+  "ko": "Worktrunk는 병렬 AI 에이전트 워크플로우를 위해 설계된 Git worktree 관리용 CLI입니다."
+ },
+ "Ryze-AI-Adgent/open-seo-mcp-skills": {
+  "src": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+  "ko": "Claude를 위한 무료 오픈 소스 SEO 및 GEO 기술로, 키워드 조사, 순위 추적, 감사, 백링크, 실제 GSC/GA4/광고 데이터에서의 AI 가시성 제공."
+ },
+ "ykdojo/claude-code-tips": {
+  "src": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+  "ko": "Claude Code의 기본부터 고급까지 활용할 수 있는 45가지 팁을 제공하며, 사용자 정의 상태 표시줄 스크립트와 컨테이너 내에서의 실행 포함."
+ },
+ "Kuberwastaken/claurst": {
+  "src": "Agentic Coding for Builders who Ship",
+  "ko": "배송하는 빌더를 위한 에이전틱 코딩."
+ },
+ "makecindy/cindy": {
+  "src": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+  "ko": "모두 가능하다고 생각하세요. 즉시 사용할 수 있는 오픈 소스 AI 에이전트."
+ },
+ "pixel-agents-hq/pixel-agents": {
+  "src": "A playful way to manage your AI workforce",
+  "ko": "AI 인력을 관리하는 재미있는 방법."
+ },
+ "Jakeschincariol/replica-skill": {
+  "src": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+  "ko": "어떤 앱이든 복제할 수 있는 11개의 무료 Claude 기술을 제공: 앱을 역설계하고, 재구성하며, 버그를 테스트하고, 사용자 불만을 수정합니다."
+ },
+ "FailproofAI/failproofai": {
+  "src": "Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.",
+  "ko": "AI 에이전트 제어 및 관찰 가능성을 위한 도구."
+ },
+ "maximhq/bifrost": {
+  "src": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
+  "ko": "오픈 소스의 고성능 AI 게이트웨이로, 모든 SDK나 에이전트와 호환됩니다."
+ },
+ "rehan-remade/universal-modder": {
+  "src": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+  "ko": "Claude를 어떤 게임에도 적용하세요. 거의 모든 PC 게임을 수정할 수 있는 기술과 도구를 제공합니다."
+ },
+ "gamedev-skills/awesome-gamedev-agent-skills": {
+  "src": "Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.",
+  "ko": "AI 코딩 에이전트와 함께 게임을 만드세요: 79개의 게임 개발 기술과 여러 게임 엔진을 지원하는 라우터."
+ },
+ "anbeime/skill": {
+  "src": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
+  "ko": "최신 업데이트와 함께 가장 포괄적인 AI 에이전트 기술 라이브러리입니다."
+ },
+ "miqdadbadjuber/anti-slop": {
+  "src": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
+  "ko": "AI 코딩 에이전트가 일반적인 UI 디자인, 텍스트 및 코드를 필터링할 수 있는 규칙을 설정합니다."
+ },
+ "frankbria/ralph-claude-code": {
+  "src": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+  "ko": "Claude Code를 위한 자율 AI 개발 루프와 지능형 종료 감지 기능."
+ },
+ "xonsh/xonsh": {
+  "src": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+  "ko": "🐚 파이썬을 기반으로 한 쉘. 모든 플랫폼에서 사용 가능하며 AI 친화적입니다."
+ },
+ "HarnessMD/munder-difflin": {
+  "src": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+  "ko": "에이전트를 사용하는 가장 멋진 애플리케이션으로, 맞춤형 세계를 구축할 수 있습니다."
+ },
+ "Gentleman-Programming/gentle-ai": {
+  "src": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+  "ko": "Gentle-AI는 이미 사용 중인 AI 코딩 에이전트를 구성합니다."
+ },
+ "revfactory/harness": {
+  "src": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+  "ko": "도메인별 에이전트 팀을 설계하고 전문화된 에이전트를 정의하는 메타 기술입니다."
+ },
+ "tryatlas/atlas": {
+  "src": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+  "ko": "에이전트를 위한 소스 제어. 여러 코딩 에이전트를 사용하고 그 변화를 추적합니다."
+ },
+ "homarr-labs/dashboard-icons": {
+  "src": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.",
+  "ko": "3,400개 이상의 대시보드 및 AI 에이전트를 위한 아이콘과 로고를 제공합니다."
+ },
+ "kajisho5/ffmpeg-skill": {
+  "src": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+  "ko": "코딩 에이전트를 위한 로컬 비디오 편집기입니다."
+ },
+ "Jakeschincariol/day-trader-skill": {
+  "src": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+  "ko": "일일 거래를 위한 11개의 Claude 기술을 제공합니다."
+ },
+ "mvschwarz/openrig": {
+  "src": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+  "ko": "Claude Code, Codex 및 Pi로 자신의 에이전트 네트워크를 구축하세요."
+ },
+ "smtg-ai/claude-squad": {
+  "src": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+  "ko": "여러 AI 터미널 에이전트를 관리하세요."
+ },
+ "WenyuChiou/awesome-agentic-ai-zh": {
+  "src": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+  "ko": "에이전틱 AI를 위한 3개 언어로 된 학습 로드맵입니다."
+ },
+ "Maciek-roboblog/Claude-Code-Usage-Monitor": {
+  "src": "Real-time Claude Code usage monitor with predictions and warnings",
+  "ko": "실시간 Claude Code 사용 모니터링 및 예측 기능 제공."
+ },
+ "openfilm/openfilm": {
+  "src": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
+  "ko": "오픈 소스 AI 비디오 에이전트로, 모든 코딩 에이전트를 비디오 에이전트로 변환하며, 생성된 내용을 편집할 수 있는 기능을 제공합니다."
+ }
+}

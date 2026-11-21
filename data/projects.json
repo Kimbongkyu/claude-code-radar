@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:23:25Z",
+ "generated_at": "2026-11-21T13:40:51Z",
  "count": 200,
  "projects": [
   {
@@ -9,9 +9,10 @@
    "name": "rea",
    "url": "https://github.com/morluto/rea",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 472191,
+   "description_ko": "에이전트를 사용하여 앱 동작부터 네이티브 바이너리까지 무엇이든 다시 만들어보세요.",
+   "stars": 472208,
    "stars_delta_7d": null,
-   "forks": 115270,
+   "forks": 115273,
    "language": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -37,34 +38,35 @@
     "typescript"
    ],
    "kind": "plugin",
-   "pushed_at": "2026-11-21T13:22:17Z",
+   "pushed_at": "2026-11-21T13:40:13Z",
    "commits_30d": 100,
-   "open_issues": 1379,
+   "open_issues": 1382,
    "latest_release": "2026-11-20T05:30:51Z",
    "archived": false,
    "activity": "active",
    "summary": {
-    "readme_hash": "48721c22ade5d8183ba83ff061c9db3882299069",
+    "readme_hash": "1f6b07b2d8d9333d31422f5ae2617b610ab10659",
     "summary": {
-     "one_liner": "멀티-레이어 분석을 위한 리버스 엔지니어링 도구",
+     "one_liner": "모든 것을 역설계할 수 있는 도구입니다.",
      "features": [
-      "애플리케이션과 바이너리를 바탕으로 심층 분석 제공",
-      "소스 코드 없이 앱 기능을 조사하고 설명함",
-      "CLI를 통해 다양한 환경에서 사용 가능",
-      "NODE.js 필요, 다수의 플랫폼 지원"
+      "애플리케이션 및 바이너리 분석 기능 제공",
+      "소스 코드 없이 앱 기능 조사 가능",
+      "자세한 정보와 증거를 제공",
+      "CLI를 통해 간편하게 사용 가능",
+      "AI 기반의 조사 역량 제공"
      ],
-     "audience": "리버스 엔지니어링에 관심 있는 개발자 및 연구원",
+     "audience": "소프트웨어 역설계에 관심 있는 개발자에게 유용합니다.",
      "install": [
       {
        "label": "설치 명령",
        "command": "npx rea-agents setup"
       }
      ],
-     "example": "앱의 특정 기능을 이해하고 비슷한 기능을 내 프로젝트에 구축하도록 요청 가능합니다.",
+     "example": "npx rea-agents analyze-javascript-application /absolute/path/to/app --json",
      "cautions": [
-      "Node.js 22.x 이상 필요",
-      "적절한 권한과 환경 설정 필요",
-      "상업적 사용 시 라이선스 확인 필요"
+      "MIT 라이선스 하에 배포됨",
+      "상당한 설치 권한 필요",
+      "Hopper, Ghidra 등 외부 도구 의존"
      ]
     },
     "provider": "openai",
@@ -79,9 +81,10 @@
    "name": "ECC",
    "url": "https://github.com/affaan-m/ECC",
    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-   "stars": 308113,
+   "description_ko": null,
+   "stars": 308122,
    "stars_delta_7d": null,
-   "forks": 45343,
+   "forks": 45345,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -135,9 +138,10 @@
    "name": "hermes-agent",
    "url": "https://github.com/NousResearch/hermes-agent",
    "description": "The agent that grows with you",
-   "stars": 265110,
+   "description_ko": null,
+   "stars": 265113,
    "stars_delta_7d": null,
-   "forks": 59902,
+   "forks": 59904,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -156,9 +160,9 @@
     "openai"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:20:13Z",
+   "pushed_at": "2026-11-21T13:30:30Z",
    "commits_30d": 100,
-   "open_issues": 54132,
+   "open_issues": 54137,
    "latest_release": "2026-11-20T00:34:38Z",
    "archived": false,
    "activity": "active",
@@ -202,9 +206,10 @@
    "name": "ponytail",
    "url": "https://github.com/DietrichGebert/ponytail",
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 196026,
+   "description_ko": null,
+   "stars": 196038,
    "stars_delta_7d": null,
-   "forks": 11037,
+   "forks": 11039,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -256,9 +261,10 @@
    "name": "cc-switch",
    "url": "https://github.com/farion1231/cc-switch",
    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-   "stars": 156145,
+   "description_ko": null,
+   "stars": 156150,
    "stars_delta_7d": null,
-   "forks": 10202,
+   "forks": 10203,
    "language": "Rust",
    "license": "MIT",
    "topics": [
@@ -286,7 +292,7 @@
    "pushed_at": "2026-11-21T13:18:15Z",
    "commits_30d": 100,
    "open_issues": 793,
-   "latest_release": "2026-11-20T15:10:02Z",
+   "latest_release": "2026-11-21T13:35:14Z",
    "archived": false,
    "activity": "active",
    "summary": {
@@ -317,7 +323,8 @@
    "name": "ui-ux-pro-max-skill",
    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
    "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-   "stars": 152350,
+   "description_ko": null,
+   "stars": 152357,
    "stars_delta_7d": null,
    "forks": 16065,
    "language": "Python",
@@ -382,9 +389,10 @@
    "name": "graphify",
    "url": "https://github.com/Graphify-Labs/graphify",
    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-   "stars": 151428,
+   "description_ko": null,
+   "stars": 151435,
    "stars_delta_7d": null,
-   "forks": 14546,
+   "forks": 14549,
    "language": "Python",
    "license": "Apache-2.0",
    "topics": [
@@ -412,7 +420,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-20T22:49:07Z",
    "commits_30d": 100,
-   "open_issues": 1695,
+   "open_issues": 1696,
    "latest_release": "2026-11-20T21:22:45Z",
    "archived": false,
    "activity": "active",
@@ -461,9 +469,10 @@
    "name": "orca",
    "url": "https://github.com/stablyai/orca",
    "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
-   "stars": 131551,
+   "description_ko": null,
+   "stars": 131569,
    "stars_delta_7d": null,
-   "forks": 8365,
+   "forks": 8366,
    "language": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -489,9 +498,9 @@
     "yc-backed"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:22:39Z",
+   "pushed_at": "2026-11-21T13:40:26Z",
    "commits_30d": 100,
-   "open_issues": 8962,
+   "open_issues": 8969,
    "latest_release": "2026-11-21T03:50:43Z",
    "archived": false,
    "activity": "active",
@@ -535,7 +544,8 @@
    "name": "caveman",
    "url": "https://github.com/JuliusBrussee/caveman",
    "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-   "stars": 121883,
+   "description_ko": null,
+   "stars": 121886,
    "stars_delta_7d": null,
    "forks": 7108,
    "language": "Go",
@@ -596,7 +606,8 @@
    "name": "taste-skill",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-   "stars": 119559,
+   "description_ko": null,
+   "stars": 119564,
    "stars_delta_7d": null,
    "forks": 8003,
    "language": "JavaScript",
@@ -658,9 +669,10 @@
    "name": "agent-skills",
    "url": "https://github.com/addyosmani/agent-skills",
    "description": "Production-grade engineering skills for AI coding agents.",
-   "stars": 119494,
+   "description_ko": null,
+   "stars": 119498,
    "stars_delta_7d": null,
-   "forks": 12415,
+   "forks": 12416,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -717,7 +729,8 @@
    "name": "claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-   "stars": 118762,
+   "description_ko": null,
+   "stars": 118763,
    "stars_delta_7d": null,
    "forks": 10322,
    "language": "TypeScript",
@@ -747,7 +760,7 @@
    "kind": "plugin",
    "pushed_at": "2026-11-21T03:04:47Z",
    "commits_30d": 100,
-   "open_issues": 84,
+   "open_issues": 85,
    "latest_release": "2026-11-20T18:53:48Z",
    "archived": false,
    "activity": "active",
@@ -787,7 +800,8 @@
    "name": "paperclip",
    "url": "https://github.com/paperclipai/paperclip",
    "description": "The open-source app everyone uses to manage agents at work",
-   "stars": 115589,
+   "description_ko": null,
+   "stars": 115592,
    "stars_delta_7d": null,
    "forks": 19179,
    "language": "TypeScript",
@@ -815,9 +829,9 @@
     "workflow-automation"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:22:16Z",
+   "pushed_at": "2026-11-21T13:33:28Z",
    "commits_30d": 100,
-   "open_issues": 6970,
+   "open_issues": 6969,
    "latest_release": "2026-11-18T22:20:29Z",
    "archived": false,
    "activity": "active",
@@ -852,9 +866,10 @@
    "name": "Agent-Reach",
    "url": "https://github.com/Panniantong/Agent-Reach",
    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-   "stars": 113683,
+   "description_ko": null,
+   "stars": 113685,
    "stars_delta_7d": null,
-   "forks": 10197,
+   "forks": 10198,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -920,7 +935,8 @@
    "name": "RuView",
    "url": "https://github.com/ruvnet/RuView",
    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-   "stars": 104724,
+   "description_ko": null,
+   "stars": 104725,
    "stars_delta_7d": null,
    "forks": 13577,
    "language": "Rust",
@@ -989,7 +1005,8 @@
    "name": "archify",
    "url": "https://github.com/tt-a1i/archify",
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-   "stars": 98481,
+   "description_ko": null,
+   "stars": 98486,
    "stars_delta_7d": null,
    "forks": 6729,
    "language": "JavaScript",
@@ -1059,6 +1076,7 @@
    "name": "Understand-Anything",
    "url": "https://github.com/Egonex-AI/Understand-Anything",
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+   "description_ko": null,
    "stars": 93509,
    "stars_delta_7d": null,
    "forks": 7960,
@@ -1134,9 +1152,10 @@
    "name": "OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
-   "stars": 89316,
+   "description_ko": null,
+   "stars": 89318,
    "stars_delta_7d": null,
-   "forks": 13793,
+   "forks": 13794,
    "language": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -1162,9 +1181,9 @@
     "token-saver"
    ],
    "kind": "mcp",
-   "pushed_at": "2026-11-21T13:21:27Z",
+   "pushed_at": "2026-11-21T13:39:24Z",
    "commits_30d": 100,
-   "open_issues": 869,
+   "open_issues": 868,
    "latest_release": "2026-11-17T14:04:45Z",
    "archived": false,
    "activity": "active",
@@ -1203,9 +1222,10 @@
    "name": "hyperframes",
    "url": "https://github.com/heygen-com/hyperframes",
    "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
-   "stars": 87676,
+   "description_ko": null,
+   "stars": 87685,
    "stars_delta_7d": null,
-   "forks": 8155,
+   "forks": 8156,
    "language": "TypeScript",
    "license": "Apache-2.0",
    "topics": [
@@ -1226,7 +1246,7 @@
     "video-editor"
    ],
    "kind": "mcp",
-   "pushed_at": "2026-11-21T13:12:06Z",
+   "pushed_at": "2026-11-21T13:38:23Z",
    "commits_30d": 100,
    "open_issues": 290,
    "latest_release": "2026-11-21T09:01:33Z",
@@ -1273,6 +1293,7 @@
    "name": "rtk",
    "url": "https://github.com/rtk-ai/rtk",
    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+   "description_ko": null,
    "stars": 87360,
    "stars_delta_7d": null,
    "forks": 5612,
@@ -1345,6 +1366,7 @@
    "name": "career-ops",
    "url": "https://github.com/career-ops-hq/career-ops",
    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+   "description_ko": null,
    "stars": 84013,
    "stars_delta_7d": null,
    "forks": 15381,
@@ -1373,7 +1395,7 @@
     "resume"
    ],
    "kind": "plugin",
-   "pushed_at": "2026-11-21T11:48:04Z",
+   "pushed_at": "2026-11-21T13:35:17Z",
    "commits_30d": 100,
    "open_issues": 455,
    "latest_release": "2026-11-10T18:29:03Z",
@@ -1416,7 +1438,8 @@
    "name": "ruflo",
    "url": "https://github.com/ruvnet/ruflo",
    "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-   "stars": 82196,
+   "description_ko": null,
+   "stars": 82197,
    "stars_delta_7d": null,
    "forks": 9689,
    "language": "TypeScript",
@@ -1486,6 +1509,7 @@
    "name": "learn-claude-code",
    "url": "https://github.com/shareAI-lab/learn-claude-code",
    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+   "description_ko": null,
    "stars": 80697,
    "stars_delta_7d": null,
    "forks": 12874,
@@ -1542,6 +1566,7 @@
    "name": "headroom",
    "url": "https://github.com/headroomlabs-ai/headroom",
    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "description_ko": null,
    "stars": 80240,
    "stars_delta_7d": null,
    "forks": 6279,
@@ -1621,7 +1646,8 @@
    "name": "awesome-claude-skills",
    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-   "stars": 79980,
+   "description_ko": null,
+   "stars": 79982,
    "stars_delta_7d": null,
    "forks": 9801,
    "language": "Python",
@@ -1688,9 +1714,10 @@
    "name": "ai-job-search",
    "url": "https://github.com/ai-job-search-dev/ai-job-search",
    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "description_ko": "당신의 컴퓨터에서 실행되는 구직 서비스입니다. AI 구직 지원 프레임워크로, 구인 게시물을 평가하고, 이력서를 맞춤 작성하며, 커버 레터를 작성하고, 인터뷰 준비를 도와줍니다. 포크하여 소유하세요.",
    "stars": 72893,
    "stars_delta_7d": null,
-   "forks": 23360,
+   "forks": 23359,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -1750,7 +1777,8 @@
    "name": "system_prompts_leaks",
    "url": "https://github.com/asgeirtj/system_prompts_leaks",
    "description": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
-   "stars": 72286,
+   "description_ko": null,
+   "stars": 72288,
    "stars_delta_7d": null,
    "forks": 11635,
    "language": "Python",
@@ -1811,7 +1839,8 @@
    "name": "humanizer",
    "url": "https://github.com/blader/humanizer",
    "description": "Agent skill that removes signs of AI-generated writing from text",
-   "stars": 71841,
+   "description_ko": null,
+   "stars": 71842,
    "stars_delta_7d": null,
    "forks": 5621,
    "language": "Python",
@@ -1834,7 +1863,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-19T18:53:14Z",
    "commits_30d": 27,
-   "open_issues": 3,
+   "open_issues": 4,
    "latest_release": "2026-11-10T01:35:15Z",
    "archived": false,
    "activity": "active",
@@ -1885,9 +1914,10 @@
    "name": "last30days-skill",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-   "stars": 71715,
+   "description_ko": null,
+   "stars": 71720,
    "stars_delta_7d": null,
-   "forks": 6353,
+   "forks": 6354,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -1968,6 +1998,7 @@
    "name": "oh-my-openagent",
    "url": "https://github.com/code-yeongyu/oh-my-openagent",
    "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+   "description_ko": null,
    "stars": 71040,
    "stars_delta_7d": null,
    "forks": 5835,
@@ -1991,9 +2022,9 @@
     "typescript"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:15:53Z",
+   "pushed_at": "2026-11-21T13:39:04Z",
    "commits_30d": 100,
-   "open_issues": 3018,
+   "open_issues": 3020,
    "latest_release": "2026-11-19T06:08:57Z",
    "archived": false,
    "activity": "active",
@@ -2032,7 +2063,8 @@
    "name": "diagram-design",
    "url": "https://github.com/cathrynlavery/diagram-design",
    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "stars": 69581,
+   "description_ko": null,
+   "stars": 69589,
    "stars_delta_7d": null,
    "forks": 4671,
    "language": "HTML",
@@ -2091,6 +2123,7 @@
    "name": "claude-code-best-practice",
    "url": "https://github.com/shanraisshan/claude-code-best-practice",
    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+   "description_ko": null,
    "stars": 69282,
    "stars_delta_7d": null,
    "forks": 6885,
@@ -2155,9 +2188,10 @@
    "name": "t3code",
    "url": "https://github.com/pingdotgg/t3code",
    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
-   "stars": 68792,
+   "description_ko": null,
+   "stars": 68823,
    "stars_delta_7d": null,
-   "forks": 11806,
+   "forks": 11807,
    "language": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -2171,7 +2205,7 @@
     "vibe-coding"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:18:54Z",
+   "pushed_at": "2026-11-21T13:36:31Z",
    "commits_30d": 100,
    "open_issues": 3647,
    "latest_release": "2026-11-20T07:38:08Z",
@@ -2229,6 +2263,7 @@
    "name": "get-shit-done",
    "url": "https://github.com/gsd-build/get-shit-done",
    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+   "description_ko": null,
    "stars": 64121,
    "stars_delta_7d": null,
    "forks": 5438,
@@ -2271,7 +2306,8 @@
    "name": "i-have-adhd",
    "url": "https://github.com/ayghri/i-have-adhd",
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "stars": 61856,
+   "description_ko": null,
+   "stars": 61858,
    "stars_delta_7d": null,
    "forks": 3629,
    "language": "Python",
@@ -2327,7 +2363,8 @@
    "name": "marketingskills",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-   "stars": 61806,
+   "description_ko": null,
+   "stars": 61808,
    "stars_delta_7d": null,
    "forks": 9019,
    "language": "JavaScript",
@@ -2414,9 +2451,10 @@
    "name": "cleanyourtv",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-   "stars": 59942,
+   "description_ko": null,
+   "stars": 59949,
    "stars_delta_7d": null,
-   "forks": 7850,
+   "forks": 7851,
    "language": "Python",
    "license": "NOASSERTION",
    "topics": [
@@ -2481,9 +2519,10 @@
    "name": "CLIProxyAPI",
    "url": "https://github.com/router-for-me/CLIProxyAPI",
    "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-   "stars": 59158,
+   "description_ko": null,
+   "stars": 59159,
    "stars_delta_7d": null,
-   "forks": 9085,
+   "forks": 9083,
    "language": "Go",
    "license": "MIT",
    "topics": [
@@ -2497,9 +2536,9 @@
     "openai"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:07:06Z",
+   "pushed_at": "2026-11-21T13:28:18Z",
    "commits_30d": 100,
-   "open_issues": 998,
+   "open_issues": 996,
    "latest_release": "2026-11-20T14:54:23Z",
    "archived": false,
    "activity": "active",
@@ -2534,7 +2573,8 @@
    "name": "skills",
    "url": "https://github.com/emilkowalski/skills",
    "description": "Skills for Designers and Engineers.",
-   "stars": 58563,
+   "description_ko": null,
+   "stars": 58567,
    "stars_delta_7d": null,
    "forks": 3447,
    "language": "Markdown",
@@ -2587,9 +2627,10 @@
    "name": "awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+   "description_ko": null,
    "stars": 58508,
    "stars_delta_7d": null,
-   "forks": 4992,
+   "forks": 4993,
    "language": "Python",
    "license": "NOASSERTION",
    "topics": [
@@ -2646,7 +2687,8 @@
    "name": "scientific-agent-skills",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-   "stars": 57991,
+   "description_ko": null,
+   "stars": 57994,
    "stars_delta_7d": null,
    "forks": 5086,
    "language": "Python",
@@ -2677,7 +2719,33 @@
    "latest_release": "2026-10-01T22:42:08Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "d693319be5c483cd55135412ea5e163f61a4c880",
+    "summary": {
+     "one_liner": "AI 과학자를 변환하는 177개 연구 기술 라이브러리입니다.",
+     "features": [
+      "177개의 과학 및 연구 기술 제공",
+      "생물학, 화학, 의학 등 다양한 분야 지원",
+      "Python 패키지와 API에 대한 명확한 문서화",
+      "복잡한 워크플로우를 단일 프롬프트로 실행"
+     ],
+     "audience": "과학 연구에 AI 기술을 활용하고자 하는 연구자에게 유용합니다.",
+     "install": [
+      {
+       "label": "npx",
+       "command": "npx skills add K-Dense-AI/scientific-agent-skills"
+      }
+     ],
+     "example": "이 기술을 이용해 AI 에이전트가 생물정보학 분석을 수행할 수 있습니다.",
+     "cautions": [
+      "특정 패키지 및 API 의존성 확인 필요",
+      "오픈소스 라이선스"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 42,
@@ -2686,7 +2754,8 @@
    "name": "academic-research-skills",
    "url": "https://github.com/Imbad0202/academic-research-skills",
    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-   "stars": 57950,
+   "description_ko": null,
+   "stars": 57951,
    "stars_delta_7d": null,
    "forks": 4419,
    "language": "Python",
@@ -2708,7 +2777,34 @@
    "latest_release": "2026-11-19T09:46:06Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "f325e375094a36ce1e6ec9699f46b8c0f311f58e",
+    "summary": {
+     "one_liner": "AI 기반의 학술 연구 전 과정 지원 도구",
+     "features": [
+      "심층 연구: 13인 연구 팀, PRISMA 체계적 리뷰 지원",
+      "논문 작성: 스타일 보정 및 품질 점검 기능 제공",
+      "다양한 시각의 동료 리뷰: 7인 다면적 검토",
+      "10단계 연구 파이프라인 관리 및 적응형 체크포인트",
+      "인용 검증 및 증거 기반 내러티브 평가 제공"
+     ],
+     "audience": "학술 연구 및 글쓰기를 하는 연구자에게 유용합니다.",
+     "install": [
+      {
+       "label": "Plugin install",
+       "command": "/plugin marketplace add Imbad0202/academic-research-skills\n/plugin install academic-research-skills"
+      }
+     ],
+     "example": "/ars-plan 명령어로 논문 구조 안내 시작",
+     "cautions": [
+      "소스 검증을 위한 권한 필요",
+      "Python(Optional): 특정 명령에 필요한 경우만"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 43,
@@ -2717,7 +2813,8 @@
    "name": "obsidian-skills",
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 53347,
+   "description_ko": null,
+   "stars": 53348,
    "stars_delta_7d": null,
    "forks": 3797,
    "language": "Shell",
@@ -2751,7 +2848,51 @@
    "latest_release": "2026-11-20T19:22:47Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "80241f00c785e4d607207531893f3063099580e9",
+    "summary": {
+     "one_liner": "Obsidian에서 사용할 수 있는 에이전트 스킬을 배웁니다.",
+     "features": [
+      "Obsidian Flavored Markdown을 생성하고 편집하는 기능",
+      "Obsidian Bases를 생성하고 편집하는 기능",
+      "JSON Canvas 파일을 생성하고 편집하는 기능",
+      "Obsidian CLI와 상호작용하는 기능",
+      "명령줄에서 Vault를 동기화하고 게시하는 기능"
+     ],
+     "audience": "Obsidian을 사용하는 개발자나 사용자에게 유용합니다.",
+     "install": [
+      {
+       "label": "Claude Code에서 설치",
+       "command": "claude plugin marketplace add obsidianmd/obsidian-skills\nclaude plugin install obsidian@obsidian-skills"
+      },
+      {
+       "label": "Codex에서 설치",
+       "command": "codex plugin marketplace add obsidianmd/obsidian-skills"
+      },
+      {
+       "label": "npx를 통한 설치",
+       "command": "npx skills add https://github.com/obsidianmd/obsidian-skills"
+      },
+      {
+       "label": "Gemini CLI에서 설치",
+       "command": "gemini extensions install https://github.com/obsidianmd/obsidian-skills"
+      },
+      {
+       "label": "OpenCode에서 설치",
+       "command": "git clone https://github.com/obsidianmd/obsidian-skills.git ~/.opencode/skills/obsidian-skills"
+      }
+     ],
+     "example": "",
+     "cautions": [
+      "각 스킬의 설치 경로에 따라 권한이 필요할 수 있습니다.",
+      "Obsidian 플러그인을 사용하기 위해 Obsidian이 설치되어 있어야 합니다.",
+      "각 스킬의 라이선스는 해당 리포지토리에서 확인해야 합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 44,
@@ -2760,9 +2901,10 @@
    "name": "herdr",
    "url": "https://github.com/herdrdev/herdr",
    "description": "the runtime your coding agents live on",
-   "stars": 52136,
+   "description_ko": null,
+   "stars": 52138,
    "stars_delta_7d": null,
-   "forks": 4217,
+   "forks": 4218,
    "language": "Rust",
    "license": "Apache-2.0",
    "topics": [
@@ -2792,7 +2934,34 @@
    "latest_release": "2026-10-14T16:07:28Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "337822678d407d49a11b4c458263377aeff4c3b2",
+    "summary": {
+     "one_liner": "코딩 에이전트들이 사용하는 런타임 환경.",
+     "features": [
+      "작업 중지 없이 분리 — SSH 연결이 끊겨도 작동.",
+      "여러 머신을 하나의 윈도우에서 — 독립적인 재연결 가능.",
+      "작업 상태 표시 — 각 패널의 상태를 표시.",
+      "에이전트 친화적 — CLI와 소켓 API로 조정.",
+      "기존 터미널 환경에서 동작 — 별도의 랩핑 없이 사용 가능."
+     ],
+     "audience": "코딩 에이전트를 관리하거나 사용하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "설치 방식",
+       "command": "curl -fsSL https://herdr.dev/install.sh | sh"
+      }
+     ],
+     "example": "herdr를 실행하고 에이전트를 관리하세요.",
+     "cautions": [
+      "복잡한 설치 방법 및 다양한 플랫폼 지원 필요.",
+      "Apache License 2.0 하에 라이센스됨."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 45,
@@ -2801,9 +2970,10 @@
    "name": "agentic-awesome-skills",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "description": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+   "description_ko": null,
    "stars": 50077,
    "stars_delta_7d": null,
-   "forks": 7260,
+   "forks": 7259,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -2835,7 +3005,34 @@
    "latest_release": "2026-11-20T17:57:11Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "6d6a3cb7f3d54c41f36be4b5a2c9413cad86c40a",
+    "summary": {
+     "one_liner": "재사용 가능한 3,000개 이상의 AI 에이전트 스킬을 제공하는 라이브러리입니다.",
+     "features": [
+      "3,055개 이상의 설치 가능한 AI 스킬을 제공합니다.",
+      "AAS Core는 로컬 카탈로그 검색을 지원합니다.",
+      "에이전트가 선택한 스킬을 기록하고 미리 계획을 볼 수 있습니다.",
+      "CLI를 사용하여 스킬을 미리 보고 설치할 수 있습니다.",
+      "다양한 AI 코딩 에이전트와 호환됩니다."
+     ],
+     "audience": "AI 에이전트를 활용하여 효율적인 코딩 작업을 원하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "GitHub CLI를 통한 설치",
+       "command": "gh skill preview sickn33/agentic-awesome-skills skills/brainstorming/SKILL.md@v21.1.0\ngh skill install sickn33/agentic-awesome-skills skills/brainstorming/SKILL.md --agent codex --scope user --pin v21.1.0"
+      }
+     ],
+     "example": "Codex 에이전트를 사용하여 스킬을 설치하는 예시를 보여줍니다.",
+     "cautions": [
+      "npm 기반 부트스트랩은 현재 중단되었습니다.",
+      "스킬의 독립적인 라이센스 및 속기 요구 사항을 확인해야 합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 46,
@@ -2844,7 +3041,8 @@
    "name": "codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
    "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
-   "stars": 48973,
+   "description_ko": null,
+   "stars": 48974,
    "stars_delta_7d": null,
    "forks": 4073,
    "language": "C",
@@ -2878,7 +3076,34 @@
    "latest_release": "2026-10-16T23:35:48Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "35e911cb66b30376c04d6ad9ef2a5262fa778048",
+    "summary": {
+     "one_liner": "AI 에이전트를 위한 로컬 코드 인텔리전스 도구.",
+     "features": [
+      "코드, 문서, 구성을 하나로 연결하는 지식 그래프.",
+      "MCP를 통해 코딩 에이전트에 구조적 컨텍스트 제공.",
+      "CBM Lens를 통한 시각적 코드 탐색 및 분석.",
+      "변경 사항을 이해하고 영향을 받는 기호 확인.",
+      "다양한 클라이언트 통합 지원 및 사용자 정의 가능."
+     ],
+     "audience": "개발자와 AI 에이전트에 유용합니다.",
+     "install": [
+      {
+       "label": "macOS / Linux 설치",
+       "command": "curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash"
+      }
+     ],
+     "example": "프로젝트 인덱스를 생성하여 소스를 분석할 수 있습니다.",
+     "cautions": [
+      "Windows에서 스크립트 실행 정책 오류 발생 시, 'Set-ExecutionPolicy -Scope Process Bypass'로 해결.",
+      "Microsoft Defender가 오탐지할 수 있음."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 47,
@@ -2887,6 +3112,7 @@
    "name": "JeecgBoot",
    "url": "https://github.com/jeecgboot/JeecgBoot",
    "description": "一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型",
+   "description_ko": null,
    "stars": 48566,
    "stars_delta_7d": null,
    "forks": 16217,
@@ -2921,7 +3147,35 @@
    "latest_release": "2026-11-05T14:34:42Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "819d85b44e931dbfd3fbe0af77018ba9af2725ff",
+    "summary": {
+     "one_liner": "AI 기반의 무료 오픈소스 저코드 개발 플랫폼",
+     "features": [
+      "자연어로 시스템을 생성하여 코드 자동 생성",
+      "온라인에서 무코드로 애플리케이션 구축 가능",
+      "AI 애플리케이션 관리 및 프로세스 구성 기능",
+      "다양한 데이터 모델 지원 및 강력한 코드 생성기",
+      "AI 지식 기반 및 대화형 도우미 포함"
+     ],
+     "audience": "복잡한 비즈니스 시스템을 구축하고자 하는 개발자들에게 유용합니다.",
+     "install": [
+      {
+       "label": "Docker 한 번에 시작하기",
+       "command": "git clone https://github.com/jeecgboot/JeecgBoot.git && cd JeecgBoot && ./start-docker-compose.sh"
+      }
+     ],
+     "example": "AI에게 '장비 관리 모듈을 만들어 주세요'라고 요청하면 자동으로 관련 시스템이 생성됩니다.",
+     "cautions": [
+      "Apache-2.0 라이센스 하에 사용 가능",
+      "Java와 Vue3 기술 스택을 사용합니다.",
+      "다양한 데이터베이스 지원"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 48,
@@ -2930,6 +3184,7 @@
    "name": "CowAgent",
    "url": "https://github.com/zhayujie/CowAgent",
    "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
+   "description_ko": null,
    "stars": 48024,
    "stars_delta_7d": null,
    "forks": 10440,
@@ -2961,7 +3216,42 @@
    "latest_release": "2026-10-30T02:48:05Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "b2874e7177ef9801044f2be86f8219c920b1be05",
+    "summary": {
+     "one_liner": "오픈소스 개인 AI 어시스턴트 및 에이전트 하네스입니다.",
+     "features": [
+      "복잡한 작업을 계획하고 단계별로 실행합니다.",
+      "팀마다 다양한 역할과 지식을 가진 다중 에이전트를 구성할 수 있습니다.",
+      "자동으로 구조화된 지식을 Markdown 위키로 수집합니다.",
+      "자기 진화를 통해 대화를 분석하고 기억을 개선합니다.",
+      "원클릭으로 다양한 스킬을 설치할 수 있습니다."
+     ],
+     "audience": "AI 및 자동화 도구를 활용하고자 하는 개인 및 팀에게 유용합니다.",
+     "install": [
+      {
+       "label": "Linux / macOS",
+       "command": "bash <(curl -fsSL https://cdn.link-ai.tech/code/cow/run.sh)"
+      },
+      {
+       "label": "Windows (PowerShell)",
+       "command": "irm https://cdn.link-ai.tech/code/cow/run.ps1 | iex"
+      },
+      {
+       "label": "Docker",
+       "command": "curl -O https://cdn.link-ai.tech/code/cow/docker-compose.yml\ndocker compose up -d"
+      }
+     ],
+     "example": "설치 후 http://localhost:9899에서 웹 콘솔에 접속하여 에이전트와 채팅을 시작할 수 있습니다.",
+     "cautions": [
+      "설치 후 포트 9899를 방화벽에서 열어야 합니다.",
+      "웹 호스트를 0.0.0.0으로 설정하여 외부에서 접근 가능하게 해야 할 수 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 49,
@@ -2970,6 +3260,7 @@
    "name": "claude-plugins-official",
    "url": "https://github.com/anthropics/claude-plugins-official",
    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "description_ko": null,
    "stars": 47880,
    "stars_delta_7d": null,
    "forks": 4970,
@@ -2987,7 +3278,33 @@
    "latest_release": null,
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "5cdbc7413e4a0f18ef273ea77ff81ec605219ef2",
+    "summary": {
+     "one_liner": "클로드 코드 플러그인을 위한 Anthropic 공식 플러그인 디렉토리",
+     "features": [
+      "Anthropic에 의해 개발된 내부 플러그인 제공",
+      "타사 플러그인은 클로드 디렉토리에서 관리",
+      "플러그인은 클로드 코드의 플러그인 시스템을 통해 설치 가능",
+      "플러그인 이름은 변경 불가능하며, 기존 설치 깨짐 방지"
+     ],
+     "audience": "클로드 코드 플러그인을 필요로 하는 개발자에게 유용함",
+     "install": [
+      {
+       "label": "플러그인 설치",
+       "command": "/plugin install {plugin-name}@claude-plugins-official"
+      }
+     ],
+     "example": "",
+     "cautions": [
+      "플러그인 설치 전 신뢰성 확인 필요",
+      "각 플러그인의 라이센스는 링크된 문서에서 확인"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 50,
@@ -2996,7 +3313,8 @@
    "name": "claude-howto",
    "url": "https://github.com/luongnv89/claude-howto",
    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-   "stars": 47482,
+   "description_ko": null,
+   "stars": 47483,
    "stars_delta_7d": null,
    "forks": 5759,
    "language": "Python",
@@ -3013,7 +3331,35 @@
    "latest_release": "2026-11-12T12:40:10Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "585b7ad9a4e166c026f43f1faf02ebc958f1bc54",
+    "summary": {
+     "one_liner": "Claude Code 마스터를 위한 시각적 가이드",
+     "features": [
+      "구조화된 튜토리얼로 단계별 학습 경로 제공",
+      "실제 프로젝트에 바로 활용 가능한 복사-붙여넣기 템플릿 제공",
+      "모든 기능을 깊이 있게 이해할 수 있는 메르메이드 다이어그램",
+      "자체 진단 퀴즈를 통해 학습 진행 상황 점검",
+      "10개의 모듈로 이루어진 포괄적인 교육 과정"
+     ],
+     "audience": "Claude Code 사용자를 위해 기초부터 고급 기능까지 배우고 싶은 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "네이티브 설치",
+       "command": "curl -fsSL https://claude.ai/install.sh | bash"
+      }
+     ],
+     "example": "슬래시 커맨드를 등록하고 사용하기 위해 필요한 명령어들을 단계적으로 안내합니다.",
+     "cautions": [
+      "MIT 라이선스, 개인 및 팀 프로젝트에서 자유롭게 사용 가능",
+      "v2.1.113부터 플랫폼별 네이티브 바이너리로 제공",
+      "npm 설치는 더 이상 권장되지 않음"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 51,
@@ -3022,6 +3368,7 @@
    "name": "sub2api",
    "url": "https://github.com/Wei-Shaw/sub2api",
    "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+   "description_ko": "Sub2API는 Claude, OpenAI, Gemini, Grok의 구독을 통합적으로 지원하는 오픈 소스 중개 서비스입니다.",
    "stars": 46390,
    "stars_delta_7d": null,
    "forks": 10072,
@@ -3041,11 +3388,31 @@
    "kind": "tool",
    "pushed_at": "2026-11-21T12:23:44Z",
    "commits_30d": 100,
-   "open_issues": 3950,
+   "open_issues": 3955,
    "latest_release": "2026-11-20T09:19:50Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "390b3260d00988c55b222a97c79512bc27e3b916",
+    "summary": {
+     "one_liner": "AI API 게이트웨이 플랫폼으로 구독 쿼터 분배를 지원합니다.",
+     "features": [
+      "사용자의 편의를 위한 다양한 AI 모델에 대한 통합 접근을 제공",
+      "비용을 효율적으로 분담할 수 있는 플랫폼 기능",
+      "법적 요구사항을 준수하면서 사용할 수 있도록 안내"
+     ],
+     "audience": "AI API 통합 솔루션을 필요로 하는 개발자와 팀에 유용합니다.",
+     "install": [],
+     "example": "",
+     "cautions": [
+      "사용 시 서비스 제공업체의 이용 약관 위반 가능성 존재",
+      "국가 및 지역의 법률에 따라 사용해야 함"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 52,
@@ -3054,6 +3421,7 @@
    "name": "agents",
    "url": "https://github.com/wshobson/agents",
    "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+   "description_ko": null,
    "stars": 42764,
    "stars_delta_7d": null,
    "forks": 4519,
@@ -3088,7 +3456,49 @@
    "latest_release": null,
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "97ae6b2e36c0f00cde6e928060c21f135076f410",
+    "summary": {
+     "one_liner": "AI 코딩 도구를 위한 플러그인, 에이전트 및 기술 모음.",
+     "features": [
+      "다양한 AI 코딩 도구에서 사용 가능한 플러그인과 에이전트.",
+      "Python 및 JavaScript 개발, 보안 점검 기능 제공.",
+      "마켓플레이스를 통해 컴포넌트 설치 및 관리.",
+      "다양한 하네스에 맞춰 설치 및 사용 가능."
+     ],
+     "audience": "AI 코딩 도구를 사용하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "Claude Code",
+       "command": "/plugin marketplace add wshobson/agents\n/plugin install python-development@claude-code-workflows"
+      },
+      {
+       "label": "OpenAI Codex CLI",
+       "command": "codex plugin marketplace add wshobson/agents\ncodex plugin add python-development@claude-code-workflows"
+      },
+      {
+       "label": "OpenCode",
+       "command": "make install-opencode"
+      },
+      {
+       "label": "Antigravity CLI",
+       "command": "make install-antigravity"
+      },
+      {
+       "label": "GitHub Copilot",
+       "command": "make install-copilot"
+      }
+     ],
+     "example": "사용자의 작업에 맞춰 Python 에이전트를 요청할 수 있습니다.",
+     "cautions": [
+      "각 하네스의 요구 사항과 권한에 주의해야 합니다.",
+      "코드의 작동을 위해 특정 Python 버전이 필요합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 53,
@@ -3097,6 +3507,7 @@
    "name": "chatbox",
    "url": "https://github.com/chatboxai/chatbox",
    "description": "Powerful AI Client",
+   "description_ko": null,
    "stars": 42458,
    "stars_delta_7d": null,
    "forks": 4349,
@@ -3123,7 +3534,44 @@
    "latest_release": "2026-11-12T16:12:43Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "bf2bc40bf7609ad0838dbabec22584c922594d3b",
+    "summary": {
+     "one_liner": "데스크톱에서 AI를 이용한 채팅 지원 도구입니다.",
+     "features": [
+      "다양한 LLM 제공자와의 통합 지원",
+      "Dall-E-3를 통한 이미지 생성 기능",
+      "개선된 프롬프트 기능으로 질문 질 향상"
+     ],
+     "audience": "AI와의 채팅 경험을 향상시키고 싶은 모든 사용자에게 유용합니다.",
+     "install": [
+      {
+       "label": "Windows",
+       "command": "Setup.exe"
+      },
+      {
+       "label": "MacOS Intel",
+       "command": "Intel"
+      },
+      {
+       "label": "MacOS Apple Silicon",
+       "command": "Apple Silicon"
+      },
+      {
+       "label": "Linux",
+       "command": "AppImage"
+      }
+     ],
+     "example": "각종 AI 모델과 연결하여 대화 가능.",
+     "cautions": [
+      "GPLv3 라이선스 확인 필요",
+      "Node.js, pnpm, Git 설치 필수"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 54,
@@ -3132,6 +3580,7 @@
    "name": "oh-my-claudecode",
    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
    "description": "Teams-first Multi-agent orchestration for Claude Code",
+   "description_ko": null,
    "stars": 40988,
    "stars_delta_7d": null,
    "forks": 3656,
@@ -3156,7 +3605,34 @@
    "latest_release": "2026-11-10T05:10:54Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "adcfd10381dfdab0d6d3f3a08b52b015495f3d6c",
+    "summary": {
+     "one_liner": "Claude Code를 위한 다중 에이전트 오케스트레이션 툴",
+     "features": [
+      "제로 설정으로 즉시 사용 가능하고 효과적입니다.",
+      "팀 중심의 오케스트레이션을 지원합니다.",
+      "자연어 인터페이스로 명령어를 기억할 필요가 없습니다.",
+      "복잡한 작업을 전문 에이전트에 자동으로 분산합니다.",
+      "작업 완료 확인을 위해 지속적으로 실행됩니다."
+     ],
+     "audience": "다양한 AI 에이전트를 활용하고자 하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "npm 설치",
+       "command": "npm i -g oh-my-claude-sisyphus@latest"
+      }
+     ],
+     "example": "이제 Claude Code 세션에서 /omc-setup 명령어로 설치할 수 있습니다.",
+     "cautions": [
+      "npm 설치 시 'deprecated prebuild-install@7.1.3' 경고가 발생할 수 있습니다.",
+      "작업 환경에 따라 호환성 문제가 있을 수 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 55,
@@ -3165,7 +3641,8 @@
    "name": "Claude-Code-Game-Studios",
    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
    "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 75 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-   "stars": 40463,
+   "description_ko": null,
+   "stars": 40465,
    "stars_delta_7d": null,
    "forks": 5299,
    "language": "Shell",
@@ -3191,7 +3668,35 @@
    "latest_release": "2026-11-09T15:24:15Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "978cc2c3a8d84cdedd548421b7a98f7d0553d165",
+    "summary": {
+     "one_liner": "Claude Code를 활용해 게임 개발 스튜디오로 변환하는 도구.",
+     "features": [
+      "게임 아이디어를 기반으로 프로토타입 생성.",
+      "AI 에이전트를 통한 작업 협업.",
+      "게임 디자인 문서 자동 생성.",
+      "실시간 피드백 및 수정 지원.",
+      "프로젝트 성장 및 기능 추가 관리."
+     ],
+     "audience": "게임 개발을 원하거나 AI 기반 작업을 선호하는 사람에게 유용함.",
+     "install": [
+      {
+       "label": "설치 방법",
+       "command": "npm install -g @anthropic-ai/claude-code"
+      }
+     ],
+     "example": "/prototype a fishing game where the rare fish only bite at dusk",
+     "cautions": [
+      "Python 3 필요, Node.js 22+ 권장",
+      "Chrome, Edge 또는 Chromium 필요",
+      "MIT 라이선스"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 56,
@@ -3200,9 +3705,10 @@
    "name": "magpie",
    "url": "https://github.com/yetone/magpie",
    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-   "stars": 39686,
+   "description_ko": null,
+   "stars": 39691,
    "stars_delta_7d": null,
-   "forks": 3625,
+   "forks": 3626,
    "language": "Go",
    "license": "MIT",
    "topics": [
@@ -3214,13 +3720,39 @@
     "macos"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T12:08:42Z",
+   "pushed_at": "2026-11-21T13:26:34Z",
    "commits_30d": 100,
-   "open_issues": 4858,
-   "latest_release": "2026-11-21T12:21:51Z",
+   "open_issues": 4860,
+   "latest_release": "2026-11-21T13:40:45Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "cf58a2d86fabded67be0f23457dcdb500372eb87",
+    "summary": {
+     "one_liner": "모든 에이전트의 모델을 한 곳에서 관리하는 도구",
+     "features": [
+      "여러 에이전트의 모델을 선택하고 관리할 수 있음",
+      "API 키와 로컬 모델을 통합하여 사용할 수 있음",
+      "쿼터 소진 시 자동으로 다른 계정으로 전환",
+      "정보 보호를 위해 요청 시 개인 정보 마스킹 기능 제공"
+     ],
+     "audience": "다양한 AI 모델과 에이전트를 사용하는 개발자에게 유용함.",
+     "install": [
+      {
+       "label": "스크립트를 통한 설치",
+       "command": "curl -fsSL https://usemagpie.ai/install.sh | sh"
+      }
+     ],
+     "example": "다양한 AI 모델을 선택하여 단일 API 호출로 작업을 수행할 수 있음.",
+     "cautions": [
+      "구성 파일과 개인 정보 보호를 위한 마스킹 기능이 설정 필요",
+      "특정 에이전트의 설정 및 권한 요구사항 확인 필요"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 57,
@@ -3229,6 +3761,7 @@
    "name": "ai-website-cloner-template",
    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
    "description": "Clone any website with one command using AI coding agents",
+   "description_ko": null,
    "stars": 39582,
    "stars_delta_7d": null,
    "forks": 5897,
@@ -3262,7 +3795,28 @@
    "latest_release": "2026-10-05T07:34:26Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "3fd90a6913d6794e4be21bc5e34fab94d303f8a5",
+    "summary": {
+     "one_liner": "AI로 웹사이트를 클론할 수 있는 템플릿 도구입니다.",
+     "features": [
+      "URL 입력 후 AI가 Next.js 앱으로 웹사이트 복제",
+      "Claude Code, Codex, Cursor 등 다양한 AI 에이전트 지원",
+      "웹사이트 디자인, 레이아웃 학습에 유용",
+      "프리뷰 및 수정을 위한 직관적인 인터페이스 제공"
+     ],
+     "audience": "웹사이트 개발자 및 디자인 학습자에게 유용합니다.",
+     "install": [],
+     "example": "이 프로젝트를 사용해 예시 웹사이트를 클론할 수 있습니다.",
+     "cautions": [
+      "법적 문제를 피하기 위해 사이버 법규 준수 필요",
+      "타인의 디자인을 무단으로 사용하는 것을 금지"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 58,
@@ -3271,7 +3825,8 @@
    "name": "nuwa-skill",
    "url": "https://github.com/alchaincyf/nuwa-skill",
    "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
-   "stars": 38739,
+   "description_ko": null,
+   "stars": 38740,
    "stars_delta_7d": null,
    "forks": 4942,
    "language": "Python",
@@ -3305,7 +3860,35 @@
    "latest_release": "2026-11-17T06:07:14Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "cec033a22bc745670e3b162fc1e434e40ecafaa2",
+    "summary": {
+     "one_liner": "여러 유명 인물의 사고 방식을 증류하는 AI 스킬",
+     "features": [
+      "유명 인물의 사고 패턴을 분석 및 재현",
+      "여러 AI 에이전트 환경에서 호환 가능",
+      "자연어 처리 방식으로 심층 대화 지원",
+      "다양한 인물들의 시각을 제공하는 스킬",
+      "사용자가 요청하는 특정 인물의 스킬 생성"
+     ],
+     "audience": "아이디어를 증류하고 싶은 모든 사람에게 유용합니다.",
+     "install": [
+      {
+       "label": "한 줄 명령 (추천, 크로스 런타임)",
+       "command": "npx skills add alchaincyf/nuwa-skill"
+      }
+     ],
+     "example": "여러 인물의 시각으로 문제를 분석하거나 질문을 할 수 있습니다.",
+     "cautions": [
+      "MIT 라이센스 하에 사용 가능",
+      "외부 PR 수정을 받지 않음",
+      "공개된 정보에 기반하여 결과를 도출"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 59,
@@ -3314,9 +3897,10 @@
    "name": "awesome-agent-skills",
    "url": "https://github.com/VoltAgent/awesome-agent-skills",
    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-   "stars": 37407,
+   "description_ko": null,
+   "stars": 37408,
    "stars_delta_7d": null,
-   "forks": 4190,
+   "forks": 4191,
    "language": null,
    "license": "MIT",
    "topics": [
@@ -3336,11 +3920,33 @@
    "kind": "skill",
    "pushed_at": "2026-11-15T18:23:24Z",
    "commits_30d": 100,
-   "open_issues": 45,
+   "open_issues": 46,
    "latest_release": null,
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "08d61a55cde261512c35dbeb5a55d78915227b5f",
+    "summary": {
+     "one_liner": "공식 개발팀과 커뮤니티의 1000+ 에이전트 기술 모음",
+     "features": [
+      "실제 엔지니어링 팀이 제작한 에이전트 기술 모음.",
+      "Claude Code, Codex 등과 호환 가능.",
+      "커뮤니티와 함께 구축 및 유지 관리되는 저장소.",
+      "다양한 API 및 통합 옵션 제공.",
+      "실시간 웹 액세스를 위한 기능 포함."
+     ],
+     "audience": "AI 에이전트 개발에 관심 있는 엔지니어 및 개발자에게 유용합니다.",
+     "install": [],
+     "example": "",
+     "cautions": [
+      "특정 기능 구현을 위한 추가 권한이 필요할 수 있음.",
+      "다양한 외부 API 및 서비스와의 통합이 필요함."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 60,
@@ -3349,7 +3955,8 @@
    "name": "next-ai-draw-io",
    "url": "https://github.com/DayuanJiang/next-ai-draw-io",
    "description": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
-   "stars": 37102,
+   "description_ko": null,
+   "stars": 37101,
    "stars_delta_7d": null,
    "forks": 3839,
    "language": "TypeScript",
@@ -3379,7 +3986,33 @@
    "latest_release": "2026-10-31T02:25:35Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "7428f882f746a54bcacca7b73e0f01dc754f0fb0",
+    "summary": {
+     "one_liner": "AI와 대화하여 draw.io 다이어그램을 그리고 편집할 수 있는 도구.",
+     "features": [
+      "한 문장으로 아키텍처 다이어그램, 플로우차트 생성 지원.",
+      "AI 변화는 버전 카드로 제공되어 복원 및 실행 취소 가능.",
+      "다양한 아이콘 라이브러리와 드래그 앤 드롭 기능 지원.",
+      "다양한 모델 제공 및 다크 모드 지원."
+     ],
+     "audience": "다이어그램 생성과 편집을 필요로 하는 사용자에게 유용함.",
+     "install": [
+      {
+       "label": "MCP 서버 설치",
+       "command": "npx @next-ai-drawio/mcp-server@latest"
+      }
+     ],
+     "example": "AI에게 '사용자 인증 및 세션 관리를 포함하는 플로우차트'를 요청하면 다이어그램이 생성됩니다.",
+     "cautions": [
+      "자체 API 키 입력 시 주의",
+      "필요한 권한 및 라이센스 확인 요망"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 61,
@@ -3388,7 +4021,8 @@
    "name": "Anthropic-Cybersecurity-Skills",
    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-   "stars": 36488,
+   "description_ko": null,
+   "stars": 36491,
    "stars_delta_7d": null,
    "forks": 4464,
    "language": "Python",
@@ -3422,7 +4056,38 @@
    "latest_release": "2026-06-22T17:11:11Z",
    "archived": false,
    "activity": "caution",
-   "summary": null
+   "summary": {
+    "readme_hash": "54766fe115a6ca79fbe8f0650b72a7eede8ddb5e",
+    "summary": {
+     "one_liner": "AI 에이전트용 사이버 보안 스킬 라이브러리",
+     "features": [
+      "818개 사이버 보안 스킬로 구성된 방대한 라이브러리",
+      "6개 프레임워크와 34개 보안 도메인에 맵핑",
+      "Claude Code, GitHub Copilot 등 20개 이상의 플랫폼과 호환",
+      "신속한 사이버 보안 분석을 위한 구조화된 지식 기반",
+      "공격적 및 이중 사용 기술을 포함한 합법적인 사용"
+     ],
+     "audience": "AI를 사용하는 보안 전문가와 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "npx (추천)",
+       "command": "npx skills add mukul975/Anthropic-Cybersecurity-Skills"
+      },
+      {
+       "label": "Git clone",
+       "command": "git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git\ncd Anthropic-Cybersecurity-Skills"
+      }
+     ],
+     "example": "AI 에이전트에 사이버 보안 스킬을 추가하여 전반적인 보안 분석을 향상시킵니다.",
+     "cautions": [
+      "공식 사용 권한을 갖고 있어야 하며, 법적 규정을 준수해야 합니다.",
+      "공격적 기술을 포함하므로, 그 사용이 합법적이어야 합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 62,
@@ -3431,6 +4096,7 @@
    "name": "AionUi",
    "url": "https://github.com/iOfficeAI/AionUi",
    "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+   "description_ko": null,
    "stars": 34419,
    "stars_delta_7d": null,
    "forks": 3599,
@@ -3465,7 +4131,30 @@
    "latest_release": "2026-09-09T11:29:49Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "605ae7c10856cb864c7802c73081d4643c9fcf41",
+    "summary": {
+     "one_liner": "AI 에이전트와 함께하는 무료 오픈소스 협업 앱입니다.",
+     "features": [
+      "내장 에이전트로 파일 작업 및 자동화 지원",
+      "다수의 AI 에이전트를 한 곳에서 관리 가능",
+      "크로스 플랫폼에서 원격 접근 및 협업 지원",
+      "API 키로 원하는 AI 모델과 연결 가능",
+      "24/7 자동화 기능 제공"
+     ],
+     "audience": "AI와 협업하며 작업 효율성을 높이고 싶은 모든 사용자에게 유용합니다.",
+     "install": [],
+     "example": "AionUi를 설치하고 API 키를 입력하면 즉시 사용 가능합니다.",
+     "cautions": [
+      "다양한 API 키와 모델 지원 필요",
+      "특정 플랫폼에서의 호환성 주의",
+      "라이센스: Apache-2.0"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 63,
@@ -3474,7 +4163,8 @@
    "name": "context-mode",
    "url": "https://github.com/mksglu/context-mode",
    "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
-   "stars": 34352,
+   "description_ko": null,
+   "stars": 34353,
    "stars_delta_7d": null,
    "forks": 2361,
    "language": "JavaScript",
@@ -3508,7 +4198,29 @@
    "latest_release": "2026-11-17T17:11:43Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "83275df48dc784112a3e983cb1cb88bfa100bdf3",
+    "summary": {
+     "one_liner": "코딩 에이전트의 컨텍스트 윈도우를 최적화하는 로컬 플러그인",
+     "features": [
+      "도구의 출력을 에이전트의 컨텍스트 창에서 제외합니다.",
+      "SQLite 색인을 통해 완전한 출력 데이터를 로컬에서 유지합니다.",
+      "코드 모드로 에이전트가 필요한 데이터만 제공합니다.",
+      "제로 텔레메트리로 모든 사용 데이터를 로컬에 저장합니다.",
+      "오프라인에서도 작동하며 설치 후 인터넷이 필요 없습니다."
+     ],
+     "audience": "코딩 에이전트의 성능을 최적화하고 싶은 개발자에게 유용합니다.",
+     "install": [],
+     "example": "에이전트에서 명령을 실행한 후 통계 기술을 실행하면 결과를 확인할 수 있습니다.",
+     "cautions": [
+      "Node 24.15.0 이상이 필요합니다.",
+      "Windows에서는 Git for Windows가 필요합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 64,
@@ -3517,7 +4229,8 @@
    "name": "claude-code-templates",
    "url": "https://github.com/davila7/claude-code-templates",
    "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
-   "stars": 34053,
+   "description_ko": null,
+   "stars": 34055,
    "stars_delta_7d": null,
    "forks": 4075,
    "language": "Python",
@@ -3541,7 +4254,29 @@
    "latest_release": "2026-10-09T15:31:15Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "c79c2f78e80b5b9d80e641696520e0dbb6a858e6",
+    "summary": {
+     "one_liner": "Claude Code 구성 요소의 오픈 카탈로그 및 CLI 도구",
+     "features": [
+      "1,980개 이상의 구성 요소를 쉽게 설치 가능",
+      "복수의 구성 요소를 조합하여 한 번의 명령으로 설치",
+      "CLI가 구성 파일을 적절한 위치에 작성 및 병합 처리",
+      "각 구성 요소의 설치 명령을 웹에서 검색할 수 있음",
+      "실시간 세션 모니터링 및 대화 기록 탐색 기능 제공"
+     ],
+     "audience": "Claude Code 사용자가 필요로 하는 구성 요소를 찾고 설치하고자 하는 모든 개발자에게 유용함.",
+     "install": [],
+     "example": "구성 요소를 쉽게 설치하고 관리하기 위해 CLI를 사용할 수 있음.",
+     "cautions": [
+      "NVIDIA의 SkillSpector를 통한 검증 및 스캔이 필요",
+      "명령어의 `--yes` 플래그를 통해 확인 프롬프트를 생략할 수 있음"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 65,
@@ -3550,7 +4285,8 @@
    "name": "OfficeCLI",
    "url": "https://github.com/iOfficeAI/OfficeCLI",
    "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-   "stars": 33500,
+   "description_ko": null,
+   "stars": 33501,
    "stars_delta_7d": null,
    "forks": 2290,
    "language": "C#",
@@ -3578,7 +4314,38 @@
    "latest_release": "2026-11-20T06:21:34Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "0850580f400d272895d4f26f967fa3bce232ed31",
+    "summary": {
+     "one_liner": "AI 에이전트를 위한 최초의 오피스 스위트",
+     "features": [
+      "Word, Excel, PowerPoint 문서 생성 및 수정 가능",
+      "AI 에이전트를 통해 자동화된 문서 작업 지원",
+      "고충실도 HTML 렌더링 엔진 내장",
+      "단일 바이너리로 설치 간편",
+      "종속성 없음, 모든 플랫폼에서 사용 가능"
+     ],
+     "audience": "AI 에이전트를 사용하여 문서 작업을 자동화하고 싶은 개발자에게 유용함.",
+     "install": [
+      {
+       "label": "macOS / Linux 설치",
+       "command": "curl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash"
+      },
+      {
+       "label": "Windows (PowerShell) 설치",
+       "command": "irm https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.ps1 | iex"
+      }
+     ],
+     "example": "문서 생성: officecli create deck.pptx",
+     "cautions": [
+      "Apache 2.0 라이선스 하에 배포됨.",
+      "프로그래밍 언어와 상관 없이 사용 가능하지만, AI 에이전트 요구됨."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 66,
@@ -3587,6 +4354,7 @@
    "name": "code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+   "description_ko": null,
    "stars": 32895,
    "stars_delta_7d": null,
    "forks": 2992,
@@ -3613,7 +4381,31 @@
    "latest_release": "2026-11-11T13:59:13Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "6b6990e92d19a58b233107d537f30e1f63df4238",
+    "summary": {
+     "one_liner": "MCP와 CLI를 위한 로컬 코드 지식 그래프.",
+     "features": [
+      "코드의 구조적 맵을 생성하여 AI 도구에 컨텍스트 제공.",
+      "변경된 코드가 다른 파일에 미칠 영향을 분석.",
+      "변경 사항이 있을 때만 파일을 다시 파싱하여 효율적 업데이트.",
+      "발견된 AI 도구를 설치하는 간편한 설정.",
+      "로컬에서 실행되어 개인정보 보호 및 데이터 안전.",
+      "audience"
+     ],
+     "audience": "",
+     "install": [],
+     "example": "사전에 코드로 설정된 AI 코딩 도구와 함께 사용하여 변경 사항을 검토.",
+     "cautions": [
+      "Python 3.10+가 필요합니다.",
+      "미리 구축된 구조가 있어야 원하는 맵과 분석을 수행할 수 있습니다.",
+      "MCP와의 호환성 있으며, 버전 관리가 필요할 수 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 67,
@@ -3622,9 +4414,10 @@
    "name": "frontend-slides",
    "url": "https://github.com/zarazhangrui/frontend-slides",
    "description": "Create beautiful slides on the web using a coding agent's frontend skills",
-   "stars": 32717,
+   "description_ko": null,
+   "stars": 32718,
    "stars_delta_7d": null,
-   "forks": 2492,
+   "forks": 2493,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -3646,7 +4439,34 @@
    "latest_release": "2026-05-26T18:17:56Z",
    "archived": false,
    "activity": "dormant",
-   "summary": null
+   "summary": {
+    "readme_hash": "53cc348d5a3e4fe171361c773d02e0f33e6a1f82",
+    "summary": {
+     "one_liner": "코딩 에이전트를 활용한 웹 슬라이드 제작 도구",
+     "features": [
+      "의존성 없음 — 단일 HTML 파일로 사용 가능",
+      "비주얼 스타일 발견 — 생성된 미리보기를 통해 선택",
+      "PPT 변환 — 기존 PowerPoint 파일을 웹으로 변환",
+      "독창적인 스타일 — 일반적인 AI 미적을 피한 스타일 제공",
+      "고품질 코드 — 접근성, 고정 16:9 비율, 수정 가능"
+     ],
+     "audience": "CSS나 JavaScript를 모르는 비전문가에게 유용합니다.",
+     "install": [
+      {
+       "label": "Claude Code 커스텀 마켓플레이스 설치",
+       "command": "/plugin marketplace add https://github.com/zarazhangrui/frontend-slides\n/plugin install frontend-slides@frontend-slides"
+      }
+     ],
+     "example": "/frontend-slides:frontend-slides\n\n> \"AI 스타트업을 위한 피치 덱 만들고 싶어요.\"",
+     "cautions": [
+      "Claude Code에서 사용하는 경우에는 GitHub의 HTTPS URL을 사용해야 함",
+      "설치 과정에서 두 개의 명령어를 동시에 실행하지 말 것"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 68,
@@ -3655,9 +4475,10 @@
    "name": "9router",
    "url": "https://github.com/decolua/9router",
    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-   "stars": 32693,
+   "description_ko": null,
+   "stars": 32694,
    "stars_delta_7d": null,
-   "forks": 6408,
+   "forks": 6409,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -3689,7 +4510,34 @@
    "latest_release": "2026-07-16T11:14:39Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "e16ffa40f5f0bcb5bc01beb9d0009e2fa4f940eb",
+    "summary": {
+     "one_liner": "무제한 무료 AI 코딩 지원 및 토큰 절약 도구",
+     "features": [
+      "RTK 토큰 세이버로 요청당 20-40% 토큰 절약",
+      "모든 AI 코드 도구를 40개 이상의 AI 공급자와 연결",
+      "구독 계정의 사용량을 최대화하여 리셋 이전에 모든 토큰 사용",
+      "자동 대체 기능으로 중단 없는 코딩 지원",
+      "다중 계정으로 공급자 간 토큰 사용 최적화"
+     ],
+     "audience": "AI 코딩 도구를 사용하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "npm을 통한 설치",
+       "command": "npm install -g 9router"
+      }
+     ],
+     "example": "이 도구를 사용하여 AI 모델을 쉽고 저렴하게 활용하세요.",
+     "cautions": [
+      "어떤 모델은 시간 제한 없이 무료로 제공되지 않을 수 있음",
+      "Kiro AI의 무제한 무료 모델은 2025년 9월에 종료됨"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 69,
@@ -3698,7 +4546,8 @@
    "name": "serena",
    "url": "https://github.com/oraios/serena",
    "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
-   "stars": 31569,
+   "description_ko": null,
+   "stars": 31570,
    "stars_delta_7d": null,
    "forks": 2149,
    "language": "Python",
@@ -3724,7 +4573,33 @@
    "latest_release": "2026-10-19T17:30:43Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "1566420cd786f0b4415b01b4e728027f1f6e3ffd",
+    "summary": {
+     "one_liner": "코딩 에이전트를 위한 강력한 MCP 툴킷입니다.",
+     "features": [
+      "정적 코드 검색 및 편집 기능 제공",
+      "고급 추상화를 통한 효율적인 코드 작업 지원",
+      "다양한 언어 지원 및 코드 리팩토링 기능 포함",
+      "메모리 시스템을 통한 장기 에이전트 작업 지원"
+     ],
+     "audience": "AI 코딩 에이전트를 사용하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "uv를 통한 설치",
+       "command": "uv tool install -p 3.13 serena-agent"
+      }
+     ],
+     "example": "serena init 명령어로 Serena를 초기화합니다.",
+     "cautions": [
+      "MCP 또는 플러그인 마켓플레이스를 통해 설치하지 마세요.",
+      "언어 서버 백엔드를 사용하는 경우 추가 의존성이 필요할 수 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 70,
@@ -3733,7 +4608,8 @@
    "name": "claude-seo",
    "url": "https://github.com/AgriciDaniel/claude-seo",
    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-   "stars": 31297,
+   "description_ko": null,
+   "stars": 31298,
    "stars_delta_7d": null,
    "forks": 3869,
    "language": "Python",
@@ -3754,7 +4630,30 @@
    "latest_release": "2026-11-15T10:10:37Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "3fe3bbee35fe6539c236d0dd21d94f178984f04e",
+    "summary": {
+     "one_liner": "Claude SEO는 무료로 SEO 감사 서비스를 제공하는 플러그인입니다.",
+     "features": [
+      "기술 SEO 감사, 페이지 속도, 인덱싱 확인 등 기능을 제공합니다.",
+      "콘텐츠 품질 및 E-E-A-T 분석을 통한 최적화 전략 제시합니다.",
+      "Schema.org 마크업 검출 및 생성 기능을 포함하고 있습니다.",
+      "AI 검색 인용 가능성 평가로 SEO에 대한 인사이트 제공합니다.",
+      "로컬 및 전자상거래 SEO를 위한 전문적인 도구를 제공합니다."
+     ],
+     "audience": "SEO 에이전시, 인하우스 팀 및 프리랜서에게 유용합니다.",
+     "install": [],
+     "example": "/seo audit https://example.com으로 전체 사이트 감사 시작.",
+     "cautions": [
+      "Claude Code 1.0.33 이상 필요.",
+      "Python 3.11에서 3.14 필요.",
+      "데이터는 사용자의 컴퓨터에서만 유지됨."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 71,
@@ -3763,7 +4662,8 @@
    "name": "nanoclaw",
    "url": "https://github.com/nanocoai/nanoclaw",
    "description": "Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more.",
-   "stars": 31133,
+   "description_ko": null,
+   "stars": 31134,
    "stars_delta_7d": null,
    "forks": 12638,
    "language": "TypeScript",
@@ -3787,7 +4687,35 @@
    "latest_release": "2026-11-20T18:45:10Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "a51ecb6240287aa367e8f7702b693e023a69c516",
+    "summary": {
+     "one_liner": "자체 호스팅 가능한 경량 AI 비서 NanoClaw입니다.",
+     "features": [
+      "각 채널을 위한 독립적인 에이전트 실행",
+      "채널 간 메모리 공유 및 분리 기능 제공",
+      "사용자 맞춤형 코드 수정이 가능",
+      "여러 메시징 앱과 연결 지원",
+      "안전한 자격 증명 관리 시스템"
+     ],
+     "audience": "개인 사용자와 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "기본 설치",
+       "command": "git clone https://github.com/nanocoai/nanoclaw.git\ncd nanoclaw\nbash nanoclaw.sh"
+      }
+     ],
+     "example": "매주 월요일 아침 8시에 AI 개발 관련 뉴스 브리핑을 요청할 수 있습니다.",
+     "cautions": [
+      "macOS 또는 Linux에서 실행 권장, WSL2를 통한 Windows 지원",
+      "Docker 설치 필요",
+      "Node.js 및 pnpm의 버전 요구 사항 존재"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 72,
@@ -3796,9 +4724,10 @@
    "name": "claude-skills",
    "url": "https://github.com/alirezarezvani/claude-skills",
    "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-   "stars": 30217,
+   "description_ko": null,
+   "stars": 30219,
    "stars_delta_7d": null,
-   "forks": 4186,
+   "forks": 4187,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -3830,7 +4759,39 @@
    "latest_release": "2026-11-21T08:02:59Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "fc116491b905cea1658d53b9b2b4bb0c33647a6d",
+    "summary": {
+     "one_liner": "410개 Claude Code 스킬 및 에이전트 플러그인 모음",
+     "features": [
+      "다양한 분야의 434개 프로덕션 준비 완료 스킬 제공",
+      "플러그인 및 에이전트 스킬로 사용 가능",
+      "간단한 명령어로 설치 및 관리 가능",
+      "팀 기반 협업 및 포괄적 업무 지원",
+      "다양한 AI 도구로 변환 가능"
+     ],
+     "audience": "개발자, 제품 관리자, 마케팅 전문가 등 다양한 분야의 사용자에게 유용함.",
+     "install": [
+      {
+       "label": "Claude Code 설치",
+       "command": "/plugin marketplace add alirezarezvani/claude-skills"
+      },
+      {
+       "label": "Codex 및 기타 에이전트 설치",
+       "command": "npx skills add alirezarezvani/claude-skills"
+      }
+     ],
+     "example": "다양한 스킬을 사용하여 코딩 및 제품 관리 태스크 자동화.",
+     "cautions": [
+      "각 스킬은 특정 작업을 위한 권한이 필요할 수 있음.",
+      "의존성이 있는 다른 패키지 설치가 필요할 수 있음.",
+      "MIT 라이선스 하에 배포됨."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 73,
@@ -3839,7 +4800,8 @@
    "name": "guizang-ppt-skill",
    "url": "https://github.com/op7418/guizang-ppt-skill",
    "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-   "stars": 30211,
+   "description_ko": null,
+   "stars": 30213,
    "stars_delta_7d": null,
    "forks": 2076,
    "language": "HTML",
@@ -3864,7 +4826,34 @@
    "latest_release": "2026-05-15T05:15:42Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "146ef3323e4b1284b28cad2063e69c12c8a704f0",
+    "summary": {
+     "one_liner": "세련된 HTML 슬라이드 발표를 생성하는 AI 에이전트 기술",
+     "features": [
+      "단일 파일 HTML로 프레젠테이션 생성, 다양한 플랫폼 호환",
+      "전자 잡지 및 스위스 디자인 두 가지 시각적 스타일 제공",
+      "자동화된 연설자 모드와 연습 기능 포함",
+      "다양한 이미지 생성 옵션을 지원하는 Codex 통합",
+      "자동 페이지 전환 및 시각적 자료에 맞춘 빈 슬롯 제공"
+     ],
+     "audience": "AI 프레젠테이션을 활용하여 효과적인 시각 자료를 만드는 사람들에게 유용합니다.",
+     "install": [
+      {
+       "label": "npx 설치",
+       "command": "npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill"
+      }
+     ],
+     "example": "AI 에이전트에게 '스위스 디자인 PPT를 만들어 줘'라고 요청하면 됩니다.",
+     "cautions": [
+      "AGPL-3.0 라이센스에 따라 사용해야 합니다.",
+      "Codex 및 Claude Code 환경에서 최적화되어 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 74,
@@ -3873,7 +4862,8 @@
    "name": "huashu-design",
    "url": "https://github.com/alchaincyf/huashu-design",
    "description": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
-   "stars": 30151,
+   "description_ko": null,
+   "stars": 30160,
    "stars_delta_7d": null,
    "forks": 3210,
    "language": "HTML",
@@ -3907,7 +4897,35 @@
    "latest_release": "2026-11-21T02:26:32Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "e27e301bb680f74e76293affd610ae40a58cff93",
+    "summary": {
+     "one_liner": "AI를 통해 손쉽게 디자인 결과물을 얻는 도구입니다.",
+     "features": [
+      "웹/App 프로토타입과 동영상 디자인을 쉽고 빠르게 생성합니다.",
+      "상업용으로도 사용 가능한 라이센스를 제공합니다.",
+      "92종의 스타일 라이브러리를 통해 다양한 디자인 방향을 제공합니다.",
+      "실제 폭과 소재를 활용하여 질 높은 디자인을 생성합니다.",
+      "서로 다른 디자인 구성 요소를 자동으로 비교합니다."
+     ],
+     "audience": "디자인 품질과 효율성을 중시하는 개발자와 디자이너에게 유용합니다.",
+     "install": [
+      {
+       "label": "설치 명령어",
+       "command": "npx skills add alchaincyf/huashu-design"
+      }
+     ],
+     "example": "간단한 명령어로 AI가 디자인을 만들어줍니다.",
+     "cautions": [
+      "특정 브랜드의 디자인을 위해 브랜드 색상 가이드를 준수해야 합니다.",
+      "설치 시 430개 이상의 리소스 파일이 필요하며, 최신 CLI 버전이 요구됩니다.",
+      "각종 디자인 요구 사항이 명확해야 최적의 결과를 얻을 수 있습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 75,
@@ -3916,6 +4934,7 @@
    "name": "claude-hud",
    "url": "https://github.com/jarrodwatts/claude-hud",
    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+   "description_ko": null,
    "stars": 29279,
    "stars_delta_7d": null,
    "forks": 1346,
@@ -3937,7 +4956,34 @@
    "latest_release": "2026-11-02T06:53:35Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "ca4fd2b5c0d81ce87785991106301ccd58f1932c",
+    "summary": {
+     "one_liner": "Claude Code 플러그인으로 실시간 상태를 보여줌",
+     "features": [
+      "컨텍스트 사용량, 활성 도구, 실행 중인 에이전트 표시",
+      "상태 표시줄에서 진행 상황을 항상 확인 가능",
+      "명령어를 통해 설치 및 업데이트 용이",
+      "보안이 강화된 Node.js 프로세스에서 실행"
+     ],
+     "audience": "Claude Code 사용자 및 개발자에게 유용함",
+     "install": [
+      {
+       "label": "Claude Code 내 설치",
+       "command": "/plugin marketplace add jarrodwatts/claude-hud\n/plugin install claude-hud\n/reload-plugins\n/hud"
+      }
+     ],
+     "example": "사용자는 '/hud' 명령어로 설정 상태를 확인할 수 있다.",
+     "cautions": [
+      "Node.js 22.18 이상이 필요함",
+      "플러그인 업데이트를 수동으로 수행해야 함",
+      "CLI로 직접 명령 실행 시 주의할 것"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 76,
@@ -3946,6 +4992,7 @@
    "name": "beads",
    "url": "https://github.com/gastownhall/beads",
    "description": "Beads - A memory upgrade for your coding agent",
+   "description_ko": "Beads - 코딩 에이전트를 위한 메모리 업그레이드입니다.",
    "stars": 28885,
    "stars_delta_7d": null,
    "forks": 1950,
@@ -3963,7 +5010,38 @@
    "latest_release": "2026-11-04T09:22:51Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "31b78d4d05f52075c3d074865615ce9fcae51354",
+    "summary": {
+     "one_liner": "Beads는 AI 에이전트를 위한 메모리 트래킹 도구입니다.",
+     "features": [
+      "Dolt 기반: 세부 병합과 동기화가 가능한 버전 관리 SQL 데이터베이스입니다.",
+      "에이전트 최적화: JSON 출력과 의존성 추적 기능을 제공합니다.",
+      "충돌 방지: 해시 기반 ID로 다중 작업 환경에서 병합 충돌을 방지합니다.",
+      "메모리 축소: 오래된 작업을 요약하여 문맥을 절약합니다.",
+      "지식 그래프: 다양한 링크 타입으로 지식 그래프 기능을 지원합니다."
+     ],
+     "audience": "AI 에이전트와 협업하는 개발자에게 유용합니다.",
+     "install": [
+      {
+       "label": "macOS / Linux 설치",
+       "command": "brew install beads"
+      },
+      {
+       "label": "Node.js 사용자 설치",
+       "command": "npm install -g @beads/bd"
+      }
+     ],
+     "example": "작업을 생성하고 업데이트하는데 유용한 명령어를 사용합니다.",
+     "cautions": [
+      "설치 전에 macOS, Linux, Windows 또는 FreeBSD가 필요합니다.",
+      "이 도구는 CLI 방식으로만 작동하므로 로컬 레포지토리에 클론할 필요가 없습니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 77,
@@ -3972,6 +5050,7 @@
    "name": "cmux",
    "url": "https://github.com/manaflow-ai/cmux",
    "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+   "description_ko": null,
    "stars": 28841,
    "stars_delta_7d": null,
    "forks": 2686,
@@ -3998,13 +5077,36 @@
     "workspace-manager"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:23:22Z",
+   "pushed_at": "2026-11-21T13:40:45Z",
    "commits_30d": 100,
-   "open_issues": 9488,
+   "open_issues": 9492,
    "latest_release": "2026-10-27T13:33:33Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "12f35723d1aa82ada7d1d946462554f402d4e043",
+    "summary": {
+     "one_liner": "AI 코딩 에이전트를 위한 macOS 터미널, vertical tabs 지원",
+     "features": [
+      "코딩 에이전트 알림을 위한 파란 반지 사용",
+      "모든 알림을 한 곳에서 확인하고 최근 알림으로 점프",
+      "스크립팅 가능한 API를 갖춘 앱 내 브라우저 제공",
+      "세로 및 가로 탭을 지원, 작업 관리와 모니터링 용이",
+      "원격 기계를 위한 SSH 워크스페이스 생성"
+     ],
+     "audience": "다양한 코딩 에이전트를 사용하는 개발자에게 유용함",
+     "install": [],
+     "example": "cmux ssh user@remote로 원격 머신에 연결할 수 있음.",
+     "cautions": [
+      "macOS에서 처음 실행 시 개발자 확인 필요",
+      "GPL 라이센스 하에 제공되어 상업적 사용 시 주의",
+      "설치 후 자동 완공 기능 사용 시 shell 시작 파일 설정 필요"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 78,
@@ -4013,6 +5115,7 @@
    "name": "pm-skills",
    "url": "https://github.com/phuryn/pm-skills",
    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+   "description_ko": null,
    "stars": 28201,
    "stars_delta_7d": null,
    "forks": 2901,
@@ -4034,7 +5137,43 @@
    "latest_release": "2026-11-08T23:10:06Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "78b7853f5807e9aeed18fd76147535aff3508cab",
+    "summary": {
+     "one_liner": "AI 기반 제품 관리를 위한 100+ 스킬과 명령을 제공하는 플랫폼.",
+     "features": [
+      "다양한 PM 스킬과 프로세스를 제공하여 제품 결정 향상",
+      "체계적인 워크플로우로 아이디어 발굴부터 출시까지 지원",
+      "전문가의 프레임워크를 사용하여 단계별 가이드를 제공",
+      "모든 기능은 Claude 및 Codex와 호환 가능",
+      "간편한 설치 과정으로 9개의 플러그인을 한번에 활용"
+     ],
+     "audience": "제품 관리 및 전략 수립에 도움이 필요한 사람들에게 유용함.",
+     "install": [
+      {
+       "label": "Claude Cowork (비개발자 권장)",
+       "command": "Open **Customize** (bottom-left) → **Browse plugins** → **Personal** → **+** → **Add marketplace from GitHub** → Enter: `phuryn/pm-skills`"
+      },
+      {
+       "label": "Claude Code (CLI)",
+       "command": "claude plugin marketplace add phuryn/pm-skills\nclaude plugin install pm-toolkit@pm-skills\nclaude plugin install pm-product-strategy@pm-skills\nclaude plugin install pm-product-discovery@pm-skills\nclaude plugin install pm-market-research@pm-skills\nclaude plugin install pm-data-analytics@pm-skills\nclaude plugin install pm-marketing-growth@pm-skills\nclaude plugin install pm-go-to-market@pm-skills\nclau"
+      },
+      {
+       "label": "Codex CLI (OpenAI)",
+       "command": "codex plugin marketplace add phuryn/pm-skills\ncodex plugin add pm-toolkit@pm-skills\ncodex plugin add pm-product-strategy@pm-skills\ncodex plugin add pm-product-discovery@pm-skills\ncodex plugin add pm-market-research@pm-skills\ncodex plugin add pm-data-analytics@pm-skills\ncodex plugin add pm-marketing-growth@pm-skills\ncodex plugin add pm-go-to-market@pm-skills\ncodex plugin add pm-execution@pm-skills"
+      }
+     ],
+     "example": "명령어 `/discover`로 아이디어 탐색 시작 가능.",
+     "cautions": [
+      "각 플러그인은 제품 관리 다양한 영역에 최적화되어 있음",
+      "Claude에서 명령어 실행은 가능한 이용 방법과 제한 사항이 다를 수 있음",
+      "기타 AI 도구의 경우 스킬만 호환됨"
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 79,
@@ -4043,6 +5182,7 @@
    "name": "planning-with-files",
    "url": "https://github.com/OthmanAdi/planning-with-files",
    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+   "description_ko": null,
    "stars": 28168,
    "stars_delta_7d": null,
    "forks": 2323,
@@ -4077,7 +5217,28 @@
    "latest_release": "2026-11-20T20:07:32Z",
    "archived": false,
    "activity": "active",
-   "summary": null
+   "summary": {
+    "readme_hash": "e199994add669f56d45c19cfe5b5975b4234ab68",
+    "summary": {
+     "one_liner": "AI 코딩 에이전트를 위한 지속적인 파일 기반 계획 도구",
+     "features": [
+      "마크다운 형식으로 진행 사항과 발견을 기록합니다.",
+      "자동 복구 기능을 제공하여 세션을 복구합니다.",
+      "60개 이상의 에이전트와 호환됩니다.",
+      "브라우저 자동화를 위한 기본 통합을 지원합니다."
+     ],
+     "audience": "AI 코딩 에이전트를 사용하는 개발자에게 유용합니다.",
+     "install": [],
+     "example": "",
+     "cautions": [
+      "MIT 라이선스 하에 배포됩니다.",
+      "세션 복구를 위해 필요한 파일 형식을 지켜야 합니다."
+     ]
+    },
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "generated_at": "2026-11-21"
+   }
   },
   {
    "rank": 80,
@@ -4086,6 +5247,7 @@
    "name": "baoyu-skills",
    "url": "https://github.com/JimLiu/baoyu-skills",
    "description": null,
+   "description_ko": null,
    "stars": 27769,
    "stars_delta_7d": null,
    "forks": 3011,
@@ -4113,7 +5275,8 @@
    "name": "onlook",
    "url": "https://github.com/onlook-dev/onlook",
    "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
-   "stars": 27666,
+   "description_ko": null,
+   "stars": 27668,
    "stars_delta_7d": null,
    "forks": 2173,
    "language": "TypeScript",
@@ -4155,7 +5318,8 @@
    "name": "SkillSpector",
    "url": "https://github.com/NVIDIA/SkillSpector",
    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-   "stars": 27129,
+   "description_ko": null,
+   "stars": 27130,
    "stars_delta_7d": null,
    "forks": 2413,
    "language": "Python",
@@ -4189,7 +5353,8 @@
    "name": "distilly",
    "url": "https://github.com/titanwings/distilly",
    "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
-   "stars": 26745,
+   "description_ko": null,
+   "stars": 26746,
    "stars_delta_7d": null,
    "forks": 2280,
    "language": "Python",
@@ -4231,7 +5396,8 @@
    "name": "OpenMausBot",
    "url": "https://github.com/milind-soni/OpenMausBot",
    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-   "stars": 26376,
+   "description_ko": null,
+   "stars": 26378,
    "stars_delta_7d": null,
    "forks": 3762,
    "language": "TypeScript",
@@ -4250,7 +5416,7 @@
     "typescript"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:23:13Z",
+   "pushed_at": "2026-11-21T13:38:03Z",
    "commits_30d": 100,
    "open_issues": 1252,
    "latest_release": "2026-11-21T05:17:00Z",
@@ -4265,6 +5431,7 @@
    "name": "nocobase",
    "url": "https://github.com/nocobase/nocobase",
    "description": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents write the code and do the work, NocoBase provides the foundation and governance, and people make the decisions.",
+   "description_ko": null,
    "stars": 24975,
    "stars_delta_7d": null,
    "forks": 2956,
@@ -4293,7 +5460,7 @@
     "workflows"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:09:43Z",
+   "pushed_at": "2026-11-21T13:36:48Z",
    "commits_30d": 100,
    "open_issues": 306,
    "latest_release": "2026-11-21T05:16:12Z",
@@ -4308,7 +5475,8 @@
    "name": "happy",
    "url": "https://github.com/slopus/happy",
    "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
-   "stars": 24742,
+   "description_ko": null,
+   "stars": 24743,
    "stars_delta_7d": null,
    "forks": 2132,
    "language": "Swift",
@@ -4340,7 +5508,8 @@
    "name": "paseo",
    "url": "https://github.com/getpaseo/paseo",
    "description": "Orchestrate multiple coding agents from desktop and mobile",
-   "stars": 24579,
+   "description_ko": null,
+   "stars": 24580,
    "stars_delta_7d": null,
    "forks": 3071,
    "language": "TypeScript",
@@ -4365,7 +5534,7 @@
    "kind": "tool",
    "pushed_at": "2026-11-21T13:15:54Z",
    "commits_30d": 100,
-   "open_issues": 2069,
+   "open_issues": 2070,
    "latest_release": "2026-11-18T14:47:21Z",
    "archived": false,
    "activity": "active",
@@ -4378,6 +5547,7 @@
    "name": "ego-lite",
    "url": "https://github.com/citrolabs/ego-lite",
    "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+   "description_ko": null,
    "stars": 23937,
    "stars_delta_7d": null,
    "forks": 1354,
@@ -4411,6 +5581,7 @@
    "name": "n8n-mcp",
    "url": "https://github.com/czlonkowski/n8n-mcp",
    "description": "MCP server that lets Claude, ChatGPT, Cursor and other AI assistants operate n8n: debug, edit, validate, test and build workflows on any n8n instance",
+   "description_ko": null,
    "stars": 23291,
    "stars_delta_7d": null,
    "forks": 3672,
@@ -4438,6 +5609,7 @@
    "name": "CodexBar",
    "url": "https://github.com/steipete/CodexBar",
    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+   "description_ko": null,
    "stars": 23257,
    "stars_delta_7d": null,
    "forks": 2242,
@@ -4465,6 +5637,7 @@
    "name": "opcode",
    "url": "https://github.com/winfunc/opcode",
    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+   "description_ko": null,
    "stars": 22453,
    "stars_delta_7d": null,
    "forks": 1703,
@@ -4503,6 +5676,7 @@
    "name": "khazix-skills",
    "url": "https://github.com/KKKKhazix/khazix-skills",
    "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+   "description_ko": null,
    "stars": 22437,
    "stars_delta_7d": null,
    "forks": 2355,
@@ -4535,9 +5709,10 @@
    "name": "ai-guide",
    "url": "https://github.com/liyupi/ai-guide",
    "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
+   "description_ko": null,
    "stars": 22279,
    "stars_delta_7d": null,
-   "forks": 2421,
+   "forks": 2422,
    "language": "JavaScript",
    "license": "NOASSERTION",
    "topics": [
@@ -4578,6 +5753,7 @@
    "name": "agency-agents-zh",
    "url": "https://github.com/jnMetaCode/agency-agents-zh",
    "description": "🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上位机/机械设计）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
+   "description_ko": null,
    "stars": 22232,
    "stars_delta_7d": null,
    "forks": 3562,
@@ -4620,7 +5796,8 @@
    "name": "brag",
    "url": "https://github.com/latent-spaces/brag",
    "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
-   "stars": 22123,
+   "description_ko": null,
+   "stars": 22124,
    "stars_delta_7d": null,
    "forks": 1718,
    "language": "Python",
@@ -4649,6 +5826,7 @@
    "name": "video-shotcraft",
    "url": "https://github.com/Vincentwei1021/video-shotcraft",
    "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+   "description_ko": null,
    "stars": 21919,
    "stars_delta_7d": null,
    "forks": 2025,
@@ -4686,9 +5864,10 @@
    "name": "elephant-goldfish-model",
    "url": "https://github.com/google/elephant-goldfish-model",
    "description": "Open-source plugin for designing and reviewing software with agents",
-   "stars": 21817,
+   "description_ko": null,
+   "stars": 21819,
    "stars_delta_7d": null,
-   "forks": 1607,
+   "forks": 1608,
    "language": "Python",
    "license": "Apache-2.0",
    "topics": [
@@ -4725,6 +5904,7 @@
    "name": "img2threejs",
    "url": "https://github.com/img2threejs/img2threejs",
    "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+   "description_ko": null,
    "stars": 21712,
    "stars_delta_7d": null,
    "forks": 1848,
@@ -4758,6 +5938,7 @@
    "name": "notebooklm-py",
    "url": "https://github.com/teng-lin/notebooklm-py",
    "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+   "description_ko": null,
    "stars": 20323,
    "stars_delta_7d": null,
    "forks": 2691,
@@ -4781,7 +5962,7 @@
    ],
    "kind": "skill",
    "pushed_at": "2026-11-19T21:26:28Z",
-   "commits_30d": 27,
+   "commits_30d": 26,
    "open_issues": 21,
    "latest_release": "2026-10-29T04:50:05Z",
    "archived": false,
@@ -4795,6 +5976,7 @@
    "name": "Auto-claude-code-research-in-sleep",
    "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
    "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+   "description_ko": null,
    "stars": 19552,
    "stars_delta_7d": null,
    "forks": 1563,
@@ -4838,9 +6020,10 @@
    "name": "lemo-opuscar",
    "url": "https://github.com/lemomo-ai/lemo-opuscar",
    "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-   "stars": 19331,
+   "description_ko": null,
+   "stars": 19344,
    "stars_delta_7d": null,
-   "forks": 2443,
+   "forks": 2444,
    "language": "JavaScript",
    "license": "NOASSERTION",
    "topics": [
@@ -4881,7 +6064,8 @@
    "name": "xerj",
    "url": "https://github.com/xerj-org/xerj",
    "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
-   "stars": 19185,
+   "description_ko": null,
+   "stars": 19187,
    "stars_delta_7d": null,
    "forks": 1208,
    "language": "Rust",
@@ -4924,6 +6108,7 @@
    "name": "browser-harness",
    "url": "https://github.com/browser-use/browser-harness",
    "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
+   "description_ko": null,
    "stars": 19182,
    "stars_delta_7d": null,
    "forks": 1900,
@@ -4967,6 +6152,7 @@
    "name": "opencodex",
    "url": "https://github.com/lidge-jun/opencodex",
    "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+   "description_ko": "OpenAI Codex와 Claude Code를 위한 범용 제공자 프록시로, 다양한 LLM(Claude, Gemini, Grok, DeepSeek, Ollama 등)을 Codex CLI, 앱, SDK, Claude Code와 함께 사용할 수 있습니다.",
    "stars": 18693,
    "stars_delta_7d": null,
    "forks": 1538,
@@ -4997,7 +6183,7 @@
    "kind": "tool",
    "pushed_at": "2026-11-21T12:44:53Z",
    "commits_30d": 100,
-   "open_issues": 70,
+   "open_issues": 71,
    "latest_release": "2026-11-21T00:03:56Z",
    "archived": false,
    "activity": "active",
@@ -5010,6 +6196,7 @@
    "name": "rowboat",
    "url": "https://github.com/rowboatlabs/rowboat",
    "description": "Your agent team, in one group chat.",
+   "description_ko": null,
    "stars": 18310,
    "stars_delta_7d": null,
    "forks": 1835,
@@ -5048,6 +6235,7 @@
    "name": "Memori",
    "url": "https://github.com/MemoriLabs/Memori",
    "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
+   "description_ko": null,
    "stars": 17601,
    "stars_delta_7d": null,
    "forks": 4006,
@@ -5089,6 +6277,7 @@
    "name": "ai-berkshire",
    "url": "https://github.com/xbtlin/ai-berkshire",
    "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+   "description_ko": null,
    "stars": 17207,
    "stars_delta_7d": null,
    "forks": 2540,
@@ -5132,6 +6321,7 @@
    "name": "claude-obsidian",
    "url": "https://github.com/AgriciDaniel/claude-obsidian",
    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+   "description_ko": null,
    "stars": 16667,
    "stars_delta_7d": null,
    "forks": 1629,
@@ -5175,7 +6365,8 @@
    "name": "Paradev",
    "url": "https://github.com/ParadevAI/Paradev",
    "description": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
-   "stars": 16445,
+   "description_ko": null,
+   "stars": 16448,
    "stars_delta_7d": null,
    "forks": 1478,
    "language": "TypeScript",
@@ -5218,6 +6409,7 @@
    "name": "prompt-master",
    "url": "https://github.com/nidhinjs/prompt-master",
    "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+   "description_ko": null,
    "stars": 16201,
    "stars_delta_7d": null,
    "forks": 1862,
@@ -5231,7 +6423,7 @@
    ],
    "kind": "skill",
    "pushed_at": "2026-10-22T13:26:18Z",
-   "commits_30d": 1,
+   "commits_30d": 0,
    "open_issues": 31,
    "latest_release": null,
    "archived": false,
@@ -5245,6 +6437,7 @@
    "name": "claudian",
    "url": "https://github.com/YishenTu/claudian",
    "description": "An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+   "description_ko": null,
    "stars": 16042,
    "stars_delta_7d": null,
    "forks": 1103,
@@ -5278,6 +6471,7 @@
    "name": "awesome-claude-skills",
    "url": "https://github.com/travisvn/awesome-claude-skills",
    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+   "description_ko": null,
    "stars": 15892,
    "stars_delta_7d": null,
    "forks": 2172,
@@ -5312,6 +6506,7 @@
    "name": "cc-haha",
    "url": "https://github.com/NanmiCoder/cc-haha",
    "description": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via WeChat, Feishu, DingTalk, Telegram, WhatsApp & H5.",
+   "description_ko": null,
    "stars": 15503,
    "stars_delta_7d": null,
    "forks": 8612,
@@ -5336,7 +6531,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-20T16:15:52Z",
    "commits_30d": 100,
-   "open_issues": 206,
+   "open_issues": 207,
    "latest_release": "2026-11-20T10:57:32Z",
    "archived": false,
    "activity": "active",
@@ -5349,6 +6544,7 @@
    "name": "Skill_Seekers",
    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+   "description_ko": null,
    "stars": 15351,
    "stars_delta_7d": null,
    "forks": 1565,
@@ -5390,9 +6586,10 @@
    "name": "Claude-BugHunter",
    "url": "https://github.com/elementalsouls/Claude-BugHunter",
    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-   "stars": 15226,
+   "description_ko": null,
+   "stars": 15248,
    "stars_delta_7d": null,
-   "forks": 1766,
+   "forks": 1768,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -5429,6 +6626,7 @@
    "name": "agent-orchestrator",
    "url": "https://github.com/OrchestratorInc/agent-orchestrator",
    "description": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude Code, Codex & 35+ coding agents.",
+   "description_ko": null,
    "stars": 14985,
    "stars_delta_7d": null,
    "forks": 2067,
@@ -5457,7 +6655,7 @@
     "skills"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:23:11Z",
+   "pushed_at": "2026-11-21T13:40:13Z",
    "commits_30d": 100,
    "open_issues": 1064,
    "latest_release": "2026-11-16T16:30:26Z",
@@ -5472,6 +6670,7 @@
    "name": "OpenMythos",
    "url": "https://github.com/kyegomez/OpenMythos",
    "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+   "description_ko": null,
    "stars": 14932,
    "stars_delta_7d": null,
    "forks": 3263,
@@ -5513,6 +6712,7 @@
    "name": "AI-Research-SKILLs",
    "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
    "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+   "description_ko": null,
    "stars": 14716,
    "stars_delta_7d": null,
    "forks": 1011,
@@ -5550,6 +6750,7 @@
    "name": "claudecodeui",
    "url": "https://github.com/siteboon/claudecodeui",
    "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
+   "description_ko": null,
    "stars": 14713,
    "stars_delta_7d": null,
    "forks": 2152,
@@ -5585,6 +6786,7 @@
    "name": "memU",
    "url": "https://github.com/NevaMind-AI/memU",
    "description": "Personal memory across agents",
+   "description_ko": null,
    "stars": 14632,
    "stars_delta_7d": null,
    "forks": 1105,
@@ -5618,6 +6820,7 @@
    "name": "omniget",
    "url": "https://github.com/tonhowtf/omniget",
    "description": "Local MCP server that lets Claude Code, Codex, Cursor and Gemini CLI use your own computer and your own logged-in accounts: chats, feeds, browser, files and downloads. Also a downloader for video, music and the courses you bought. Everything stays on your machine. Windows, macOS, Linux.",
+   "description_ko": null,
    "stars": 14530,
    "stars_delta_7d": null,
    "forks": 1256,
@@ -5661,7 +6864,8 @@
    "name": "openmotion",
    "url": "https://github.com/nexu-io/openmotion",
    "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
-   "stars": 14463,
+   "description_ko": null,
+   "stars": 14472,
    "stars_delta_7d": null,
    "forks": 1421,
    "language": "TypeScript",
@@ -5689,9 +6893,9 @@
     "video-generation"
    ],
    "kind": "plugin",
-   "pushed_at": "2026-11-21T13:04:13Z",
+   "pushed_at": "2026-11-21T13:39:57Z",
    "commits_30d": 100,
-   "open_issues": 101,
+   "open_issues": 98,
    "latest_release": "2026-11-21T10:30:45Z",
    "archived": false,
    "activity": "active",
@@ -5704,7 +6908,8 @@
    "name": "plannotator",
    "url": "https://github.com/backnotprop/plannotator",
    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
-   "stars": 14037,
+   "description_ko": null,
+   "stars": 14043,
    "stars_delta_7d": null,
    "forks": 1403,
    "language": "TypeScript",
@@ -5723,7 +6928,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-21T07:54:03Z",
    "commits_30d": 100,
-   "open_issues": 232,
+   "open_issues": 236,
    "latest_release": "2026-11-19T20:08:26Z",
    "archived": false,
    "activity": "active",
@@ -5736,7 +6941,8 @@
    "name": "hexstrike-ai",
    "url": "https://github.com/0x4m4/hexstrike-ai",
    "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
-   "stars": 13799,
+   "description_ko": null,
+   "stars": 13800,
    "stars_delta_7d": null,
    "forks": 2836,
    "language": "Python",
@@ -5779,6 +6985,7 @@
    "name": "ccstatusline",
    "url": "https://github.com/sirmalloc/ccstatusline",
    "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+   "description_ko": null,
    "stars": 13654,
    "stars_delta_7d": null,
    "forks": 612,
@@ -5812,6 +7019,7 @@
    "name": "claude-code-system-prompts",
    "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
    "description": "All parts of Claude Code's system prompt, builtin tool descriptions, subagent prompts (Plan/Explore/Task), and utility prompts.  Updated for each Claude Code version.",
+   "description_ko": null,
    "stars": 13209,
    "stars_delta_7d": null,
    "forks": 2042,
@@ -5838,6 +7046,7 @@
    "name": "humanlayer",
    "url": "https://github.com/humanlayer/humanlayer",
    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+   "description_ko": null,
    "stars": 12922,
    "stars_delta_7d": null,
    "forks": 1090,
@@ -5871,6 +7080,7 @@
    "name": "claude-relay-service",
    "url": "https://github.com/Wei-Shaw/claude-relay-service",
    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+   "description_ko": null,
    "stars": 12828,
    "stars_delta_7d": null,
    "forks": 1889,
@@ -5904,7 +7114,8 @@
    "name": "genoffice",
    "url": "https://github.com/genspark-ai/genoffice",
    "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
-   "stars": 12728,
+   "description_ko": null,
+   "stars": 12729,
    "stars_delta_7d": null,
    "forks": 1774,
    "language": "TypeScript",
@@ -5947,6 +7158,7 @@
    "name": "claude-context",
    "url": "https://github.com/zilliztech/claude-context",
    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+   "description_ko": null,
    "stars": 12715,
    "stars_delta_7d": null,
    "forks": 940,
@@ -5990,6 +7202,7 @@
    "name": "worktrunk",
    "url": "https://github.com/max-sixty/worktrunk",
    "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "description_ko": "Worktrunk는 병렬 AI 에이전트 워크플로우를 위해 설계된 Git worktree 관리용 CLI입니다.",
    "stars": 12679,
    "stars_delta_7d": null,
    "forks": 507,
@@ -6019,6 +7232,7 @@
    "name": "Kami",
    "url": "https://github.com/tw93/Kami",
    "description": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
+   "description_ko": null,
    "stars": 12594,
    "stars_delta_7d": null,
    "forks": 586,
@@ -6050,6 +7264,7 @@
    "name": "claude-skills",
    "url": "https://github.com/Jeffallan/claude-skills",
    "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+   "description_ko": null,
    "stars": 12475,
    "stars_delta_7d": null,
    "forks": 1205,
@@ -6078,6 +7293,7 @@
    "name": "AgentGuide",
    "url": "https://github.com/adongwanai/AgentGuide",
    "description": "AI Agent 开发指南 | Agent Harness | 上下文工程 | 高级 RAG | MCP | Agentic RL 强化学习 | LangGraph 实战 | 1.2 万+ 大模型面试题 | 算法岗 / 开发岗求职 | 转行大模型",
+   "description_ko": null,
    "stars": 12147,
    "stars_delta_7d": null,
    "forks": 1152,
@@ -6115,6 +7331,7 @@
    "name": "fireworks-tech-graph",
    "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
    "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+   "description_ko": null,
    "stars": 12038,
    "stars_delta_7d": null,
    "forks": 940,
@@ -6144,6 +7361,7 @@
    "name": "a-stock-data",
    "url": "https://github.com/simonlin1212/a-stock-data",
    "description": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
+   "description_ko": null,
    "stars": 11963,
    "stars_delta_7d": null,
    "forks": 2165,
@@ -6181,6 +7399,7 @@
    "name": "codeburn",
    "url": "https://github.com/getagentseal/codeburn",
    "description": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+   "description_ko": null,
    "stars": 11879,
    "stars_delta_7d": null,
    "forks": 912,
@@ -6216,6 +7435,7 @@
    "name": "loop-engineering",
    "url": "https://github.com/cobusgreyling/loop-engineering",
    "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+   "description_ko": null,
    "stars": 11818,
    "stars_delta_7d": null,
    "forks": 1584,
@@ -6256,7 +7476,8 @@
    "name": "gsd-core",
    "url": "https://github.com/open-gsd/gsd-core",
    "description": "Git. Ship. Done - Core",
-   "stars": 11747,
+   "description_ko": null,
+   "stars": 11748,
    "stars_delta_7d": null,
    "forks": 851,
    "language": "JavaScript",
@@ -6283,9 +7504,10 @@
    "name": "rea-video",
    "url": "https://github.com/JuneYaooo/rea-video",
    "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
-   "stars": 11577,
+   "description_ko": null,
+   "stars": 11578,
    "stars_delta_7d": null,
-   "forks": 1714,
+   "forks": 1715,
    "language": "Python",
    "license": "Apache-2.0",
    "topics": [
@@ -6311,7 +7533,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-21T02:32:44Z",
    "commits_30d": 100,
-   "open_issues": 8,
+   "open_issues": 9,
    "latest_release": "2026-11-11T17:48:35Z",
    "archived": false,
    "activity": "active",
@@ -6324,9 +7546,10 @@
    "name": "omnigent",
    "url": "https://github.com/omnigent-ai/omnigent",
    "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-   "stars": 11476,
+   "description_ko": null,
+   "stars": 11477,
    "stars_delta_7d": null,
-   "forks": 1932,
+   "forks": 1933,
    "language": "Python",
    "license": "Apache-2.0",
    "topics": [
@@ -6348,9 +7571,9 @@
     "sandbox"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:10:37Z",
+   "pushed_at": "2026-11-21T13:37:57Z",
    "commits_30d": 100,
-   "open_issues": 2482,
+   "open_issues": 2483,
    "latest_release": "2026-11-19T03:07:04Z",
    "archived": false,
    "activity": "active",
@@ -6363,6 +7586,7 @@
    "name": "Trail-Code",
    "url": "https://github.com/trailhq/Trail-Code",
    "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
+   "description_ko": null,
    "stars": 11395,
    "stars_delta_7d": null,
    "forks": 1031,
@@ -6403,6 +7627,7 @@
    "name": "holaOS",
    "url": "https://github.com/holaboss-ai/holaOS",
    "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.",
+   "description_ko": null,
    "stars": 11360,
    "stars_delta_7d": null,
    "forks": 724,
@@ -6446,7 +7671,8 @@
    "name": "Claude-Red",
    "url": "https://github.com/SnailSploit/Claude-Red",
    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-   "stars": 11331,
+   "description_ko": null,
+   "stars": 11332,
    "stars_delta_7d": null,
    "forks": 1560,
    "language": "Python",
@@ -6475,6 +7701,7 @@
    "name": "autoharness",
    "url": "https://github.com/tigerless-labs/autoharness",
    "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
+   "description_ko": null,
    "stars": 11206,
    "stars_delta_7d": null,
    "forks": 672,
@@ -6503,6 +7730,7 @@
    "name": "claude-ads",
    "url": "https://github.com/AgriciDaniel/claude-ads",
    "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes.",
+   "description_ko": null,
    "stars": 11203,
    "stars_delta_7d": null,
    "forks": 1615,
@@ -6537,6 +7765,7 @@
    "name": "mcp-use",
    "url": "https://github.com/mcp-use/mcp-use",
    "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+   "description_ko": null,
    "stars": 11001,
    "stars_delta_7d": null,
    "forks": 1555,
@@ -6580,7 +7809,8 @@
    "name": "dashi-ppt-skill",
    "url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
-   "stars": 10906,
+   "description_ko": null,
+   "stars": 10907,
    "stars_delta_7d": null,
    "forks": 927,
    "language": "JavaScript",
@@ -6617,6 +7847,7 @@
    "name": "drawio-skill",
    "url": "https://github.com/Agents365-ai/drawio-skill",
    "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+   "description_ko": null,
    "stars": 10886,
    "stars_delta_7d": null,
    "forks": 744,
@@ -6660,6 +7891,7 @@
    "name": "zhangxuefeng-skill",
    "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
    "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+   "description_ko": null,
    "stars": 10806,
    "stars_delta_7d": null,
    "forks": 2696,
@@ -6703,7 +7935,8 @@
    "name": "mobile-mcp",
    "url": "https://github.com/mobile-next/mobile-mcp",
    "description": "Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client.",
-   "stars": 10776,
+   "description_ko": null,
+   "stars": 10777,
    "stars_delta_7d": null,
    "forks": 962,
    "language": "TypeScript",
@@ -6744,7 +7977,8 @@
    "name": "open-seo-mcp-skills",
    "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
    "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-   "stars": 10622,
+   "description_ko": "Claude를 위한 무료 오픈 소스 SEO 및 GEO 기술로, 키워드 조사, 순위 추적, 감사, 백링크, 실제 GSC/GA4/광고 데이터에서의 AI 가시성 제공.",
+   "stars": 10624,
    "stars_delta_7d": null,
    "forks": 396,
    "language": "Shell",
@@ -6787,6 +8021,7 @@
    "name": "claude-code-tips",
    "url": "https://github.com/ykdojo/claude-code-tips",
    "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+   "description_ko": "Claude Code의 기본부터 고급까지 활용할 수 있는 45가지 팁을 제공하며, 사용자 정의 상태 표시줄 스크립트와 컨테이너 내에서의 실행 포함.",
    "stars": 10363,
    "stars_delta_7d": null,
    "forks": 825,
@@ -6822,6 +8057,7 @@
    "name": "claurst",
    "url": "https://github.com/Kuberwastaken/claurst",
    "description": "Agentic Coding for Builders who Ship",
+   "description_ko": "배송하는 빌더를 위한 에이전틱 코딩.",
    "stars": 10349,
    "stars_delta_7d": null,
    "forks": 7641,
@@ -6853,9 +8089,10 @@
    "name": "cindy",
    "url": "https://github.com/makecindy/cindy",
    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "description_ko": "모두 가능하다고 생각하세요. 즉시 사용할 수 있는 오픈 소스 AI 에이전트.",
    "stars": 10349,
    "stars_delta_7d": null,
-   "forks": 1317,
+   "forks": 1319,
    "language": "TypeScript",
    "license": "Apache-2.0",
    "topics": [
@@ -6874,9 +8111,9 @@
     "windows"
    ],
    "kind": "tool",
-   "pushed_at": "2026-11-21T13:19:48Z",
+   "pushed_at": "2026-11-21T13:40:50Z",
    "commits_30d": 100,
-   "open_issues": 3587,
+   "open_issues": 3585,
    "latest_release": "2026-11-20T04:47:49Z",
    "archived": false,
    "activity": "active",
@@ -6889,6 +8126,7 @@
    "name": "pixel-agents",
    "url": "https://github.com/pixel-agents-hq/pixel-agents",
    "description": "A playful way to manage your AI workforce",
+   "description_ko": "AI 인력을 관리하는 재미있는 방법.",
    "stars": 10322,
    "stars_delta_7d": null,
    "forks": 1760,
@@ -6918,7 +8156,8 @@
    "name": "replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
    "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-   "stars": 10198,
+   "description_ko": "어떤 앱이든 복제할 수 있는 11개의 무료 Claude 기술을 제공: 앱을 역설계하고, 재구성하며, 버그를 테스트하고, 사용자 불만을 수정합니다.",
+   "stars": 10200,
    "stars_delta_7d": null,
    "forks": 1874,
    "language": "Python",
@@ -6950,7 +8189,8 @@
    "name": "failproofai",
    "url": "https://github.com/FailproofAI/failproofai",
    "description": "Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.  ",
-   "stars": 9903,
+   "description_ko": "AI 에이전트 제어 및 관찰 가능성을 위한 도구.",
+   "stars": 9904,
    "stars_delta_7d": null,
    "forks": 580,
    "language": "TypeScript",
@@ -6993,7 +8233,8 @@
    "name": "bifrost",
    "url": "https://github.com/maximhq/bifrost",
    "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
-   "stars": 9886,
+   "description_ko": "오픈 소스의 고성능 AI 게이트웨이로, 모든 SDK나 에이전트와 호환됩니다.",
+   "stars": 9888,
    "stars_delta_7d": null,
    "forks": 1641,
    "language": "Go",
@@ -7036,6 +8277,7 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "description_ko": "Claude를 어떤 게임에도 적용하세요. 거의 모든 PC 게임을 수정할 수 있는 기술과 도구를 제공합니다.",
    "stars": 9823,
    "stars_delta_7d": null,
    "forks": 1107,
@@ -7069,9 +8311,10 @@
    "name": "awesome-gamedev-agent-skills",
    "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
    "description": "Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.",
-   "stars": 9798,
+   "description_ko": "AI 코딩 에이전트와 함께 게임을 만드세요: 79개의 게임 개발 기술과 여러 게임 엔진을 지원하는 라우터.",
+   "stars": 9804,
    "stars_delta_7d": null,
-   "forks": 994,
+   "forks": 997,
    "language": "Python",
    "license": "Apache-2.0",
    "topics": [
@@ -7112,6 +8355,7 @@
    "name": "skill",
    "url": "https://github.com/anbeime/skill",
    "description": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
+   "description_ko": "최신 업데이트와 함께 가장 포괄적인 AI 에이전트 기술 라이브러리입니다.",
    "stars": 9779,
    "stars_delta_7d": null,
    "forks": 863,
@@ -7151,7 +8395,8 @@
    "name": "anti-slop",
    "url": "https://github.com/miqdadbadjuber/anti-slop",
    "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
-   "stars": 9739,
+   "description_ko": "AI 코딩 에이전트가 일반적인 UI 디자인, 텍스트 및 코드를 필터링할 수 있는 규칙을 설정합니다.",
+   "stars": 9740,
    "stars_delta_7d": null,
    "forks": 670,
    "language": "JavaScript",
@@ -7184,6 +8429,7 @@
    "name": "ralph-claude-code",
    "url": "https://github.com/frankbria/ralph-claude-code",
    "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+   "description_ko": "Claude Code를 위한 자율 AI 개발 루프와 지능형 종료 감지 기능.",
    "stars": 9738,
    "stars_delta_7d": null,
    "forks": 727,
@@ -7216,6 +8462,7 @@
    "name": "xonsh",
    "url": "https://github.com/xonsh/xonsh",
    "description": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+   "description_ko": "🐚 파이썬을 기반으로 한 쉘. 모든 플랫폼에서 사용 가능하며 AI 친화적입니다.",
    "stars": 9704,
    "stars_delta_7d": null,
    "forks": 763,
@@ -7258,6 +8505,7 @@
    "name": "munder-difflin",
    "url": "https://github.com/HarnessMD/munder-difflin",
    "description": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+   "description_ko": "에이전트를 사용하는 가장 멋진 애플리케이션으로, 맞춤형 세계를 구축할 수 있습니다.",
    "stars": 9678,
    "stars_delta_7d": null,
    "forks": 1372,
@@ -7301,6 +8549,7 @@
    "name": "gentle-ai",
    "url": "https://github.com/Gentleman-Programming/gentle-ai",
    "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+   "description_ko": "Gentle-AI는 이미 사용 중인 AI 코딩 에이전트를 구성합니다.",
    "stars": 9446,
    "stars_delta_7d": null,
    "forks": 904,
@@ -7341,6 +8590,7 @@
    "name": "harness",
    "url": "https://github.com/revfactory/harness",
    "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+   "description_ko": "도메인별 에이전트 팀을 설계하고 전문화된 에이전트를 정의하는 메타 기술입니다.",
    "stars": 9385,
    "stars_delta_7d": null,
    "forks": 1346,
@@ -7368,6 +8618,7 @@
    "name": "atlas",
    "url": "https://github.com/tryatlas/atlas",
    "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+   "description_ko": "에이전트를 위한 소스 제어. 여러 코딩 에이전트를 사용하고 그 변화를 추적합니다.",
    "stars": 9176,
    "stars_delta_7d": null,
    "forks": 368,
@@ -7391,9 +8642,9 @@
     "skills"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:19:04Z",
+   "pushed_at": "2026-11-21T13:37:04Z",
    "commits_30d": 100,
-   "open_issues": 22,
+   "open_issues": 21,
    "latest_release": "2026-11-21T12:48:46Z",
    "archived": false,
    "activity": "active",
@@ -7406,6 +8657,7 @@
    "name": "dashboard-icons",
    "url": "https://github.com/homarr-labs/dashboard-icons",
    "description": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.",
+   "description_ko": "3,400개 이상의 대시보드 및 AI 에이전트를 위한 아이콘과 로고를 제공합니다.",
    "stars": 9135,
    "stars_delta_7d": null,
    "forks": 726,
@@ -7448,7 +8700,8 @@
    "name": "ffmpeg-skill",
    "url": "https://github.com/kajisho5/ffmpeg-skill",
    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-   "stars": 9105,
+   "description_ko": "코딩 에이전트를 위한 로컬 비디오 편집기입니다.",
+   "stars": 9110,
    "stars_delta_7d": null,
    "forks": 828,
    "language": "Python",
@@ -7478,7 +8731,7 @@
    "kind": "skill",
    "pushed_at": "2026-11-21T13:18:32Z",
    "commits_30d": 100,
-   "open_issues": 33,
+   "open_issues": 34,
    "latest_release": "2026-11-21T11:25:38Z",
    "archived": false,
    "activity": "active",
@@ -7491,9 +8744,10 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-   "stars": 8993,
+   "description_ko": "일일 거래를 위한 11개의 Claude 기술을 제공합니다.",
+   "stars": 8996,
    "stars_delta_7d": null,
-   "forks": 2139,
+   "forks": 2140,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -7519,7 +8773,8 @@
    "name": "openrig",
    "url": "https://github.com/mvschwarz/openrig",
    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-   "stars": 8925,
+   "description_ko": "Claude Code, Codex 및 Pi로 자신의 에이전트 네트워크를 구축하세요.",
+   "stars": 8926,
    "stars_delta_7d": null,
    "forks": 771,
    "language": "TypeScript",
@@ -7538,9 +8793,9 @@
     "typescript"
    ],
    "kind": "skill",
-   "pushed_at": "2026-11-21T13:22:26Z",
+   "pushed_at": "2026-11-21T13:33:15Z",
    "commits_30d": 100,
-   "open_issues": 303,
+   "open_issues": 304,
    "latest_release": "2026-11-20T11:42:35Z",
    "archived": false,
    "activity": "active",
@@ -7553,6 +8808,7 @@
    "name": "claude-squad",
    "url": "https://github.com/smtg-ai/claude-squad",
    "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+   "description_ko": "여러 AI 터미널 에이전트를 관리하세요.",
    "stars": 8846,
    "stars_delta_7d": null,
    "forks": 639,
@@ -7581,7 +8837,8 @@
    "name": "awesome-agentic-ai-zh",
    "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
    "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
-   "stars": 8842,
+   "description_ko": "에이전틱 AI를 위한 3개 언어로 된 학습 로드맵입니다.",
+   "stars": 8843,
    "stars_delta_7d": null,
    "forks": 1092,
    "language": "Python",
@@ -7623,6 +8880,7 @@
    "name": "Claude-Code-Usage-Monitor",
    "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
    "description": "Real-time Claude Code usage monitor with predictions and warnings",
+   "description_ko": "실시간 Claude Code 사용 모니터링 및 예측 기능 제공.",
    "stars": 8814,
    "stars_delta_7d": null,
    "forks": 460,
@@ -7650,11 +8908,44 @@
   },
   {
    "rank": 177,
+   "full_name": "openfilm/openfilm",
+   "owner": "openfilm",
+   "name": "openfilm",
+   "url": "https://github.com/openfilm/openfilm",
+   "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
+   "description_ko": "오픈 소스 AI 비디오 에이전트로, 모든 코딩 에이전트를 비디오 에이전트로 변환하며, 생성된 내용을 편집할 수 있는 기능을 제공합니다.",
+   "stars": 8811,
+   "stars_delta_7d": null,
+   "forks": 890,
+   "language": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai-video",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "html",
+    "motion-graphics",
+    "video-agent",
+    "video-editor"
+   ],
+   "kind": "tool",
+   "pushed_at": "2026-11-20T15:57:04Z",
+   "commits_30d": 100,
+   "open_issues": 32,
+   "latest_release": "2026-11-20T00:55:44Z",
+   "archived": false,
+   "activity": "active",
+   "summary": null
+  },
+  {
+   "rank": 178,
    "full_name": "zenstory-ai/oh-story-claudecode",
    "owner": "zenstory-ai",
    "name": "oh-story-claudecode",
    "url": "https://github.com/zenstory-ai/oh-story-claudecode",
    "description": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
+   "description_ko": null,
    "stars": 8810,
    "stars_delta_7d": null,
    "forks": 1239,
@@ -7692,44 +8983,14 @@
    "summary": null
   },
   {
-   "rank": 178,
-   "full_name": "openfilm/openfilm",
-   "owner": "openfilm",
-   "name": "openfilm",
-   "url": "https://github.com/openfilm/openfilm",
-   "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
-   "stars": 8801,
-   "stars_delta_7d": null,
-   "forks": 890,
-   "language": "TypeScript",
-   "license": "MIT",
-   "topics": [
-    "ai-video",
-    "claude-code",
-    "codex",
-    "coding-agents",
-    "html",
-    "motion-graphics",
-    "video-agent",
-    "video-editor"
-   ],
-   "kind": "tool",
-   "pushed_at": "2026-11-20T15:57:04Z",
-   "commits_30d": 100,
-   "open_issues": 32,
-   "latest_release": "2026-11-20T00:55:44Z",
-   "archived": false,
-   "activity": "active",
-   "summary": null
-  },
-  {
    "rank": 179,
    "full_name": "javaht/claude-desktop-zh-cn",
    "owner": "javaht",
    "name": "claude-desktop-zh-cn",
    "url": "https://github.com/javaht/claude-desktop-zh-cn",
    "description": "Claude Desktop Chinese Patch (macOS & Windows & Linux)",
-   "stars": 8775,
+   "description_ko": null,
+   "stars": 8777,
    "stars_delta_7d": null,
    "forks": 425,
    "language": "PowerShell",
@@ -7756,9 +9017,10 @@
    "name": "superpowers-zh",
    "url": "https://github.com/jnMetaCode/superpowers-zh",
    "description": "🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 26 款 AI 编程工具真正会干活",
-   "stars": 8576,
+   "description_ko": null,
+   "stars": 8577,
    "stars_delta_7d": null,
-   "forks": 794,
+   "forks": 795,
    "language": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -7795,7 +9057,8 @@
    "name": "pixelfx",
    "url": "https://github.com/patch-gg/pixelfx",
    "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-   "stars": 8575,
+   "description_ko": null,
+   "stars": 8576,
    "stars_delta_7d": null,
    "forks": 1123,
    "language": "JavaScript",
@@ -7826,6 +9089,7 @@
    "name": "ccpm",
    "url": "https://github.com/automazeio/ccpm",
    "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
+   "description_ko": null,
    "stars": 8461,
    "stars_delta_7d": null,
    "forks": 838,
@@ -7855,6 +9119,7 @@
    "name": "marketing-skills",
    "url": "https://github.com/irinabuht12-oss/marketing-skills",
    "description": "Claude skills for marketing: 49 free marketing skills for Claude Code and claude.ai (Google Ads, Meta Ads, SEO, AI visibility) + the Ryze Google Ads MCP / Meta Ads MCP: claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+   "description_ko": null,
    "stars": 8362,
    "stars_delta_7d": null,
    "forks": 581,
@@ -7896,6 +9161,7 @@
    "name": "yao",
    "url": "https://github.com/YaoApp/yao",
    "description": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
+   "description_ko": null,
    "stars": 8330,
    "stars_delta_7d": null,
    "forks": 740,
@@ -7936,6 +9202,7 @@
    "name": "google-ads-meta-ads-mcp",
    "url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
    "description": "Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: OAuth login, no API keys, approval-gated writes, 7-day free trial. By Ryze AI.",
+   "description_ko": null,
    "stars": 8308,
    "stars_delta_7d": null,
    "forks": 368,
@@ -7979,7 +9246,8 @@
    "name": "google-maps-scraper",
    "url": "https://github.com/gosom/google-maps-scraper",
    "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
-   "stars": 8290,
+   "description_ko": null,
+   "stars": 8291,
    "stars_delta_7d": null,
    "forks": 1321,
    "language": "Go",
@@ -8012,6 +9280,7 @@
    "name": "open-codesign",
    "url": "https://github.com/OpenCoworkAI/open-codesign",
    "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+   "description_ko": null,
    "stars": 8249,
    "stars_delta_7d": null,
    "forks": 879,
@@ -8055,6 +9324,7 @@
    "name": "guizang-social-card-skill",
    "url": "https://github.com/op7418/guizang-social-card-skill",
    "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
+   "description_ko": null,
    "stars": 8211,
    "stars_delta_7d": null,
    "forks": 620,
@@ -8093,6 +9363,7 @@
    "name": "Product-Manager-Skills",
    "url": "https://github.com/deanpeters/Product-Manager-Skills",
    "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+   "description_ko": null,
    "stars": 8110,
    "stars_delta_7d": null,
    "forks": 976,
@@ -8121,6 +9392,7 @@
    "name": "codex-ppt-skill",
    "url": "https://github.com/ningzimu/codex-ppt-skill",
    "description": "GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Codex and Other Skill-Compatible Agents",
+   "description_ko": null,
    "stars": 8081,
    "stars_delta_7d": null,
    "forks": 388,
@@ -8155,7 +9427,8 @@
    "name": "dsh-TUI",
    "url": "https://github.com/ccch1mneyyy/dsh-TUI",
    "description": "DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction. One-command install via npm. / DSH 官方首推的 TUI 插件，高性能低占用，可爱像素鲸鱼，流畅鼠标交互，npm 一键安装",
-   "stars": 8064,
+   "description_ko": null,
+   "stars": 8065,
    "stars_delta_7d": null,
    "forks": 383,
    "language": "TypeScript",
@@ -8172,7 +9445,7 @@
     "tui"
    ],
    "kind": "plugin",
-   "pushed_at": "2026-11-21T13:05:29Z",
+   "pushed_at": "2026-11-21T13:35:13Z",
    "commits_30d": 69,
    "open_issues": 153,
    "latest_release": "2026-11-19T04:26:13Z",
@@ -8187,9 +9460,10 @@
    "name": "TokenEconomizer",
    "url": "https://github.com/microsoft/TokenEconomizer",
    "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
-   "stars": 7874,
+   "description_ko": null,
+   "stars": 7875,
    "stars_delta_7d": null,
-   "forks": 543,
+   "forks": 544,
    "language": "Python",
    "license": "MIT",
    "topics": [
@@ -8229,9 +9503,10 @@
    "name": "Awesome-MCP-ZH",
    "url": "https://github.com/yzfly/Awesome-MCP-ZH",
    "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+   "description_ko": null,
    "stars": 7856,
    "stars_delta_7d": null,
-   "forks": 1179,
+   "forks": 1180,
    "language": null,
    "license": "MIT",
    "topics": [
@@ -8251,7 +9526,7 @@
    "kind": "mcp",
    "pushed_at": "2026-11-14T04:16:03Z",
    "commits_30d": 100,
-   "open_issues": 83,
+   "open_issues": 84,
    "latest_release": null,
    "archived": false,
    "activity": "active",
@@ -8264,6 +9539,7 @@
    "name": "Waza",
    "url": "https://github.com/tw93/Waza",
    "description": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
+   "description_ko": null,
    "stars": 7628,
    "stars_delta_7d": null,
    "forks": 437,
@@ -8297,7 +9573,8 @@
    "name": "iPolloWork",
    "url": "https://github.com/Devin-AXIS/iPolloWork",
    "description": "An enterprise collaboration platform for people and multi-agent teams, built on the open-source DeepSeek Harness. Shared projects, plugins and Skills, integrated messaging, and editable code, documents, presentations, design, websites and video.",
-   "stars": 7521,
+   "description_ko": null,
+   "stars": 7522,
    "stars_delta_7d": null,
    "forks": 1133,
    "language": "TypeScript",
@@ -8338,6 +9615,7 @@
    "name": "logo-design-skill",
    "url": "https://github.com/kaankiziltug/logo-design-skill",
    "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+   "description_ko": null,
    "stars": 7446,
    "stars_delta_7d": null,
    "forks": 583,
@@ -8369,6 +9647,7 @@
    "name": "swarms",
    "url": "https://github.com/kyegomez/swarms",
    "description": "The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai",
+   "description_ko": null,
    "stars": 7389,
    "stars_delta_7d": null,
    "forks": 1076,
@@ -8410,6 +9689,7 @@
    "name": "huashu-art-motion",
    "url": "https://github.com/alchaincyf/huashu-art-motion",
    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+   "description_ko": null,
    "stars": 7383,
    "stars_delta_7d": null,
    "forks": 724,
@@ -8445,7 +9725,8 @@
    "name": "coucou",
    "url": "https://github.com/Louis-CFM/coucou",
    "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-   "stars": 7379,
+   "description_ko": null,
+   "stars": 7380,
    "stars_delta_7d": null,
    "forks": 1220,
    "language": "Swift",
@@ -8488,6 +9769,7 @@
    "name": "godogen",
    "url": "https://github.com/htdt/godogen",
    "description": "Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well",
+   "description_ko": null,
    "stars": 7375,
    "stars_delta_7d": null,
    "forks": 690,

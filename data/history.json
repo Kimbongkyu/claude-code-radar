@@ -1,60 +1,60 @@
 {
  "morluto/rea": {
-  "2026-11-21": 472191
+  "2026-11-21": 472208
  },
  "affaan-m/ECC": {
-  "2026-11-21": 308113
+  "2026-11-21": 308122
  },
  "NousResearch/hermes-agent": {
-  "2026-11-21": 265110
+  "2026-11-21": 265113
  },
  "DietrichGebert/ponytail": {
-  "2026-11-21": 196026
+  "2026-11-21": 196038
  },
  "farion1231/cc-switch": {
-  "2026-11-21": 156145
+  "2026-11-21": 156150
  },
  "nextlevelbuilder/ui-ux-pro-max-skill": {
-  "2026-11-21": 152350
+  "2026-11-21": 152357
  },
  "Graphify-Labs/graphify": {
-  "2026-11-21": 151428
+  "2026-11-21": 151435
  },
  "stablyai/orca": {
-  "2026-11-21": 131551
+  "2026-11-21": 131569
  },
  "JuliusBrussee/caveman": {
-  "2026-11-21": 121883
+  "2026-11-21": 121886
  },
  "Leonxlnx/taste-skill": {
-  "2026-11-21": 119559
+  "2026-11-21": 119564
  },
  "addyosmani/agent-skills": {
-  "2026-11-21": 119494
+  "2026-11-21": 119498
  },
  "thedotmack/claude-mem": {
-  "2026-11-21": 118762
+  "2026-11-21": 118763
  },
  "paperclipai/paperclip": {
-  "2026-11-21": 115589
+  "2026-11-21": 115592
  },
  "Panniantong/Agent-Reach": {
-  "2026-11-21": 113683
+  "2026-11-21": 113685
  },
  "ruvnet/RuView": {
-  "2026-11-21": 104724
+  "2026-11-21": 104725
  },
  "tt-a1i/archify": {
-  "2026-11-21": 98481
+  "2026-11-21": 98486
  },
  "Egonex-AI/Understand-Anything": {
   "2026-11-21": 93509
  },
  "cheaper-inference/OmniRoute": {
-  "2026-11-21": 89316
+  "2026-11-21": 89318
  },
  "heygen-com/hyperframes": {
-  "2026-11-21": 87676
+  "2026-11-21": 87685
  },
  "rtk-ai/rtk": {
   "2026-11-21": 87360
@@ -63,7 +63,7 @@
   "2026-11-21": 84013
  },
  "ruvnet/ruflo": {
-  "2026-11-21": 82196
+  "2026-11-21": 82197
  },
  "shareAI-lab/learn-claude-code": {
   "2026-11-21": 80697
@@ -72,70 +72,70 @@
   "2026-11-21": 80240
  },
  "ComposioHQ/awesome-claude-skills": {
-  "2026-11-21": 79980
+  "2026-11-21": 79982
  },
  "ai-job-search-dev/ai-job-search": {
   "2026-11-21": 72893
  },
  "asgeirtj/system_prompts_leaks": {
-  "2026-11-21": 72286
+  "2026-11-21": 72288
  },
  "blader/humanizer": {
-  "2026-11-21": 71841
+  "2026-11-21": 71842
  },
  "mvanhorn/last30days-skill": {
-  "2026-11-21": 71715
+  "2026-11-21": 71720
  },
  "code-yeongyu/oh-my-openagent": {
   "2026-11-21": 71040
  },
  "cathrynlavery/diagram-design": {
-  "2026-11-21": 69581
+  "2026-11-21": 69589
  },
  "shanraisshan/claude-code-best-practice": {
   "2026-11-21": 69282
  },
  "pingdotgg/t3code": {
-  "2026-11-21": 68792
+  "2026-11-21": 68823
  },
  "gsd-build/get-shit-done": {
   "2026-11-21": 64121
  },
  "ayghri/i-have-adhd": {
-  "2026-11-21": 61856
+  "2026-11-21": 61858
  },
  "coreyhaines31/marketingskills": {
-  "2026-11-21": 61806
+  "2026-11-21": 61808
  },
  "Gathin23/cleanyourtv": {
-  "2026-11-21": 59942
+  "2026-11-21": 59949
  },
  "router-for-me/CLIProxyAPI": {
-  "2026-11-21": 59158
+  "2026-11-21": 59159
  },
  "emilkowalski/skills": {
-  "2026-11-21": 58563
+  "2026-11-21": 58567
  },
  "hesreallyhim/awesome-claude-code": {
   "2026-11-21": 58508
  },
  "K-Dense-AI/scientific-agent-skills": {
-  "2026-11-21": 57991
+  "2026-11-21": 57994
  },
  "Imbad0202/academic-research-skills": {
-  "2026-11-21": 57950
+  "2026-11-21": 57951
  },
  "obsidianmd/obsidian-skills": {
-  "2026-11-21": 53347
+  "2026-11-21": 53348
  },
  "herdrdev/herdr": {
-  "2026-11-21": 52136
+  "2026-11-21": 52138
  },
  "sickn33/agentic-awesome-skills": {
   "2026-11-21": 50077
  },
  "DeusData/codebase-memory-mcp": {
-  "2026-11-21": 48973
+  "2026-11-21": 48974
  },
  "jeecgboot/JeecgBoot": {
   "2026-11-21": 48566
@@ -147,7 +147,7 @@
   "2026-11-21": 47880
  },
  "luongnv89/claude-howto": {
-  "2026-11-21": 47482
+  "2026-11-21": 47483
  },
  "Wei-Shaw/sub2api": {
   "2026-11-21": 46390
@@ -162,64 +162,64 @@
   "2026-11-21": 40988
  },
  "Donchitos/Claude-Code-Game-Studios": {
-  "2026-11-21": 40463
+  "2026-11-21": 40465
  },
  "yetone/magpie": {
-  "2026-11-21": 39686
+  "2026-11-21": 39691
  },
  "JCodesMore/ai-website-cloner-template": {
   "2026-11-21": 39582
  },
  "alchaincyf/nuwa-skill": {
-  "2026-11-21": 38739
+  "2026-11-21": 38740
  },
  "VoltAgent/awesome-agent-skills": {
-  "2026-11-21": 37407
+  "2026-11-21": 37408
  },
  "DayuanJiang/next-ai-draw-io": {
-  "2026-11-21": 37102
+  "2026-11-21": 37101
  },
  "mukul975/Anthropic-Cybersecurity-Skills": {
-  "2026-11-21": 36488
+  "2026-11-21": 36491
  },
  "iOfficeAI/AionUi": {
   "2026-11-21": 34419
  },
  "mksglu/context-mode": {
-  "2026-11-21": 34352
+  "2026-11-21": 34353
  },
  "davila7/claude-code-templates": {
-  "2026-11-21": 34053
+  "2026-11-21": 34055
  },
  "iOfficeAI/OfficeCLI": {
-  "2026-11-21": 33500
+  "2026-11-21": 33501
  },
  "tirth8205/code-review-graph": {
   "2026-11-21": 32895
  },
  "zarazhangrui/frontend-slides": {
-  "2026-11-21": 32717
+  "2026-11-21": 32718
  },
  "decolua/9router": {
-  "2026-11-21": 32693
+  "2026-11-21": 32694
  },
  "oraios/serena": {
-  "2026-11-21": 31569
+  "2026-11-21": 31570
  },
  "AgriciDaniel/claude-seo": {
-  "2026-11-21": 31297
+  "2026-11-21": 31298
  },
  "nanocoai/nanoclaw": {
-  "2026-11-21": 31133
+  "2026-11-21": 31134
  },
  "alirezarezvani/claude-skills": {
-  "2026-11-21": 30217
+  "2026-11-21": 30219
  },
  "op7418/guizang-ppt-skill": {
-  "2026-11-21": 30211
+  "2026-11-21": 30213
  },
  "alchaincyf/huashu-design": {
-  "2026-11-21": 30151
+  "2026-11-21": 30160
  },
  "jarrodwatts/claude-hud": {
   "2026-11-21": 29279
@@ -240,25 +240,25 @@
   "2026-11-21": 27769
  },
  "onlook-dev/onlook": {
-  "2026-11-21": 27666
+  "2026-11-21": 27668
  },
  "NVIDIA/SkillSpector": {
-  "2026-11-21": 27129
+  "2026-11-21": 27130
  },
  "titanwings/distilly": {
-  "2026-11-21": 26745
+  "2026-11-21": 26746
  },
  "milind-soni/OpenMausBot": {
-  "2026-11-21": 26376
+  "2026-11-21": 26378
  },
  "nocobase/nocobase": {
   "2026-11-21": 24975
  },
  "slopus/happy": {
-  "2026-11-21": 24742
+  "2026-11-21": 24743
  },
  "getpaseo/paseo": {
-  "2026-11-21": 24579
+  "2026-11-21": 24580
  },
  "citrolabs/ego-lite": {
   "2026-11-21": 23937
@@ -282,13 +282,13 @@
   "2026-11-21": 22232
  },
  "latent-spaces/brag": {
-  "2026-11-21": 22123
+  "2026-11-21": 22124
  },
  "Vincentwei1021/video-shotcraft": {
   "2026-11-21": 21919
  },
  "google/elephant-goldfish-model": {
-  "2026-11-21": 21817
+  "2026-11-21": 21819
  },
  "img2threejs/img2threejs": {
   "2026-11-21": 21712
@@ -300,10 +300,10 @@
   "2026-11-21": 19552
  },
  "lemomo-ai/lemo-opuscar": {
-  "2026-11-21": 19331
+  "2026-11-21": 19344
  },
  "xerj-org/xerj": {
-  "2026-11-21": 19185
+  "2026-11-21": 19187
  },
  "browser-use/browser-harness": {
   "2026-11-21": 19182
@@ -324,7 +324,7 @@
   "2026-11-21": 16667
  },
  "ParadevAI/Paradev": {
-  "2026-11-21": 16445
+  "2026-11-21": 16448
  },
  "nidhinjs/prompt-master": {
   "2026-11-21": 16201
@@ -342,7 +342,7 @@
   "2026-11-21": 15351
  },
  "elementalsouls/Claude-BugHunter": {
-  "2026-11-21": 15226
+  "2026-11-21": 15248
  },
  "OrchestratorInc/agent-orchestrator": {
   "2026-11-21": 14985
@@ -363,13 +363,13 @@
   "2026-11-21": 14530
  },
  "nexu-io/openmotion": {
-  "2026-11-21": 14463
+  "2026-11-21": 14472
  },
  "backnotprop/plannotator": {
-  "2026-11-21": 14037
+  "2026-11-21": 14043
  },
  "0x4m4/hexstrike-ai": {
-  "2026-11-21": 13799
+  "2026-11-21": 13800
  },
  "sirmalloc/ccstatusline": {
   "2026-11-21": 13654
@@ -384,7 +384,7 @@
   "2026-11-21": 12828
  },
  "genspark-ai/genoffice": {
-  "2026-11-21": 12728
+  "2026-11-21": 12729
  },
  "zilliztech/claude-context": {
   "2026-11-21": 12715
@@ -414,13 +414,13 @@
   "2026-11-21": 11818
  },
  "open-gsd/gsd-core": {
-  "2026-11-21": 11747
+  "2026-11-21": 11748
  },
  "JuneYaooo/rea-video": {
-  "2026-11-21": 11577
+  "2026-11-21": 11578
  },
  "omnigent-ai/omnigent": {
-  "2026-11-21": 11476
+  "2026-11-21": 11477
  },
  "trailhq/Trail-Code": {
   "2026-11-21": 11395
@@ -429,7 +429,7 @@
   "2026-11-21": 11360
  },
  "SnailSploit/Claude-Red": {
-  "2026-11-21": 11331
+  "2026-11-21": 11332
  },
  "tigerless-labs/autoharness": {
   "2026-11-21": 11206
@@ -441,7 +441,7 @@
   "2026-11-21": 11001
  },
  "chuspeeism/dashi-ppt-skill": {
-  "2026-11-21": 10906
+  "2026-11-21": 10907
  },
  "Agents365-ai/drawio-skill": {
   "2026-11-21": 10886
@@ -450,10 +450,10 @@
   "2026-11-21": 10806
  },
  "mobile-next/mobile-mcp": {
-  "2026-11-21": 10776
+  "2026-11-21": 10777
  },
  "Ryze-AI-Adgent/open-seo-mcp-skills": {
-  "2026-11-21": 10622
+  "2026-11-21": 10624
  },
  "ykdojo/claude-code-tips": {
   "2026-11-21": 10363
@@ -468,25 +468,25 @@
   "2026-11-21": 10322
  },
  "Jakeschincariol/replica-skill": {
-  "2026-11-21": 10198
+  "2026-11-21": 10200
  },
  "FailproofAI/failproofai": {
-  "2026-11-21": 9903
+  "2026-11-21": 9904
  },
  "maximhq/bifrost": {
-  "2026-11-21": 9886
+  "2026-11-21": 9888
  },
  "rehan-remade/universal-modder": {
   "2026-11-21": 9823
  },
  "gamedev-skills/awesome-gamedev-agent-skills": {
-  "2026-11-21": 9798
+  "2026-11-21": 9804
  },
  "anbeime/skill": {
   "2026-11-21": 9779
  },
  "miqdadbadjuber/anti-slop": {
-  "2026-11-21": 9739
+  "2026-11-21": 9740
  },
  "frankbria/ralph-claude-code": {
   "2026-11-21": 9738
@@ -510,19 +510,19 @@
   "2026-11-21": 9135
  },
  "kajisho5/ffmpeg-skill": {
-  "2026-11-21": 9105
+  "2026-11-21": 9110
  },
  "Jakeschincariol/day-trader-skill": {
-  "2026-11-21": 8993
+  "2026-11-21": 8996
  },
  "mvschwarz/openrig": {
-  "2026-11-21": 8925
+  "2026-11-21": 8926
  },
  "smtg-ai/claude-squad": {
   "2026-11-21": 8846
  },
  "WenyuChiou/awesome-agentic-ai-zh": {
-  "2026-11-21": 8842
+  "2026-11-21": 8843
  },
  "Maciek-roboblog/Claude-Code-Usage-Monitor": {
   "2026-11-21": 8814
@@ -531,16 +531,16 @@
   "2026-11-21": 8810
  },
  "openfilm/openfilm": {
-  "2026-11-21": 8801
+  "2026-11-21": 8811
  },
  "javaht/claude-desktop-zh-cn": {
-  "2026-11-21": 8775
+  "2026-11-21": 8777
  },
  "jnMetaCode/superpowers-zh": {
-  "2026-11-21": 8576
+  "2026-11-21": 8577
  },
  "patch-gg/pixelfx": {
-  "2026-11-21": 8575
+  "2026-11-21": 8576
  },
  "automazeio/ccpm": {
   "2026-11-21": 8461
@@ -555,7 +555,7 @@
   "2026-11-21": 8308
  },
  "gosom/google-maps-scraper": {
-  "2026-11-21": 8290
+  "2026-11-21": 8291
  },
  "OpenCoworkAI/open-codesign": {
   "2026-11-21": 8249
@@ -570,10 +570,10 @@
   "2026-11-21": 8081
  },
  "ccch1mneyyy/dsh-TUI": {
-  "2026-11-21": 8064
+  "2026-11-21": 8065
  },
  "microsoft/TokenEconomizer": {
-  "2026-11-21": 7874
+  "2026-11-21": 7875
  },
  "yzfly/Awesome-MCP-ZH": {
   "2026-11-21": 7856
@@ -582,7 +582,7 @@
   "2026-11-21": 7628
  },
  "Devin-AXIS/iPolloWork": {
-  "2026-11-21": 7521
+  "2026-11-21": 7522
  },
  "kaankiziltug/logo-design-skill": {
   "2026-11-21": 7446
@@ -594,7 +594,7 @@
   "2026-11-21": 7383
  },
  "Louis-CFM/coucou": {
-  "2026-11-21": 7379
+  "2026-11-21": 7380
  },
  "htdt/godogen": {
   "2026-11-21": 7375
