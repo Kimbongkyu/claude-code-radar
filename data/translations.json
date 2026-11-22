@@ -787,12 +787,12 @@
   "src": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
   "ko": "예술 애니메이션 기술: 35가지 예술 스타일과 9가지 해설 문법으로 코드를 사용해 그림을 움직입니다."
  },
- "Louis-CFM/coucou": {
-  "src": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-  "ko": "당신의 Mac의 노치와 아이폰에 있는 작은 친구로 AI 코딩 에이전트인 Claude Code, Codex, Cursor, Gemini CLI, Antigravity 등을 감시합니다. 노치 또는 잠금 화면에서 승인할 수 있습니다."
+ "erkamyaman/rust-anything": {
+  "src": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+  "ko": "앱을 Rust로 한 조각씩 다시 작성하고 매 단계에서 원본의 동작을 확인합니다. CLIs, HTTP 서버 및 TypeScript, Python, C, Go, Ruby, Java의 라이브러리를 포함합니다."
  },
- "htdt/godogen": {
-  "src": "Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well",
-  "ko": "Claude Code, Codex 및 Antigravity를 위한 게임 및 게임 엔진에서 잘 렌더링되는 다른 모든 것을 구축하는 기술입니다."
+ "Oldcircle/geo-sleuth": {
+  "src": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+  "ko": "사진이 촬영된 위치를 찾는 에이전트 기술로, OpenStreetMap의 기하학, 고도 스카이라인, 위성 이미지 및 스트리뷰를 사용하여 작업을 보여줍니다. Claude Code, Codex, Cursor, Gemini CLI, OpenCode 및 GitHub Copilot과 함께 작동합니다."
  }
 }
