@@ -783,16 +783,16 @@
   "src": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
   "ko": "앱을 Rust로 한 조각씩 다시 작성하고 매 단계에서 원본의 동작을 확인합니다. CLIs, HTTP 서버 및 TypeScript, Python, C, Go, Ruby, Java의 라이브러리를 포함합니다."
  },
- "Oldcircle/geo-sleuth": {
-  "src": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
-  "ko": "사진이 촬영된 위치를 찾는 에이전트 기술로, OpenStreetMap의 기하학, 고도 스카이라인, 위성 이미지 및 스트리뷰를 사용하여 작업을 보여줍니다. Claude Code, Codex, Cursor, Gemini CLI, OpenCode 및 GitHub Copilot과 함께 작동합니다."
- },
  "kaomei/stickman-video-director": {
-  "src": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 14+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
-  "ko": "AI 에이전트 스킬(Claude Code, Codex 등): 모든 스크립트를 애니메이션 스틱맨 비디오로 변환하여 얼굴 없는 YouTube, Shorts 및 TikTok에 사용할 수 있습니다. 14개 이상의 스타일과 음성 해설, 자막 및 SFX가 포함되어 있습니다. 무료 및 오픈 소스(MIT)."
+  "src": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 20+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
+  "ko": "AI Agent Skill (Claude Code, Codex 등): 모든 스크립트를 얼굴 없는 YouTube, Shorts 및 TikTok용 애니메이션 스틱맨 비디오로 변환합니다. 20가지 이상의 스타일과 음성 해설, 자막, SFX를 지원합니다. 무료 및 오픈 소스(MIT)."
  },
  "ScrapeCreators/social-media-research-skills": {
   "src": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
   "ko": "소셜 미디어 연구를 위한 AI 에이전트 스킬입니다. TikTok, Instagram, YouTube, Reddit, X, LinkedIn 등에서 아웃라이어 게시물, 댓글 채굴, 경쟁사 분석, 광고 라이브러리 및 트렌드를 파악합니다. ScrapeCreators에 의해 지원됩니다. Claude Code, Cursor, Codex, Gemini CLI와 함께 작"
+ },
+ "mdiri-ai/SoduWork": {
+  "src": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+  "ko": "팀과 그들의 에이전트를 위한 AI 네이티브 엔진입니다. 다중 하네스, 다중 에이전트, 자가 호스팅됩니다."
  }
 }
