@@ -184,8 +184,8 @@
   "ko": "π RuView는 상업용 WiFi 신호를 실시간 공간 인텔리전스, 생체 신호 모니터링 및 존재 감지로 변환합니다 — 비디오 픽셀이 필요 없습니다."
  },
  "tt-a1i/archify": {
-  "src": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-  "ko": "어떤 아이디어, 계획 또는 코드베이스를 아름다운 인터랙티브 다이어그램으로 변환합니다. Claude Code, Codex 등을 위한 에이전트 기술입니다."
+  "src": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
+  "ko": "어떤 아이디어, 계획 또는 코드베이스를 인터랙티브한 다이어그램이나 원페이지 답변으로 변환할 수 있는 도구입니다: 10가지 다이어그램 유형, 아키텍처 진단, 스토리 비디오 및 PR 안내가 포함되어 있습니다. Claude Code, Codex, Cursor 등을 위한 에이전트 스킬입니다."
  },
  "Egonex-AI/Understand-Anything": {
   "src": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
@@ -556,8 +556,8 @@
   "ko": "문서 웹사이트, GitHub 저장소 및 PDF를 자동 충돌 감지 기능으로 Claude AI 기술로 변환합니다."
  },
  "elementalsouls/Claude-BugHunter": {
-  "src": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-  "ko": "버그 사냥 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들입니다. 84개의 스킬, 15개의 슬래시 명령어, 24개 주요 취약성 클래스에 걸쳐 정리된 681개의 공개 보고서 패턴이 포함되어 있으며, 기업 아이덴티티 및 인프라 공격 매트릭스도 포함됩니다."
+  "src": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "ko": "버그 검색 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들로, 85가지 스킬, 16가지 슬래시 명령어, 24개 핵심 취약성 클래스에 걸쳐 선별된 681개의 보고서 패턴이 포함되어 있으며, 기업 아이덴티티 및 인프라 공격 매트릭스도 포함되어 있습니다."
  },
  "OrchestratorInc/agent-orchestrator": {
   "src": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude Code, Codex & 35+ coding agents.",
@@ -767,10 +767,6 @@
   "src": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
   "ko": "🥷 당신이 이미 알고 있는 엔지니어링 습관을 AI 도우미들이 실행할 수 있는 기술로 전환했습니다."
  },
- "Devin-AXIS/iPolloWork": {
-  "src": "An enterprise collaboration platform for people and multi-agent teams, built on the open-source DeepSeek Harness. Shared projects, plugins and Skills, integrated messaging, and editable code, documents, presentations, design, websites and video.",
-  "ko": "공유 프로젝트, 플러그인 및 기술, 통합 메시징, 편집 가능한 코드, 문서, 프레젠테이션, 디자인, 웹사이트 및 비디오로 구축된 엔터프라이즈 협업 플랫폼입니다."
- },
  "kaankiziltug/logo-design-skill": {
   "src": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
   "ko": "Claude, Gemini CLI, Codex 및 기타 AI 에이전트를 위한 포괄적인 로고 디자인 기술로, 원칙, 프로세스, SVG 제작, 테스트 도구 및 1,400개 이상의 로고 참조 라이브러리를 포함합니다."
@@ -794,5 +790,9 @@
  "mdiri-ai/SoduWork": {
   "src": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
   "ko": "팀과 그들의 에이전트를 위한 AI 네이티브 엔진입니다. 다중 하네스, 다중 에이전트, 자가 호스팅됩니다."
+ },
+ "Oldcircle/geo-sleuth": {
+  "src": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+  "ko": "사진이 찍힌 장소를 찾아주는 에이전트 스킬입니다 — OpenStreetMap 기하학, 고도 스카이라인, 위성 이미지 및 거리 보기 — 그리고 작업을 보여줍니다. Claude Code, Codex, Cursor, Gemini CLI, OpenCode 및 GitHub Copilot과 함께 작동합니다."
  }
 }
