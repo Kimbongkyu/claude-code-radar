@@ -80,8 +80,8 @@
   "ko": "🐚 파이썬을 기반으로 한 쉘. 모든 플랫폼에서 사용 가능하며 AI 친화적입니다."
  },
  "HarnessMD/munder-difflin": {
-  "src": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
-  "ko": "에이전트를 사용하는 가장 멋진 애플리케이션으로, 맞춤형 세계를 구축할 수 있습니다."
+  "src": "Coolest app to use agents. A local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+  "ko": "에이전트를 사용할 수 있는 가장 멋진 앱으로, 로컬 및 다중 공급자에 기반한 오픈 소스 grok 봇 대안입니다. Claude 코드를 위해 맞춤형 세계를 구축할 수 있습니다."
  },
  "Gentleman-Programming/gentle-ai": {
   "src": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
@@ -332,8 +332,8 @@
   "ko": "Claude Code를 완전한 게임 개발 스튜디오로 변환합니다 — 49개의 AI 에이전트, 75개의 워크플로 기술 및 실제 스튜디오 계층 구조를 반영하는 완전한 조정 시스템이 포함되어 있습니다."
  },
  "yetone/magpie": {
-  "src": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-  "ko": "모든 에이전트의 모델입니다. 한 곳에서 Codex on DeepSeek, Claude Code on Kimi를 메뉴 막대에서 확인하세요."
+  "src": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+  "ko": "사용하는 모든 계획을 통합하여 Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code 등에서 사용할 수 있습니다. 하나가 다 떨어지면 다음이 이어서 실행됩니다."
  },
  "JCodesMore/ai-website-cloner-template": {
   "src": "Clone any website with one command using AI coding agents",
@@ -438,10 +438,6 @@
  "milind-soni/OpenMausBot": {
   "src": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "ko": "봇이 사용할 수 있는 가상 머신이 포함된 오픈 소스 Grok Bot 대안입니다."
- },
- "nocobase/nocobase": {
-  "src": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents write the code and do the work, NocoBase provides the foundation and governance, and people make the decisions.",
-  "ko": "NocoBase는 AI를 사용하여 비즈니스 시스템을 구축하고 실행하며 발전시키기 위한 오픈 소스 플랫폼입니다. 에이전트가 코드를 작성하고 작업을 수행하며, NocoBase가 기초 및 거버넌스를 제공하고, 사람들이 결정을 내립니다."
  },
  "slopus/happy": {
   "src": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
@@ -776,8 +772,8 @@
   "ko": "예술 애니메이션 기술: 35가지 예술 스타일과 9가지 해설 문법으로 코드를 사용해 그림을 움직입니다."
  },
  "erkamyaman/rust-anything": {
-  "src": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-  "ko": "앱을 Rust로 한 조각씩 다시 작성하고 매 단계에서 원본의 동작을 확인합니다. CLIs, HTTP 서버 및 TypeScript, Python, C, Go, Ruby, Java의 라이브러리를 포함합니다."
+  "src": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
+  "ko": "앱을 Rust로 단계별로 재작성하며, 매 단계마다 원본과 비교하여 확인합니다. TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin 및 PowerShell과 함께 사용할 수 있습니다."
  },
  "kaomei/stickman-video-director": {
   "src": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 20+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
@@ -794,5 +790,9 @@
  "Oldcircle/geo-sleuth": {
   "src": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
   "ko": "사진이 찍힌 장소를 찾아주는 에이전트 스킬입니다 — OpenStreetMap 기하학, 고도 스카이라인, 위성 이미지 및 거리 보기 — 그리고 작업을 보여줍니다. Claude Code, Codex, Cursor, Gemini CLI, OpenCode 및 GitHub Copilot과 함께 작동합니다."
+ },
+ "zhouxiaoka/autoclip": {
+  "src": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+  "ko": "AutoClip｜오픈 소스 OpusClip 대안으로, 로컬 중심 AI 클리핑 및 MCP 서버를 제공하며, 구독이 필요 없습니다. 하나의 링크로 버튼 클릭 한 번으로 영상을 생성할 수 있는 오픈 소스 AI 비디오 편집 데스크탑 도구입니다."
  }
 }
